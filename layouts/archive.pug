@@ -1,0 +1,17 @@
+extends layout.pug
+
+block title
+  title Archive | #{site.title}
+
+block content
+  article
+    header
+      h1 Archive
+    .entry
+      each year in archive
+        h2= year.year
+        ul.unstyled-list
+          each post in year.data
+            li.archive-item
+              time.date(datetime=post.date)= moment(post.date).format('MMM D')
+              a(href="/" + post.path)= post.title

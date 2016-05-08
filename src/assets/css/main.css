@@ -1,0 +1,88 @@
+:root {
+  --bgColor: #fff;
+  --bodyColor: #444;
+  --infoColor: #686758;
+  --linkColor: #ca3c08;
+  --hoverColor: #ea9629;
+  --heartColor: #b90000;
+  --selectionColor: #722d19;
+  --borderColor: #e8e5ce;
+  --bodyFontStack: "Gentium Basic", "Georgia", serif;
+  --infoFontStack: "Alegreya SC", "Georgia", serif;
+  --headingFontStack: "Open Sans Condensed", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  --codeFontStack: "Ubuntu Mono", "Menlo", "Consolas", monospace;
+}
+
+a, img {transition: all 0.1s ease-out}
+
+::selection {background: var(--selectionColor); color: var(--bgColor)}
+
+html, input, textarea {color: var(--bodyColor); font: 62.5%/1.5 var(--bodyFontStack)}
+input, textarea {border: 0; border-bottom: 1px solid var(--linkColor); font-size: 1em}
+fieldset {border: 0; margin: 0; padding: 0}
+code, pre {font-family: var(--codeFontStack)}
+pre {font-size: 0.8em}
+img {max-width: 100%}
+a {color: var(--linkColor); text-decoration: none}
+a:hover, a:active {color: var(--hoverColor); outline: 0}
+p {margin: 1em 0}
+p img {display: block; margin: 0 auto}
+.entry a {text-decoration: underline}
+
+a[href^="#fn"], .footnotes a {text-decoration: none}
+hr {border: 0; border-top: 2px solid var(--borderColor); height: 0}
+
+h1, h2, h3, h4, h5, h6 {font-weight: normal; line-height: 1.2; margin: 0.8em 0 0.4em}
+h1 {font-size: 1.8em; font-family: var(--headingFontStack); font-weight: bold; text-transform: uppercase}
+h2 {font-size: 1.6em; font-family: var(--infoFontStack)}
+h3 {font-size: 1.4em; font-style: italic}
+h4 {font-size: 1.2em; font-weight: bold}
+h5 {font-size: 1.2em}
+h6 {font-size: 1em; font-style: italic}
+
+blockquote {border-left: 4px solid var(--borderColor); margin: 0 0 0 -1em; padding-left: 1em}
+blockquote p {font-style: italic}
+blockquote cite {color: var(--infoColor)}
+blockquote cite:before {content: " — "}
+.pullquote {border: 0; margin: 1.2em 2.4em}
+.pullquote:before {content: "“"; float: left; font-size: 3.6em; line-height: 1; margin: -0.2em 0 0 -0.4em}
+.pullquote p {font-size: 1.2em; text-align: center}
+.pullquote footer {text-align: right}
+
+#content {font-size: 2.2em; margin: 0 auto; max-width: 30em; padding: 1em}
+main {border-bottom: 2px solid var(--borderColor); padding-bottom: 2em}
+article:after {content: "* * *"; color: var(--borderColor); display: block; margin: 2em 0; text-align: center}
+article:last-of-type:after {content: ""}
+header[role="banner"] {text-align: center; margin-bottom: 1em}
+header h1 {margin: 0}
+.link header h1 {font-size: 1.4em}
+.link header h1:after {color: var(--infoColor); content:" →"}
+.meta, .date, .footnotes, nav, aside, footer[role="contentinfo"] {color: var(--infoColor); font-family: var(--infoFontStack); font-size: 0.8em; margin: 0; text-align: center}
+.meta, .date, .footnotes {text-align: inherit}
+
+.archive-cta {font-size: 1em}
+.archive-item {display: table; table-layout: fixed}
+.archive-item time {display: table-cell; padding-right: 0.8em; text-align: right; width: 3.2em}
+.archive-item a {display: table-cell; text-decoration: none}
+
+.unstyled-list {list-style: none}
+.inline-list {padding: 0}
+.inline-list li {display: inline}
+.inline-list li + li:before {content: " · "; margin: 0 0.2em}
+
+.❤ {color: var(--heartColor)}
+
+/**
+ * ((30em + 2em) + (30em / 1.618)) * (2.2em / 1.6em) + 1em
+ * ((container + padding) + (container / golden ratio)) * (content font / base font) + scrollbar
+ */
+@media screen and (max-width: 70.5em) {
+  #content {font-size: 1.8em}
+}
+
+@supports (hyphens: auto) {
+  article p {
+    hyphens: auto;
+    text-align: justify;
+  }
+}

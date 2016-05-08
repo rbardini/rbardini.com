@@ -1,0 +1,8 @@
+extends layout.pug
+include mixins/article.pug
+
+block title
+  title #{title} | #{site.title}
+
+block content
+  +article(type, title, date, link, tags, readingTime, contents, path)

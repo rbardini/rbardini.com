@@ -1,0 +1,47 @@
+{
+  "name": "rbardini.com",
+  "version": "1.0.0",
+  "description": "Rafael Bardini's blog",
+  "homepage": "http://rbardini.com",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js",
+    "start": "npm run build -- --development",
+    "deploy": "npm run build && git-directory-deploy --directory build --branch master"
+  },
+  "keywords": [
+    "rbardini",
+    "blog",
+    "metalsmith"
+  ],
+  "author": "Rafael Bardini",
+  "license": "MIT",
+  "dependencies": {
+    "cssnano": "3.5.2",
+    "git-directory-deploy": "1.5.0",
+    "markdown-it-footnote": "2.0.0",
+    "markdown-it-highlightjs": "2.0.0",
+    "metalsmith": "2.1.0",
+    "metalsmith-archive": "0.1.1",
+    "metalsmith-assets": "0.1.0",
+    "metalsmith-collection-metadata": "0.1.0",
+    "metalsmith-collections": "0.7.0",
+    "metalsmith-ignore": "0.1.2",
+    "metalsmith-layouts": "1.6.5",
+    "metalsmith-markdownit": "0.3.0",
+    "metalsmith-move-up": "1.0.0",
+    "metalsmith-permalinks": "0.5.0",
+    "metalsmith-postcss": "4.0.0",
+    "metalsmith-renamer": "github:rbardini/metalsmith-renamer#rename-function",
+    "metalsmith-serve": "0.0.7",
+    "metalsmith-sitemap": "1.0.0",
+    "metalsmith-tags": "1.2.1",
+    "metalsmith-watch": "1.0.1",
+    "metalsmith-word-count": "0.0.4",
+    "moment": "2.13.0",
+    "postcss-cssnext": "2.5.2",
+    "pug": "2.0.0-alpha6",
+    "rss": "1.2.1",
+    "yargs": "4.7.0"
+  }
+}
