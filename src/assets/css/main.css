@@ -72,6 +72,8 @@ header h1 {margin: 0}
 
 .❤ {color: var(--heartColor)}
 
+.turbolinks-progress-bar {background: var(--linkColor)}
+
 /**
  * ((30em + 2em) + (30em / 1.618)) * (2.2em / 1.6em) + 1em
  * ((container + padding) + (container / golden ratio)) * (content font / base font) + scrollbar
@@ -81,8 +83,5 @@ header h1 {margin: 0}
 }
 
 @supports (hyphens: auto) {
-  article p {
-    hyphens: auto;
-    text-align: justify;
-  }
+  article p {hyphens: auto; text-align: justify}
 }

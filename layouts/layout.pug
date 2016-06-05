@@ -5,34 +5,42 @@ html(lang="pt-BR")
     block title
     meta(name="author", content=site.author )
     meta(name="viewport", content="width=device-width, initial-scale=1")
+    meta(name="turbolinks-cache-control", content="no-preview")
     link(rel="alternate", href="/rss.xml", type="application/rss+xml", title="RSS")
     link(rel="stylesheet", href="//fonts.googleapis.com/css?family=Gentium+Basic:400,400italic,700|Alegreya+SC|Open+Sans+Condensed:700")
     link(rel="stylesheet", href="//cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css")
     link(rel="stylesheet", href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/solarized-light.min.css")
     link(rel="stylesheet", href="/css/main.min.css")
+
   body
     #content
       header(role="banner")
         h1
           a(href="/", rel="home")
             img(src="/img/logo.png", alt=site.title)
+
       main(role="main")
         block content
+
       aside(role="complementary")
         p.
           I'm #[a(href="/about", rel="me")= site.author],
           creator of #[a(href="http://carteiroapp.com/") Carteiro for Android],
           science & technology enthusiast and author of this wonderful journal.
+
       footer(role="contentinfo")
         p.
           Made with #[span(class="❤") ❤] since 2007 #[br]
           Powered by #[a(href="http://www.metalsmith.io/") Metalsmith] · #[a(href="/archive") Archive] · #[a(href="/rss.xml") RSS]
+
+    script(src="/js/turbolinks.js", data-turbolinks-eval="false")
     if development
-      script(src="http://localhost:35729/livereload.js")
+      script(src="http://localhost:35729/livereload.js", data-turbolinks-eval="false")
     unless development
-      script.
+      script(data-turbolinks-eval="false").
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        location.hostname!='localhost'&&ga('create','UA-3034872-1');ga('send','pageview');
+        location.hostname!='localhost'&&ga('create','#[=site.trackingId]');
+      script ga('send','pageview');

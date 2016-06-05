@@ -1,5 +1,6 @@
 const argv = require('yargs').argv
 const Metalsmith = require('metalsmith')
+const assets = require('metalsmith-assets')
 const ignore = require('metalsmith-ignore')
 const renamer = require('metalsmith-renamer')
 const tags = require('metalsmith-tags')
@@ -14,7 +15,6 @@ const wordcount = require('metalsmith-word-count')
 const permalinks = require('metalsmith-permalinks')
 const sitemap = require('metalsmith-sitemap')
 const layouts = require('metalsmith-layouts')
-const assets = require('metalsmith-assets')
 const postcss = require('metalsmith-postcss')
 const serve = require('metalsmith-serve')
 const watch = require('metalsmith-watch')
@@ -30,10 +30,15 @@ Metalsmith(__dirname)
       title: packageJson.name,
       author: packageJson.author,
       description: packageJson.description,
-      url: packageJson.homepage
+      url: packageJson.homepage,
+      trackingId: 'UA-3034872-1'
     }
   })
   .use(assets())
+  .use(assets({
+    source: 'node_modules/turbolinks/dist',
+    destination: 'js'
+  }))
   .use(ignore('**/.*'))
   .use(renamer({
     posts: {
