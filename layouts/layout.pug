@@ -17,7 +17,13 @@ html(lang="pt-BR")
       header(role="banner")
         h1
           a(href="/", rel="home")
-            img(src="/img/logo.png", alt=site.title)
+            svg(viewBox="0 0 125 125", width="125", class="logo")
+              title= site.title
+              path(d="M52 12v81l20 20V12H52z")
+              path(d="M73 93h20v20H73zm0-41h20v20H73z", class="shade")
+              path(d="M94 52l.13 61L114 93V72L94 52zM11 73h20v40H11z")
+              path(d="M11 73h20v20L11 73z", class="shade")
+              path(d="M11 72h40V52H31L11 72z")
 
       main(role="main")
         block content

@@ -13,8 +13,6 @@
   --codeFontStack: "Ubuntu Mono", "Menlo", "Consolas", monospace;
 }
 
-a, img {transition: all 0.1s ease-out}
-
 ::selection {background: var(--selectionColor); color: var(--bgColor)}
 
 html, input, textarea {color: var(--bodyColor); font: 62.5%/1.5 var(--bodyFontStack)}
@@ -23,7 +21,7 @@ fieldset {border: 0; margin: 0; padding: 0}
 code, pre {font-family: var(--codeFontStack)}
 pre {font-size: 0.8em}
 img {max-width: 100%}
-a {color: var(--linkColor); text-decoration: none}
+a {color: var(--linkColor); text-decoration: none; transition: color 0.2s}
 a:hover, a:active {color: var(--hoverColor); outline: 0}
 p {margin: 1em 0}
 p img {display: block; margin: 0 auto}
@@ -70,6 +68,10 @@ header h1 {margin: 0}
 .inline-list li {display: inline}
 .inline-list li + li:before {content: " · "; margin: 0 0.2em}
 
+.logo {width: 3.2em}
+.logo path {fill: var(--linkColor); transition: fill 0.2s}
+.logo .shade {fill: color(var(--linkColor) shade(20%))}
+.logo:hover path {fill: var(--hoverColor)}
 .❤ {color: var(--heartColor)}
 
 .turbolinks-progress-bar {background: var(--linkColor)}
