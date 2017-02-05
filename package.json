@@ -32,7 +32,7 @@
     "metalsmith-move-up": "1.0.0",
     "metalsmith-permalinks": "0.5.0",
     "metalsmith-postcss": "4.0.0",
-    "metalsmith-renamer": "github:rbardini/metalsmith-renamer#rename-function",
+    "metalsmith-renamer": "0.3.0",
     "metalsmith-serve": "0.0.7",
     "metalsmith-sitemap": "1.0.0",
     "metalsmith-tags": "1.2.1",
