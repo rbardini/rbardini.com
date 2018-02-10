@@ -3,16 +3,14 @@ mixin article(type, title, date, link, tags, readingTime, contents, path)
   - var isPage = type === "page"
   article(class=className)
     header
+      unless isPage
+        ul.meta.inline-list
+          li
+            a(href="/" + path, rel="bookmark", title="Permalink")
+              time(datetime=date)= moment(date).format("ll")
       h1
         if isPage
           = title
         else
           a(href=(link || "/" + path))= title
-      unless isPage
-        ul.meta.inline-list
-          li
-            time(datetime=date)= moment(date).format("ll")
-          li #{readingTime} read
-          li
-            a(href="/" + path, rel="bookmark", title="Permalink") ∞
     .entry!= contents

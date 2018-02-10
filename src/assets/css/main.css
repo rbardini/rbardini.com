@@ -1,12 +1,12 @@
 :root {
   --bgColor: #fff;
-  --bodyColor: #444;
-  --infoColor: #686758;
+  --bodyColor: rgba(0, 0, 0, .9);
+  --infoColor: rgba(0, 0, 0, .44);
   --linkColor: #ca3c08;
   --hoverColor: #ea9629;
   --heartColor: #b90000;
   --selectionColor: #722d19;
-  --borderColor: #e8e5ce;
+  --borderColor: rgba(0, 0, 0, .1);
   --bodyFontStack: "Gentium Basic", "Georgia", serif;
   --infoFontStack: "Alegreya SC", "Georgia", serif;
   --headingFontStack: "Open Sans Condensed", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -26,9 +26,7 @@ a {color: var(--linkColor); text-decoration: none; transition: color 0.2s}
 a:hover, a:active {color: var(--hoverColor); outline: 0}
 p {margin: 1em 0}
 p img {display: block; margin: 0 auto}
-.entry a {text-decoration: underline}
 
-a[href^="#fn"], .footnotes a {text-decoration: none}
 hr {border: 0; border-top: 2px solid var(--borderColor); height: 0}
 
 h1, h2, h3, h4, h5, h6 {font-weight: normal; line-height: 1.2; margin: 0.8em 0 0.4em}
@@ -58,7 +56,9 @@ article:last-of-type:after {content: ""}
 header[role="banner"] {text-align: center; margin-bottom: 1em}
 header h1 {margin: 0}
 .link header h1 {font-size: 1.4em}
-.link header h1:after {color: var(--infoColor); content:" →"}
+.link header h1:after {color: var(--infoColor); content:"\00A0→"}
+.meta a {color: var(--infoColor)}
+.meta a:hover {text-decoration: underline}
 .meta, .date, .footnotes, nav, aside, footer[role="contentinfo"] {color: var(--infoColor); font-family: var(--infoFontStack); font-size: 0.8em; margin: 0; text-align: center}
 .meta, .date, .footnotes {text-align: inherit}
 

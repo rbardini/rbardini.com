@@ -11,7 +11,6 @@ const moveUp = require('metalsmith-move-up')
 const markdown = require('metalsmith-markdownit')
 const footnote = require('markdown-it-footnote')
 const highlight = require('markdown-it-highlightjs')
-const wordcount = require('metalsmith-word-count')
 const permalinks = require('metalsmith-permalinks')
 const sitemap = require('metalsmith-sitemap')
 const layouts = require('metalsmith-layouts')
@@ -71,7 +70,6 @@ Metalsmith(__dirname)
     html: true,
     typographer: true
   }).use(footnote).use(highlight))
-  .use(wordcount())
   .use(permalinks({
     relative: false
   }))
