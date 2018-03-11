@@ -15,6 +15,13 @@
     "metalsmith"
   ],
   "author": "Rafael Bardini",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbardini/rbardini.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rbardini/rbardini.github.io/issues"
+  },
   "license": "MIT",
   "dependencies": {
     "cssnano": "3.5.2",
