@@ -7,7 +7,7 @@ mixin article(type, title, date, link, tags, readingTime, contents, path)
         ul.meta.inline-list
           li
             a(href="/" + path, rel="bookmark", title="Permalink")
-              time(datetime=date)= moment(date).format("ll")
+              time(datetime=date)= date.format("ll")
       h1
         if isPage
           = title

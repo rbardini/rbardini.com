@@ -17,7 +17,7 @@ const layouts = require('metalsmith-layouts')
 const postcss = require('metalsmith-postcss')
 const serve = require('metalsmith-serve')
 const watch = require('metalsmith-watch')
-const moment = require('moment')
+const moment = require('metalsmith-moment')
 
 const packageJson = require('./package.json')
 const rss = require('./plugins/rss')
@@ -79,8 +79,8 @@ Metalsmith(__dirname)
     omitIndex: true
   }))
   .use(rss({collection: 'posts'}))
+  .use(moment(['date']))
   .use(layouts({
-    engine: 'pug',
     pattern: '**/*.html',
     default: 'article.pug',
     moment: moment

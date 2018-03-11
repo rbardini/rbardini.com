@@ -13,5 +13,5 @@ block content
         ul.unstyled-list
           each post in year.data
             li.archive-item
-              time.date(datetime=post.date)= moment(post.date).format('MMM D')
+              time.date(datetime=post.date)= post.date.format('MMM D')
               a(href="/" + post.path)= post.title
