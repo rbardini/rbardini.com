@@ -2,7 +2,7 @@
   "name": "rbardini.com",
   "version": "1.0.0",
   "description": "Rafael Bardini's blog",
-  "homepage": "http://rbardini.com",
+  "homepage": "https://rbardini.com",
   "main": "index.js",
   "scripts": {
     "build": "node index.js",

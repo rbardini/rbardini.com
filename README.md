@@ -1,4 +1,4 @@
-# [rbardini.com](http://rbardini.com)
+# [rbardini.com](https://rbardini.com)
 
 [![Dependency status](https://img.shields.io/david/rbardini/rbardini.github.io.svg)](https://david-dm.org/rbardini/rbardini.github.io)
 [![JavaScript Standard Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
