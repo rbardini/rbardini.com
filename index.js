@@ -3,7 +3,6 @@ const Metalsmith = require('metalsmith')
 const assets = require('metalsmith-assets')
 const ignore = require('metalsmith-ignore')
 const renamer = require('metalsmith-renamer')
-const tags = require('metalsmith-tags')
 const archive = require('metalsmith-archive')
 const collections = require('metalsmith-collections')
 const metadata = require('metalsmith-collection-metadata')
@@ -44,10 +43,6 @@ Metalsmith(__dirname)
       pattern: 'posts/*.md',
       rename: name => name.substr(11)
     }
-  }))
-  .use(tags({
-    path: 'tags/:tag.html',
-    layout: 'tag.pug'
   }))
   .use(archive())
   .use(collections({

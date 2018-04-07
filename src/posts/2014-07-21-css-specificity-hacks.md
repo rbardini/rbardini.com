@@ -2,7 +2,6 @@
 title: Hacks for dealing with specificity
 date: 2014-07-21 23:55:09 -3
 link: http://csswizardry.com/2014/07/hacks-for-dealing-with-specificity/
-tags: css
 ---
 
 Harry Roberts:

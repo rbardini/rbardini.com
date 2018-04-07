@@ -7,6 +7,6 @@ block title
 block content
   - var posts = collections.posts.slice(0, 5)
   each post in posts
-    +article(post.type, post.title, post.date, post.link, post.tags, post.readingTime, post.contents, post.path)
+    +article(post.type, post.title, post.date, post.link, post.contents, post.path)
   nav.archive-cta
     a(href="/archive") Browse the archive →

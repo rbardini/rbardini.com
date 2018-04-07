@@ -1,4 +1,4 @@
-mixin article(type, title, date, link, tags, readingTime, contents, path)
+mixin article(type, title, date, link, contents, path)
   - var className = [type, link && "link"]
   - var isPage = type === "page"
   article(class=className)

@@ -1,9 +1,0 @@
-extends layout.pug
-include mixins/article.pug
-
-block title
-  title #{tag} | #{site.title}
-
-block content
-  each file in pagination.files
-    +article(file.type, file.title, file.date, file.link, file.tags, file.readingTime, file.contents, file.path)

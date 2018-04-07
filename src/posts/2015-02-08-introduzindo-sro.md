@@ -1,7 +1,6 @@
 ---
 title: "Introduzindo: SRO"
 date: 2015-02-08 18:13:20 -2
-tags: projects, sro
 ---
 
 Acabo de publicar no registro do npm o [SRO](https://www.npmjs.com/package/sro), um módulo para rastreamento de objetos postais utilizando a API oficial dos Correios[^1].
