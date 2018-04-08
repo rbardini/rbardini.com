@@ -2,12 +2,12 @@
   Name:    Rafael Bardini
   Contact: rafael [at] rbardini.com
   Twitter: @rbardini
-  From:    Campinas SP, Brazil
+  From:    Amsterdam, Netherlands
 
 /* SITE */
   Language:   English / Português
   Standards:  HTML5, CSS3
-  Components: Normalize.css, Google Fonts
+  Components: Google Fonts, Turbolinks
   Software:   Metalsmith, Atom, Sketch
        __
       /\ \
