@@ -1,6 +1,7 @@
 ---
 title: Outro recomeço
 date: 2014-04-13 23:52:04 -3
+lang: pt-BR
 ---
 
 Mais uma vez esse blog sofre um _reboot_ após um longo período de inatividade.

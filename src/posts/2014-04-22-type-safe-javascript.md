@@ -1,6 +1,7 @@
 ---
 title: Creating defensive objects with ES6 proxies
 date: 2014-04-22 23:30:26 -3
+lang: pt-BR
 link: http://www.nczonline.net/blog/2014/04/22/creating-defensive-objects-with-es6-proxies/
 ---
 

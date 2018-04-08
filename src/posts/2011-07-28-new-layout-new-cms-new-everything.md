@@ -1,6 +1,7 @@
 ---
 title: New Layout, New CMS, New Everything
 date: 2011-07-28 01:23:29 -3
+lang: en-US
 ---
 
 And here I go again. After three years using Sweetcron as my CMS of choice, and one year of WordPress before that, I once more go back to the drawing board and start everything from scratch.

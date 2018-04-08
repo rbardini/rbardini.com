@@ -1,6 +1,7 @@
 ---
 title: Richard Feynman on the beauty of a flower
 date: 2011-10-02 19:52:39 -3
+lang: en-US
 ---
 
 Can a scientist really enjoy the beauty of a flower? Here is what Mr. Feynman had to say about science and the appreciation of nature.

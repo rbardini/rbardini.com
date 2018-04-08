@@ -1,7 +1,7 @@
-mixin article(type, title, date, link, contents, path)
+mixin article(type, title, date, lang, link, contents, path)
   - var className = [type, link && "link"]
   - var isPage = type === "page"
-  article(class=className)
+  article(class=className, lang=lang)
     header
       unless isPage
         ul.meta.inline-list
