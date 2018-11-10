@@ -7,6 +7,7 @@ Rafael Bardini's blog, powered by [Metalsmith](https://github.com/metalsmith/met
 
 ## Usage
 
+- `npm run lint` to lint the code
 - `npm run build` to build the site
 - `npm start` to build, serve and watch for changes
 - `npm run deploy` to build and deploy to [GitHub Pages](https://pages.github.com/)

@@ -54,8 +54,8 @@ Metalsmith(__dirname)
     }
   }))
   .use(metadata({
-    'collections.pages': {type: 'page'},
-    'collections.posts': {type: 'post'}
+    'collections.pages': { type: 'page' },
+    'collections.posts': { type: 'post' }
   }))
   .use(moveUp([
     '**/*.md',
@@ -73,7 +73,7 @@ Metalsmith(__dirname)
     modifiedProperty: 'date',
     omitIndex: true
   }))
-  .use(rss({collection: 'posts'}))
+  .use(rss({ collection: 'posts' }))
   .use(moment(['date']))
   .use(layouts({
     pattern: '**/*.html',
@@ -83,7 +83,7 @@ Metalsmith(__dirname)
   .use(postcss({
     plugins: {
       'postcss-cssnext': {},
-      'cssnano': {autoprefixer: false}
+      'cssnano': { autoprefixer: false }
     },
     map: argv.development
   }))
