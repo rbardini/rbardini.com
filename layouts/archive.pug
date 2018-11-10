@@ -1,12 +1,12 @@
 extends layout.pug
 
 block title
-  title Archive | #{site.title}
+  title #{title} | #{site.title}
 
 block content
   article
     header
-      h1 Archive
+      h1 #{title}
     .entry
       each year in archive
         h2= year.year
