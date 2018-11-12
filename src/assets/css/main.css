@@ -20,7 +20,7 @@ body {margin: 0}
 sub, sup {font-size: 75%; line-height: 0}
 input, textarea {border: 0; border-bottom: 1px solid var(--linkColor); font-size: 1em}
 fieldset {border: 0; margin: 0; padding: 0}
-code, pre {font-family: var(--codeFontStack)}
+code, pre {background: var(--borderColor); display: inline-block; font-family: var(--codeFontStack); font-size: 0.8em; hyphens: none; overflow-wrap: break-word; padding: 0.4em; text-align: initial; width: 100%}
 pre {font-size: 0.8em}
 iframe {border: 0}
 img {max-width: 100%}
