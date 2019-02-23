@@ -25,7 +25,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "cssnano": "4.1.7",
+    "cssnano": "4.1.10",
     "git-directory-deploy": "1.5.1",
     "jstransformer-pug": "0.3.0",
     "markdown-it-footnote": "3.0.1",
@@ -40,7 +40,7 @@
     "metalsmith-markdownit": "0.5.0",
     "metalsmith-moment": "1.1.0",
     "metalsmith-move-up": "1.0.0",
-    "metalsmith-permalinks": "2.0.0",
+    "metalsmith-permalinks": "2.2.0",
     "metalsmith-postcss": "4.2.0",
     "metalsmith-renamer": "0.4.0",
     "metalsmith-serve": "0.0.7",
@@ -50,13 +50,13 @@
     "pug": "2.0.3",
     "rss": "1.2.2",
     "turbolinks": "5.2.0",
-    "yargs": "12.0.2"
+    "yargs": "13.2.1"
   },
   "devDependencies": {
-    "eslint": "5.9.0",
+    "eslint": "5.14.1",
     "eslint-config-standard": "12.0.0",
-    "eslint-plugin-import": "2.14.0",
-    "eslint-plugin-node": "8.0.0",
+    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-node": "8.0.1",
     "eslint-plugin-promise": "4.0.1",
     "eslint-plugin-standard": "4.0.0"
   }
