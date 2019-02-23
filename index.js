@@ -14,6 +14,7 @@ const permalinks = require('metalsmith-permalinks')
 const sitemap = require('metalsmith-sitemap')
 const layouts = require('metalsmith-layouts')
 const postcss = require('metalsmith-postcss')
+const htmlMinifier = require('metalsmith-html-minifier')
 const serve = require('metalsmith-serve')
 const watch = require('metalsmith-watch')
 const moment = require('metalsmith-moment')
@@ -93,6 +94,7 @@ Metalsmith(__dirname)
       rename: name => name.replace(/\.css$/, '.min.css')
     }
   }))
+  .use(htmlMinifier())
   .use(argv.development && serve())
   .use(argv.development && watch({
     livereload: true
