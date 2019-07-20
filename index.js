@@ -9,7 +9,6 @@ const metadata = require('metalsmith-collection-metadata')
 const moveUp = require('metalsmith-move-up')
 const markdown = require('metalsmith-markdownit')
 const footnote = require('markdown-it-footnote')
-const highlight = require('markdown-it-highlightjs')
 const permalinks = require('metalsmith-permalinks')
 const sitemap = require('metalsmith-sitemap')
 const layouts = require('metalsmith-layouts')
@@ -65,7 +64,7 @@ Metalsmith(__dirname)
   .use(markdown({
     html: true,
     typographer: true
-  }).use(footnote).use(highlight))
+  }).use(footnote))
   .use(permalinks({
     relative: false
   }))

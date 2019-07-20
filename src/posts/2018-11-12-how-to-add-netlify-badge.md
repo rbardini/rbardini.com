@@ -8,7 +8,9 @@ Ever since I moved this blog to [Netlify](https://www.netlify.com/) I wanted to 
 
 After digging into the [Netlify REST API](https://www.netlify.com/docs/api/), I managed to make a badge that fetches all deploys for my site and extracts the status of the last deploy:
 
-`[![Deploy status](https://img.shields.io/badge/dynamic/json.svg?url=https://api.netlify.com/api/v1/sites/rbardini.com/deploys&label=deploy&query=$[0].state&colorB=blue)](https://app.netlify.com/sites/rbardini/deploys)`
+```md
+[![Deploy status](https://img.shields.io/badge/dynamic/json.svg?url=https://api.netlify.com/api/v1/sites/rbardini.com/deploys&label=deploy&query=$[0].state&colorB=blue)](https://app.netlify.com/sites/rbardini/deploys)
+```
 
 Which looks like this:
 

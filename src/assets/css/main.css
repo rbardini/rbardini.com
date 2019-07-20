@@ -15,13 +15,15 @@
 
 ::selection {background: var(--selectionColor); color: var(--bgColor)}
 
+* {box-sizing: border-box}
 html, input, textarea {color: var(--bodyColor); font: 62.5%/1.5 var(--bodyFontStack)}
 body {margin: 0}
 sub, sup {font-size: 75%; line-height: 0}
 input, textarea {border: 0; border-bottom: 1px solid var(--linkColor); font-size: 1em}
 fieldset {border: 0; margin: 0; padding: 0}
-code, pre {background: var(--borderColor); display: inline-block; font-family: var(--codeFontStack); font-size: 0.8em; hyphens: none; overflow-wrap: break-word; padding: 0.4em; text-align: initial; width: 100%}
-pre {font-size: 0.8em}
+pre, code {background: var(--borderColor); font-family: var(--codeFontStack); font-size: 0.8em; hyphens: none; overflow-wrap: break-word; padding: 0.4em; text-align: initial; width: 100%}
+pre {padding: 0.4em 0.6em; white-space: pre-wrap}
+pre > code {background: none; padding: 0}
 iframe {border: 0}
 img {max-width: 100%}
 a {color: var(--linkColor); text-decoration: none; transition: color 0.2s}
@@ -31,7 +33,7 @@ p img {display: block; margin: 0 auto}
 
 hr {border: 0; border-top: 2px solid var(--borderColor); height: 0}
 
-h1, h2, h3, h4, h5, h6 {font-weight: normal; line-height: 1.2; margin: 0.8em 0 0.4em}
+h1, h2, h3, h4, h5, h6 {font-weight: normal; line-height: 1.2; margin: 1.6em 0 0.4em}
 h1 {font-size: 1.8em; font-family: var(--headingFontStack); font-weight: bold; text-transform: uppercase}
 h2 {font-size: 1.6em; font-family: var(--infoFontStack)}
 h3 {font-size: 1.4em; font-style: italic}
@@ -66,7 +68,7 @@ header h1 {margin: 0}
 
 .archive-cta {font-size: 1em}
 .archive-item {display: table; table-layout: fixed}
-.archive-item time {display: table-cell; padding-right: 0.8em; text-align: right; width: 3.2em}
+.archive-item time {display: table-cell; padding-right: 0.8em; text-align: right; width: 4em}
 .archive-item a {display: table-cell; text-decoration: none}
 
 .unstyled-list {list-style: none}

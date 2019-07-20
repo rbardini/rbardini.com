@@ -29,7 +29,6 @@
     "git-directory-deploy": "1.5.1",
     "jstransformer-pug": "0.3.0",
     "markdown-it-footnote": "3.0.1",
-    "markdown-it-highlightjs": "3.0.0",
     "metalsmith": "2.3.0",
     "metalsmith-archive": "0.1.1",
     "metalsmith-assets": "0.1.0",
