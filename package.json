@@ -5,7 +5,9 @@
   "homepage": "https://rbardini.com",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint . --ignore-path .gitignore",
+    "lint": "npm run lint:md && npm run lint:js",
+    "lint:md": "markdownlint src",
+    "lint:js": "eslint . --ignore-path .gitignore",
     "build": "node index.js",
     "start": "npm run build -- --development",
     "deploy": "npm run build && git-directory-deploy --directory build --branch master"
@@ -58,6 +60,7 @@
     "eslint-plugin-import": "2.18.2",
     "eslint-plugin-node": "9.1.0",
     "eslint-plugin-promise": "4.2.1",
-    "eslint-plugin-standard": "4.0.0"
+    "eslint-plugin-standard": "4.0.0",
+    "markdownlint-cli": "0.17.0"
   }
 }
