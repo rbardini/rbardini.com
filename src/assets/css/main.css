@@ -50,7 +50,8 @@ blockquote cite:before {content: " — "}
 .pullquote p {font-size: 1.2em; text-align: center}
 .pullquote footer {text-align: right}
 
-.video-container {box-shadow: 0 1em 4em rgba(0, 0, 0, 0.4); margin-left: -10%; margin-right: -10%; padding-bottom: calc(120% * 0.5625); position: relative}
+figure {margin: 1em -10%; text-align: center}
+.video-container {box-shadow: 0 1em 4em rgba(0, 0, 0, 0.4); padding-bottom: calc(120% * 0.5625); position: relative; text-align: inherit}
 .video-container iframe {position: absolute; width: 100%; height: 100%}
 
 #content {font-size: 2.2em; margin: 0 auto; max-width: 30em; padding: 1em}
@@ -63,7 +64,7 @@ header h1 {margin: 0}
 .link header h1:after {color: var(--infoColor); content:"\00A0→"}
 .meta a {color: var(--infoColor)}
 .meta a:hover {text-decoration: underline}
-.meta, .date, .footnotes, nav, aside, footer[role="contentinfo"] {color: var(--infoColor); font-family: var(--infoFontStack); font-size: 0.8em; margin: 0; text-align: center}
+.meta, .date, .footnotes, figcaption, nav, aside, footer[role="contentinfo"] {color: var(--infoColor); font-family: var(--infoFontStack); font-size: 0.8em; margin: 0; text-align: center}
 .meta, .date, .footnotes {text-align: inherit}
 
 .archive-cta {font-size: 1em}
@@ -90,7 +91,8 @@ header h1 {margin: 0}
  */
 @media screen and (max-width: 70.5em) {
   #content {font-size: 1.8em}
-  .video-container {box-shadow: 0 0.5em 2em rgba(0, 0, 0, 0.2); margin-left: -1em; margin-right: -1em; padding-bottom: calc((100% + 2em) * 0.5625)}
+  figure {margin-left: -1em; margin-right: -1em}
+  .video-container {box-shadow: 0 0.5em 2em rgba(0, 0, 0, 0.2); padding-bottom: calc((100% + 2em) * 0.5625)}
 }
 
 @supports (hyphens: auto) {
