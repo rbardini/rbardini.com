@@ -1,6 +1,6 @@
 ---
 title: Improve the payment experience with animations
-date: 2014-04-21 18:32:32 -3
+date: "2014-04-21 18:32:32-03"
 lang: pt-BR
 link: https://medium.com/ui-ux-articles/3d1b0a9b810e
 ---

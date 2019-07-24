@@ -1,6 +1,6 @@
 ---
 title: Yosemite – Thoughts on blurriness and design ecosystems
-date: 2014-06-14 20:49:17 -3
+date: "2014-06-14 20:49:17-03"
 lang: pt-BR
 link: http://blogs.atlassian.com/2014/06/yosemite-thoughts-blurriness-design-ecosystems/
 ---

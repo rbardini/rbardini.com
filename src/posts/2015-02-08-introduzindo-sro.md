@@ -1,6 +1,6 @@
 ---
 title: "Introduzindo: SRO"
-date: 2015-02-08 18:13:20 -2
+date: "2015-02-08 18:13:20-02"
 lang: pt-BR
 ---
 

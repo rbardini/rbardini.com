@@ -1,6 +1,6 @@
 ---
 title: How to add a Netlify deploy status badge to your project
-date: 2018-11-12 22:44:46 +1
+date: "2018-11-12 22:44:46+01"
 lang: en-US
 ---
 

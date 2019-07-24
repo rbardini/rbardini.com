@@ -1,6 +1,6 @@
 ---
 title: Is forgetting a child in the backseat of a car a crime?
-date: 2016-05-14 16:45:16 -3
+date: "2016-05-14 16:45:16-03"
 lang: en-US
 link: https://www.washingtonpost.com/lifestyle/magazine/fatal-distraction-forgetting-a-child-in-thebackseat-of-a-car-is-a-horrifying-mistake-is-it-a-crime/2014/06/16/8ae0fe3a-f580-11e3-a3a5-42be35962a52_story.html
 ---

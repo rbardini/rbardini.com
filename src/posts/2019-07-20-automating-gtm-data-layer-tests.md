@@ -1,6 +1,6 @@
 ---
 title: Automating tests for the GTM data layer
-date: 2019-07-20 20:50:06 +2
+date: "2019-07-20 20:50:06+02"
 lang: en-US
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Rise of Nations ganhará versão remasterizada
-date: 2014-06-02 22:23:26 -3
+date: "2014-06-02 22:23:26-03"
 lang: pt-BR
 link: http://meiobit.com/288531/rise-nations-ganhara-versao-remasterizada/
 ---
