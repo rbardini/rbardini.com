@@ -1,16 +1,21 @@
 mixin article(type, title, date, lang, link, contents, path)
-  - var className = [type, link && "link"]
-  - var isPage = type === "page"
+  - const className = [type, link && "link"]
+  - const isPost = type === "post"
+  - const isOld = isPost && Math.abs(date.diff(Date.now(), "years")) >= 10
   article(class=className, lang=lang)
     header
-      unless isPage
+      if isPost
         ul.meta.inline-list
           li
             a(href="/" + path, rel="bookmark", title="Permalink")
               time(datetime=date)= date.parseZone().format("ll")
       h1
-        if isPage
-          = title
-        else
+        if isPost
           a(href=(link || "/" + path))= title
-    .entry!= contents
+        else
+          = title
+    .entry
+      if isOld
+        .disclaimer.
+          #[strong Note:] This is an old post. The opinions and views expressed here may not reflect the author's current thinking.
+      != contents

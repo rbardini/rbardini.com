@@ -41,7 +41,7 @@ h4 {font-size: 1.2em; font-weight: bold}
 h5 {font-size: 1.2em}
 h6 {font-size: 1em; font-style: italic}
 
-blockquote {border-left: 4px solid var(--borderColor); margin: 0 0 0 -1em; padding-left: 1em}
+blockquote {border-left: 4px solid var(--borderColor); margin: 1em 0 1em -1em; padding-left: calc(1em - 4px)}
 blockquote p {font-style: italic}
 blockquote cite {color: var(--infoColor)}
 blockquote cite:before {content: " — "}
@@ -66,6 +66,7 @@ header h1 {margin: 0}
 .meta a:hover {text-decoration: underline}
 .meta, .date, .footnotes, figcaption, nav, aside, footer[role="contentinfo"] {color: var(--infoColor); font-family: var(--infoFontStack); font-size: 0.8em; margin: 0; text-align: center}
 .meta, .date, .footnotes {text-align: inherit}
+.disclaimer {background: var(--borderColor); font-style: italic; margin: 1em -1em; padding: 1em}
 
 .archive-cta {font-size: 1em}
 .archive-item {display: table; table-layout: fixed}

@@ -5,7 +5,7 @@ block title
   title= site.title
 
 block content
-  - var posts = collections.posts.slice(0, 5)
+  - const posts = collections.posts.slice(0, 5)
   each post in posts
     +article(post.type, post.title, post.date, post.lang, post.link, post.contents, post.path)
   nav.archive-cta
