@@ -14,4 +14,5 @@ block content
           each post in year.data
             li.archive-item
               time.date(datetime=post.date)= post.date.parseZone().format('MMM D')
+              | 
               a(href="/" + post.path)= post.title

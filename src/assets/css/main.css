@@ -74,9 +74,6 @@ header h1 {margin: 0}
 .archive-item a {display: table-cell; text-decoration: none}
 
 .unstyled-list {list-style: none}
-.inline-list {padding: 0}
-.inline-list li {display: inline}
-.inline-list li + li:before {content: " · "; margin: 0 0.2em}
 
 .logo {width: 3.2em}
 .logo path {fill: var(--linkColor); transition: fill 0.2s}

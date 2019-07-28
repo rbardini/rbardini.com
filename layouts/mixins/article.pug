@@ -5,10 +5,9 @@ mixin article(type, title, date, lang, link, contents, path)
   article(class=className, lang=lang)
     header
       if isPost
-        ul.meta.inline-list
-          li
-            a(href="/" + path, rel="bookmark", title="Permalink")
-              time(datetime=date)= date.parseZone().format("ll")
+        .meta
+          a(href="/" + path, rel="bookmark", title="Permalink")
+            time(datetime=date)= date.parseZone().format("ll")
       h1
         if isPost
           a(href=(link || "/" + path))= title
