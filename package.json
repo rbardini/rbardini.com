@@ -41,10 +41,10 @@
     "metalsmith-layouts": "2.3.1",
     "metalsmith-markdownit": "0.5.0",
     "metalsmith-moment": "1.1.0",
-    "metalsmith-move-up": "1.0.0",
+    "metalsmith-move-up": "2.0.0",
     "metalsmith-permalinks": "2.2.0",
     "metalsmith-postcss": "4.2.0",
-    "metalsmith-renamer": "0.4.0",
+    "metalsmith-renamer": "0.4.1",
     "metalsmith-serve": "0.0.7",
     "metalsmith-sitemap": "1.2.2",
     "metalsmith-watch": "1.0.3",
@@ -55,7 +55,7 @@
     "yargs": "13.3.0"
   },
   "devDependencies": {
-    "eslint": "6.0.1",
+    "eslint": "6.1.0",
     "eslint-config-standard": "13.0.1",
     "eslint-plugin-import": "2.18.2",
     "eslint-plugin-node": "9.1.0",
