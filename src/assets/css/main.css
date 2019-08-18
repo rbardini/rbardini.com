@@ -20,6 +20,8 @@
     --infoColor: rgba(255, 255, 255, .44);
     --borderColor: rgba(255, 255, 255, .1);
   }
+
+  img:not([src*=".svg"]) {filter: grayscale(50%)}
 }
 
 * {box-sizing: border-box}
