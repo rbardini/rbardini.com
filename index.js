@@ -82,6 +82,7 @@ Metalsmith(__dirname)
   }))
   .use(postcss({
     plugins: {
+      'postcss-color-mod-function': {},
       'postcss-preset-env': {},
       cssnano: { autoprefixer: false }
     },

@@ -3,7 +3,7 @@
   --bodyColor: rgba(0, 0, 0, .9);
   --infoColor: rgba(0, 0, 0, .44);
   --linkColor: #ca3c08;
-  --shadeColor: #a23006; /* var(--linkColor) shade(20%) */
+  --shadeColor: color-mod(var(--linkColor) shade(20%));
   --hoverColor: #ea9629;
   --heartColor: #b90000;
   --borderColor: rgba(0, 0, 0, .1);
