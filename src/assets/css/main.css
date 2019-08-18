@@ -6,15 +6,12 @@
   --shadeColor: #a23006; /* var(--linkColor) shade(20%) */
   --hoverColor: #ea9629;
   --heartColor: #b90000;
-  --selectionColor: #722d19;
   --borderColor: rgba(0, 0, 0, .1);
   --bodyFontStack: "Gentium Basic", "Georgia", serif;
   --infoFontStack: "Alegreya SC", "Georgia", serif;
   --headingFontStack: "Open Sans Condensed", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   --codeFontStack: "Ubuntu Mono", "Menlo", "Consolas", monospace;
 }
-
-::selection {background: var(--selectionColor); color: var(--bgColor)}
 
 * {box-sizing: border-box}
 html, input, textarea {color: var(--bodyColor); font: 62.5%/1.5 var(--bodyFontStack)}
