@@ -3,6 +3,7 @@
   --bodyColor: rgba(0, 0, 0, .9);
   --infoColor: rgba(0, 0, 0, .44);
   --linkColor: #ca3c08;
+  --shadeColor: #a23006; /* var(--linkColor) shade(20%) */
   --hoverColor: #ea9629;
   --heartColor: #b90000;
   --selectionColor: #722d19;
@@ -77,7 +78,7 @@ header h1 {margin: 0}
 
 .logo {width: 3.2em}
 .logo path {fill: var(--linkColor); transition: fill 0.2s}
-.logo .shade {fill: color(var(--linkColor) shade(20%))}
+.logo .shade {fill: var(--shadeColor)}
 .logo:hover path {fill: var(--hoverColor)}
 .❤ {color: var(--heartColor)}
 

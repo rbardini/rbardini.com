@@ -82,7 +82,7 @@ Metalsmith(__dirname)
   }))
   .use(postcss({
     plugins: {
-      'postcss-cssnext': {},
+      'postcss-preset-env': {},
       cssnano: { autoprefixer: false }
     },
     map: argv.development
