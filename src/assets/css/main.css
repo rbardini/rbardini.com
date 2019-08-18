@@ -2,19 +2,28 @@
   --bgColor: #fff;
   --bodyColor: rgba(0, 0, 0, .9);
   --infoColor: rgba(0, 0, 0, .44);
+  --borderColor: rgba(0, 0, 0, .1);
   --linkColor: #ca3c08;
   --shadeColor: color-mod(var(--linkColor) shade(20%));
   --hoverColor: #ea9629;
   --heartColor: #b90000;
-  --borderColor: rgba(0, 0, 0, .1);
   --bodyFontStack: "Gentium Basic", "Georgia", serif;
   --infoFontStack: "Alegreya SC", "Georgia", serif;
   --headingFontStack: "Open Sans Condensed", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   --codeFontStack: "Ubuntu Mono", "Menlo", "Consolas", monospace;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bgColor: color-mod(#121212 tint(5%));
+    --bodyColor: rgba(255, 255, 255, .9);
+    --infoColor: rgba(255, 255, 255, .44);
+    --borderColor: rgba(255, 255, 255, .1);
+  }
+}
+
 * {box-sizing: border-box}
-html, input, textarea {color: var(--bodyColor); font: 62.5%/1.5 var(--bodyFontStack)}
+html, input, textarea {background: var(--bgColor); color: var(--bodyColor); font: 62.5%/1.5 var(--bodyFontStack)}
 body {margin: 0}
 sub, sup {font-size: 75%; line-height: 0}
 input, textarea {border: 0; border-bottom: 1px solid var(--linkColor); font-size: 1em}
