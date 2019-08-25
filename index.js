@@ -1,6 +1,6 @@
 const argv = require('yargs').argv
 const Metalsmith = require('metalsmith')
-const assets = require('metalsmith-assets')
+const assets = require('metalsmith-assets-improved')
 const ignore = require('metalsmith-ignore')
 const renamer = require('metalsmith-renamer')
 const archive = require('metalsmith-archive')
@@ -32,10 +32,9 @@ Metalsmith(__dirname)
       trackingId: 'UA-3034872-1'
     }
   })
-  .use(assets())
   .use(assets({
-    source: 'node_modules/turbolinks/dist',
-    destination: 'js'
+    src: 'node_modules/turbolinks/dist',
+    dest: 'js'
   }))
   .use(ignore('**/.*'))
   .use(renamer({
