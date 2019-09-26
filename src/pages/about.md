@@ -2,7 +2,7 @@
 title: About
 ---
 
-I'm Rafael Bardini, a web and Android developer in Amsterdam, Netherlands, with a B.S. in Computer Science from the _Institute of Mathematical and Computer Sciences_ of the _University of São Paulo_ ([ICMC-USP](https://www.icmc.usp.br/)).
+I'm Rafael Bardini, a frontend and Android developer in Zaandam, Netherlands, with a B.S. in Computer Science from the _Institute of Mathematical and Computer Sciences_ of the _University of São Paulo_ ([ICMC-USP](https://www.icmc.usp.br/)).
 
 I'm the creator and maintainer of [Carteiro](https://carteiroapp.com/), a popular and highly-rated Android package tracking app in Brazil, as well as several [open-source projects](https://github.com/rbardini).
 
