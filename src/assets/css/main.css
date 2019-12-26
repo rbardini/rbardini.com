@@ -1,24 +1,25 @@
 :root {
+  color-scheme: light dark;
   --bgColor: #fff;
-  --bodyColor: rgba(0, 0, 0, .9);
+  --bodyColor: rgba(0, 0, 0, .8);
   --infoColor: rgba(0, 0, 0, .44);
   --borderColor: rgba(0, 0, 0, .1);
-  --linkColor: #ca3c08;
-  --shadeColor: color-mod(var(--linkColor) shade(20%));
+  --linkColor: #000;
+  --logoColor: #ca3c08;
+  --shadeColor: color-mod(var(--logoColor) shade(20%));
   --hoverColor: #ea9629;
   --heartColor: #b90000;
-  --bodyFontStack: "Gentium Basic", "Georgia", serif;
-  --infoFontStack: "Alegreya SC", "Georgia", serif;
-  --headingFontStack: "Open Sans Condensed", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  --bodyFontStack: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   --codeFontStack: "Ubuntu Mono", "Menlo", "Consolas", monospace;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --bgColor: color-mod(#121212 tint(5%));
-    --bodyColor: rgba(255, 255, 255, .9);
+    --bodyColor: rgba(255, 255, 255, .8);
     --infoColor: rgba(255, 255, 255, .44);
     --borderColor: rgba(255, 255, 255, .1);
+    --linkColor: #fff;
   }
 
   img:not([src*=".svg"]) {filter: grayscale(50%)}
@@ -30,25 +31,25 @@ body {margin: 0}
 sub, sup {font-size: 75%; line-height: 0}
 input, textarea {border: 0; border-bottom: 1px solid var(--linkColor); font-size: 1em}
 fieldset {border: 0; margin: 0; padding: 0}
-pre, code {background: var(--borderColor); font-family: var(--codeFontStack); font-size: 0.8em; hyphens: none; overflow-wrap: break-word; padding: 0.4em; text-align: initial; width: 100%}
+pre, code {background: var(--borderColor); font-family: var(--codeFontStack); hyphens: none; overflow-wrap: break-word; padding: 0.2em; text-align: initial; width: 100%}
 pre {padding: 0.4em 0.6em; white-space: pre-wrap}
 pre > code {background: none; padding: 0}
 iframe {border: 0}
 img {max-width: 100%}
-a {color: var(--linkColor); text-decoration: none; transition: color 0.2s}
+a {color: var(--linkColor); font-weight: 600; text-decoration: none; transition: color 0.2s}
 a:hover, a:active {color: var(--hoverColor); outline: 0}
 p {margin: 1em 0}
 p img {display: block; margin: 0 auto}
 
 hr {border: 0; border-top: 2px solid var(--borderColor); height: 0}
 
-h1, h2, h3, h4, h5, h6 {font-weight: normal; line-height: 1.2; margin: 1.6em 0 0.4em}
-h1 {font-size: 1.8em; font-family: var(--headingFontStack); font-weight: bold; text-transform: uppercase}
-h2 {font-size: 1.6em; font-family: var(--infoFontStack)}
-h3 {font-size: 1.4em; font-style: italic}
-h4 {font-size: 1.2em; font-weight: bold}
-h5 {font-size: 1.2em}
-h6 {font-size: 1em; font-style: italic}
+h1, h2, h3, h4, h5, h6 {line-height: 1.2; margin: 1.6em 0 0.4em}
+h1 {font-size: 2.441em}
+h2 {font-size: 1.953em}
+h3 {font-size: 1.563em}
+h4 {font-size: 1.25em}
+h5 {font-size: 1em}
+h6 {font-size: 0.8em}
 
 blockquote {border-left: 4px solid var(--borderColor); margin: 1em 0 1em -1em; padding-left: calc(1em - 4px)}
 blockquote p {font-style: italic}
@@ -63,41 +64,38 @@ figure {margin: 1em -10%; text-align: center}
 .video-container {box-shadow: 0 1em 4em rgba(0, 0, 0, 0.4); padding-bottom: calc(120% * 0.5625); position: relative; text-align: inherit}
 .video-container iframe {position: absolute; width: 100%; height: 100%}
 
-#content {font-size: 2.2em; margin: 0 auto; max-width: 30em; padding: 1em}
+#content {font-size: 1.6em; margin: 0 auto; max-width: 40em; padding: 1em}
 main {border-bottom: 2px solid var(--borderColor); padding-bottom: 2em}
 article:after {content: "* * *"; color: var(--borderColor); display: block; margin: 2em 0; text-align: center}
 article:last-of-type:after {content: ""}
 header[role="banner"] {text-align: center; margin-bottom: 1em}
 header h1 {margin: 0}
-.link header h1 {font-size: 1.4em}
+header h1 a {font-weight: inherit}
+.link header h1 {font-size: 1.953em}
 .link header h1:after {color: var(--infoColor); content:"\00A0→"}
-.meta a {color: var(--infoColor)}
+.meta a {color: var(--infoColor); font-weight: inherit}
 .meta a:hover {text-decoration: underline}
-.meta, .date, .footnotes, figcaption, nav, aside, footer[role="contentinfo"] {color: var(--infoColor); font-family: var(--infoFontStack); font-size: 0.8em; margin: 0; text-align: center}
+.meta, .date, .footnotes, figcaption, nav, aside, footer[role="contentinfo"] {color: var(--infoColor); font-size: 0.8em; margin: 0; text-align: center}
 .meta, .date, .footnotes {text-align: inherit}
 .disclaimer {background: var(--borderColor); font-style: italic; margin: 1em -1em; padding: 1em}
 
 .archive-cta {font-size: 1em}
-.archive-item {display: table; table-layout: fixed}
-.archive-item time {display: table-cell; padding-right: 0.8em; text-align: right; width: 4em}
+.archive-item {display: table; margin-bottom: 0.4em; table-layout: fixed}
+.archive-item time {display: table-cell; padding-right: 0.8em; text-align: right; width: 5em}
 .archive-item a {display: table-cell; text-decoration: none}
 
 .unstyled-list {list-style: none}
 
 .logo {width: 3.2em}
-.logo path {fill: var(--linkColor); transition: fill 0.2s}
+.logo path {fill: var(--logoColor); transition: fill 0.2s}
 .logo .shade {fill: var(--shadeColor)}
 .logo:hover path {fill: var(--hoverColor)}
 .❤ {color: var(--heartColor)}
 
 .turbolinks-progress-bar {background: var(--linkColor)}
 
-/**
- * ((30em + 2em) + (30em / 1.618)) * (2.2em / 1.6em) + 1em
- * ((container + padding) + (container / golden ratio)) * (content font / base font) + scrollbar
- */
-@media screen and (max-width: 70.5em) {
-  #content {font-size: 1.8em}
+@media screen and (max-width: 70em) {
+  #content {font-size: 1.4em}
   figure {margin-left: -1em; margin-right: -1em}
   .video-container {box-shadow: 0 0.5em 2em rgba(0, 0, 0, 0.2); padding-bottom: calc((100% + 2em) * 0.5625)}
 }
