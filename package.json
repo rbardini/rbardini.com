@@ -20,10 +20,10 @@
   "author": "Rafael Bardini",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rbardini/rbardini.github.io.git"
+    "url": "git+https://github.com/rbardini/rbardini.com.git"
   },
   "bugs": {
-    "url": "https://github.com/rbardini/rbardini.github.io/issues"
+    "url": "https://github.com/rbardini/rbardini.com/issues"
   },
   "license": "MIT",
   "dependencies": {

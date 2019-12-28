@@ -4,7 +4,7 @@ date: "2018-11-12 22:44:46+01"
 lang: en-US
 ---
 
-Ever since I moved this blog to [Netlify](https://www.netlify.com/) I wanted to add a badge to the [repository's README](https://github.com/rbardini/rbardini.github.io#readme) displaying the deploy status. The [Shields.io](https://shields.io/) service doesn't support Netlify badges yet, but luckily I found out that you can build dynamic badges by querying structured data from any public URL.
+Ever since I moved this blog to [Netlify](https://www.netlify.com/) I wanted to add a badge to the [repository's README](https://github.com/rbardini/rbardini.com#readme) displaying the deploy status. The [Shields.io](https://shields.io/) service doesn't support Netlify badges yet, but luckily I found out that you can build dynamic badges by querying structured data from any public URL.
 
 After digging into the [Netlify REST API](https://www.netlify.com/docs/api/), I managed to make a badge that fetches all deploys for my site and extracts the status of the last deploy:
 
