@@ -31,9 +31,8 @@ body {margin: 0}
 sub, sup {font-size: 75%; line-height: 0}
 input, textarea {border: 0; border-bottom: 1px solid var(--linkColor); font-size: 1em}
 fieldset {border: 0; margin: 0; padding: 0}
-pre, code {background: var(--borderColor); font-family: var(--codeFontStack); hyphens: none; overflow-wrap: break-word; padding: 0.2em; text-align: initial; width: 100%}
-pre {padding: 0.4em 0.6em; white-space: pre-wrap}
-pre > code {background: none; padding: 0}
+pre, code {font-family: var(--codeFontStack); hyphens: none; overflow-wrap: break-word; text-align: initial; width: 100%}
+pre {white-space: pre-wrap}
 iframe {border: 0}
 img {max-width: 100%}
 a {color: var(--linkColor); font-weight: 600; text-decoration: none; transition: color 0.2s}

@@ -7,6 +7,7 @@ const archive = require('metalsmith-archive')
 const collections = require('metalsmith-collections')
 const metadata = require('metalsmith-collection-metadata')
 const moveUp = require('metalsmith-move-up')
+const metallic = require('metalsmith-metallic')
 const markdown = require('metalsmith-markdownit')
 const footnote = require('markdown-it-footnote')
 const permalinks = require('metalsmith-permalinks')
@@ -32,6 +33,10 @@ Metalsmith(__dirname)
       trackingId: 'UA-3034872-1'
     }
   })
+  .use(assets({
+    src: 'node_modules/highlight.js/styles',
+    dest: 'css'
+  }))
   .use(assets({
     src: 'node_modules/turbolinks/dist',
     dest: 'js'
@@ -60,6 +65,7 @@ Metalsmith(__dirname)
     '**/*.md',
     'assets/**'
   ]))
+  .use(metallic())
   .use(markdown({
     html: true,
     typographer: true
