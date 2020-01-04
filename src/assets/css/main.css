@@ -9,8 +9,8 @@
   --shadeColor: color-mod(var(--logoColor) shade(20%));
   --hoverColor: #ea9629;
   --heartColor: #b90000;
-  --bodyFontStack: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  --codeFontStack: "Ubuntu Mono", "Menlo", "Consolas", monospace;
+  --bodyFontStack: "Roboto", sans-serif;
+  --codeFontStack: "Roboto Mono", monospace;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -35,7 +35,7 @@ pre, code {font-family: var(--codeFontStack); hyphens: none; overflow-wrap: brea
 pre {white-space: pre-wrap}
 iframe {border: 0}
 img {max-width: 100%}
-a {color: var(--linkColor); font-weight: 600; text-decoration: none; transition: color 0.2s}
+a {color: var(--linkColor); font-weight: 500; text-decoration: none; transition: color 0.2s}
 a:hover, a:active {color: var(--hoverColor); outline: 0}
 p {margin: 1em 0}
 p img {display: block; margin: 0 auto}
