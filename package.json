@@ -34,7 +34,7 @@
     "metalsmith": "2.3.0",
     "metalsmith-archive": "0.1.1",
     "metalsmith-assets-improved": "1.0.1",
-    "metalsmith-collection-metadata": "0.1.0",
+    "metalsmith-collection-metadata": "1.0.0",
     "metalsmith-collections": "0.9.0",
     "metalsmith-html-minifier": "4.0.0",
     "metalsmith-ignore": "1.0.0",
@@ -54,15 +54,15 @@
     "pug": "2.0.4",
     "rss": "1.2.2",
     "turbolinks": "5.2.0",
-    "yargs": "15.0.2"
+    "yargs": "15.1.0"
   },
   "devDependencies": {
     "eslint": "6.8.0",
     "eslint-config-standard": "14.1.0",
     "eslint-plugin-import": "2.19.1",
-    "eslint-plugin-node": "10.0.0",
+    "eslint-plugin-node": "11.0.0",
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-standard": "4.0.1",
-    "markdownlint-cli": "0.20.0"
+    "markdownlint-cli": "0.21.0"
   }
 }

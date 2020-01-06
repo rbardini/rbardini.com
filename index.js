@@ -58,8 +58,8 @@ Metalsmith(__dirname)
     }
   }))
   .use(metadata({
-    'collections.pages': { type: 'page' },
-    'collections.posts': { type: 'post' }
+    pages: { type: 'page' },
+    posts: { type: 'post' }
   }))
   .use(moveUp([
     '**/*.md',
