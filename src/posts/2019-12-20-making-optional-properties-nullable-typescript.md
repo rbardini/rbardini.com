@@ -1,5 +1,6 @@
 ---
 title: Making optional properties nullable in TypeScript
+excerpt: How to handle null values when your types are defined with only non-nullable optional properties.
 date: "2019-12-20 22:10:39+01"
 lang: en-US
 ---
@@ -8,7 +9,7 @@ Let's say you follow the TypeScript project coding guidelines and [only use `und
 
 You decide to write a function to strip all these `null` values from the response, so that they conform to your types:
 
-```typescript
+```ts
 function stripNullableProperties(obj) {
   // Return a new object without null properties
 }
@@ -16,13 +17,13 @@ function stripNullableProperties(obj) {
 
 How can you strongly type such helper without duplicating your input and output types? You could try:
 
-```typescript
+```ts
 function stripNullableProperties<T extends {}>(obj: T): T;
 ```
 
 But it won't work in [strict null checking mode](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-0.html#--strictnullchecks), since `obj` might have `null` values that are not assignable to the non-nullable optional properties in `T`:
 
-```typescript
+```ts
 type A = {
   x: number;
   y?: number;
@@ -36,15 +37,15 @@ stripNullableProperties<A>({
 
 What you really need is something like:
 
-```typescript
+```ts
 function stripNullableProperties<T extends {}>(obj: NullableOptional<T>): T;
 ```
 
-## The `NullableOptional` type
+## The `NullableOptional<T>` type
 
-The `NullableOptional` type constructs a type with all optional properties of `T` set to nullable:
+The `NullableOptional<T>` type constructs a type with all optional properties of `T` set to nullable:
 
-```typescript
+```ts
 type A = {
   x: number;
   y?: number;
@@ -59,7 +60,7 @@ type B = NullableOptional<A>;
 
 You won't find `NullableOptional` in the [TypeScript documentation](https://www.typescriptlang.org/docs/handbook/utility-types.html), and that's because it's a custom type. It actually looks like this:
 
-```typescript
+```ts
 type RequiredKeys<T> = { [K in keyof T]-?: {} extends { [P in K]: T[K] } ? never : K }[keyof T];
 
 type OptionalKeys<T> = { [K in keyof T]-?: {} extends { [P in K]: T[K] } ? K : never }[keyof T];
@@ -81,7 +82,7 @@ In short:
 
 With this, you can remove all nullable properties from an object whose interface should only have non-nullable optional properties, while still ensuring type safety:
 
-```typescript
+```ts
 type A = {
   x: number;
   y?: number;
