@@ -74,7 +74,7 @@ header h1 a {font-weight: inherit}
 .link header h1:after {color: var(--infoColor); content:"\00A0→"}
 .meta a {color: var(--infoColor); font-weight: inherit}
 .meta a:hover {text-decoration: underline}
-.meta, .date, .footnotes, figcaption, nav, aside, footer[role="contentinfo"] {color: var(--infoColor); font-size: 0.8em; margin: 0; text-align: center}
+.meta, .date, .footnotes, figcaption, nav, footer[role="contentinfo"] {color: var(--infoColor); font-size: 0.8em; margin: 0; text-align: center}
 .meta, .date, .footnotes {text-align: inherit}
 .disclaimer {background: var(--borderColor); font-style: italic; margin: 1em -1em; padding: 1em}
 

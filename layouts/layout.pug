@@ -37,16 +37,10 @@ html(lang="en-US")
               path(d="M11 73h20v20L11 73z", class="shade")
               path(d="M11 72h40V52H31L11 72z")
 
-      main(role="main")
+      main
         block content
-
-      aside(role="complementary")
-        p.
-          I'm #[a(href="/about", rel="me")= site.author],
-          creator of #[a(href="https://carteiro.app/") Carteiro for Android],
-          science & technology enthusiast and author of this wonderful journal.
 
       footer(role="contentinfo")
         p.
-          Made with #[span(class="❤") ❤] since 2007 #[br]
-          Powered by #[a(href="http://www.metalsmith.io/") Metalsmith] · #[a(href="/archive") Archive] · #[a(href="/rss.xml") RSS]
+          Made with #[span(class="❤") ❤] by #[a(href="/about", rel="me")= site.author] #[br]
+          #[a(href="https://github.com/rbardini/rbardini.com") Source] · #[a(href="/archive") Archive] · #[a(href="/rss.xml") RSS]
