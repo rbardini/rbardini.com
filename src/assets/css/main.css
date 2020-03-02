@@ -9,8 +9,8 @@
   --shadeColor: color-mod(var(--logoColor) shade(20%));
   --hoverColor: #ea9629;
   --heartColor: #b90000;
-  --bodyFontStack: "Roboto", sans-serif;
-  --codeFontStack: "Roboto Mono", monospace;
+  --bodyFontStack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --codeFontStack: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 @media (prefers-color-scheme: dark) {
