@@ -42,11 +42,11 @@ Metalsmith(__dirname)
   }))
   .use(assets({
     src: `node_modules/highlight.js/styles/${highlightjsStyle}`,
-    dest: `css/${highlightjsStyle}`
+    dest: `vendor/${highlightjsStyle}`
   }))
   .use(assets({
     src: 'node_modules/turbolinks/dist',
-    dest: 'js'
+    dest: 'vendor'
   }))
   .use(ignore('**/.*'))
   .use(renamer({
