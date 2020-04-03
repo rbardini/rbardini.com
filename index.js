@@ -37,6 +37,10 @@ Metalsmith(__dirname)
     }
   })
   .use(assets({
+    src: 'node_modules/lite-youtube-embed/src',
+    dest: 'vendor'
+  }))
+  .use(assets({
     src: `node_modules/highlight.js/styles/${highlightjsStyle}`,
     dest: `css/${highlightjsStyle}`
   }))
