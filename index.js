@@ -22,6 +22,8 @@ const moment = require('metalsmith-moment')
 const packageJson = require('./package.json')
 const rss = require('./plugins/rss')
 
+const highlightjsStyle = 'tomorrow-night-eighties.css'
+
 Metalsmith(__dirname)
   .metadata({
     development: argv.development,
@@ -30,12 +32,13 @@ Metalsmith(__dirname)
       author: packageJson.author,
       description: packageJson.description,
       url: packageJson.homepage,
-      trackingId: 'UA-3034872-1'
+      trackingId: 'UA-3034872-1',
+      highlightjsStyle
     }
   })
   .use(assets({
-    src: 'node_modules/highlight.js/styles',
-    dest: 'css'
+    src: `node_modules/highlight.js/styles/${highlightjsStyle}`,
+    dest: `css/${highlightjsStyle}`
   }))
   .use(assets({
     src: 'node_modules/turbolinks/dist',
