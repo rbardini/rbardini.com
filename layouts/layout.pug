@@ -16,10 +16,12 @@ html(lang="en-US")
         ga('create','#[=site.trackingId]','auto');ga('send','pageview');
       script(src="https://www.google-analytics.com/analytics.js", async)
     script(src="/js/turbolinks.js", defer)
+    script(src="/vendor/lite-yt-embed.js" defer)
 
     link(rel="alternate", href="/rss.xml", type="application/rss+xml", title="RSS")
     link(rel="stylesheet", href="/css/main.min.css")
     link(rel="stylesheet", href=`/css/${site.highlightjsStyle}`)
+    link(rel="stylesheet", href="/vendor/lite-yt-embed.css")
 
   body
     #content
