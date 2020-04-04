@@ -8,7 +8,10 @@
     "lint": "npm run lint:md && npm run lint:js",
     "lint:md": "markdownlint src",
     "lint:js": "eslint . --ignore-path .gitignore",
+    "minify:css": "postcss build/vendor/*.css -d build/vendor -u cssnano --no-map",
+    "minify:js": "find build/vendor/*.js | xargs -I {} npx terser {} -o {} --compress --mangle",
     "build": "node index.js",
+    "postbuild": "npm run minify:css && npm run minify:js",
     "start": "npm run build -- --development"
   },
   "keywords": [
@@ -48,10 +51,12 @@
     "metalsmith-serve": "0.0.7",
     "metalsmith-sitemap": "1.2.2",
     "metalsmith-watch": "1.0.3",
+    "postcss-cli": "7.1.0",
     "postcss-color-mod-function": "3.0.3",
     "postcss-preset-env": "6.7.0",
     "pug": "2.0.4",
     "rss": "1.2.2",
+    "terser": "4.6.10",
     "turbolinks": "5.2.0",
     "yargs": "15.3.1"
   },
