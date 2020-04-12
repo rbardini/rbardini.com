@@ -33,6 +33,7 @@ input, textarea {border: 0; border-bottom: 1px solid var(--linkColor); font-size
 fieldset {border: 0; margin: 0; padding: 0}
 pre, code {font-family: var(--codeFontStack); hyphens: none; overflow-wrap: break-word; text-align: initial; width: 100%}
 pre {margin-left: -1em; margin-right: -1em; width: auto; white-space: pre-wrap}
+code {background: var(--borderColor); padding: .1em .2em}
 code.hljs {padding: 1em}
 iframe {border: 0}
 img {max-width: 100%}
