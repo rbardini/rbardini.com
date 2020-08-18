@@ -1,2 +1,1 @@
-# Redirect default Netlify subdomain to primary domain
-https://rbardini.netlify.com/* https://rbardini.com/:splat 301!
+https://rbardini.netlify.app/* https://rbardini.com/:splat 301!
