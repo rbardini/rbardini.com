@@ -12,7 +12,7 @@
     "minify:js": "find build/vendor/*.js | xargs -I {} npx terser {} -o {} --compress --mangle",
     "build": "node index.js",
     "postbuild": "npm run minify:css && npm run minify:js",
-    "postinstall": "husky install",
+    "prepare": "husky install",
     "start": "npm run build -- --development"
   },
   "keywords": [
@@ -31,10 +31,10 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "cssnano": "4.1.10",
+    "cssnano": "5.0.6",
     "jstransformer-pug": "0.4.0",
-    "lite-youtube-embed": "github:paulirish/lite-youtube-embed",
-    "markdown-it-footnote": "3.0.2",
+    "lite-youtube-embed": "0.2.0",
+    "markdown-it-footnote": "3.0.3",
     "metalsmith": "2.3.0",
     "metalsmith-archive": "0.1.1",
     "metalsmith-assets-improved": "1.0.1",
@@ -46,32 +46,32 @@
     "metalsmith-markdownit": "0.5.0",
     "metalsmith-metallic": "2.0.3",
     "metalsmith-moment": "2.1.0",
-    "metalsmith-move-up": "2.0.1",
+    "metalsmith-move-up": "3.0.0",
     "metalsmith-permalinks": "2.2.0",
     "metalsmith-postcss": "4.2.0",
-    "metalsmith-renamer": "0.5.85",
+    "metalsmith-renamer": "0.5.110",
     "metalsmith-serve": "0.0.7",
     "metalsmith-sitemap": "1.2.2",
     "metalsmith-watch": "1.0.3",
-    "postcss-cli": "7.1.2",
+    "postcss": "8.3.5",
+    "postcss-cli": "8.3.1",
     "postcss-color-mod-function": "3.0.3",
     "postcss-preset-env": "6.7.0",
     "pug": "3.0.2",
     "rss": "1.2.2",
-    "terser": "5.6.1",
+    "terser": "5.7.0",
     "turbolinks": "5.2.0",
-    "yargs": "16.2.0"
+    "yargs": "17.0.1"
   },
   "devDependencies": {
-    "eslint": "7.22.0",
-    "eslint-config-standard": "16.0.2",
-    "eslint-plugin-import": "2.22.1",
+    "eslint": "7.29.0",
+    "eslint-config-standard": "16.0.3",
+    "eslint-plugin-import": "2.23.4",
     "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-promise": "4.3.1",
-    "eslint-plugin-standard": "5.0.0",
-    "husky": "5.2.0",
-    "lint-staged": "10.5.4",
+    "eslint-plugin-promise": "5.1.0",
+    "husky": "6.0.0",
+    "lint-staged": "11.0.0",
     "markdownlint-cli": "0.27.1",
-    "matter-now": "1.1.1"
+    "matter-now": "2.0.0"
   }
 }
