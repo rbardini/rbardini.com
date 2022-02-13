@@ -1,6 +1,6 @@
 ---
 title: Como estilizar comentários no WordPress usando funções callback
-date: "2009-01-05 18:42:33-02"
+date: '2009-01-05T18:42:33-02:00'
 lang: pt-BR
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Da série "Coisas que você só vê em Mococa"...
-date: "2008-12-25 23:16:44-02"
+date: '2008-12-25T23:16:44-02:00'
 lang: pt-BR
 ---
 

@@ -1,28 +1,28 @@
 :root {
   color-scheme: light dark;
-  --bgColor: #fff;
-  --bodyColor: rgba(0, 0, 0, .8);
-  --infoColor: rgba(0, 0, 0, .44);
-  --borderColor: rgba(0, 0, 0, .1);
-  --linkColor: #000;
-  --logoColor: #ca3c08;
-  --shadeColor: color-mod(var(--logoColor) shade(20%));
-  --hoverColor: #ea9629;
-  --heartColor: #b90000;
+  --bgColor: hsl(0, 0%, 100%);
+  --bodyColor: hsla(0, 0%, 0%, .8);
+  --infoColor: hsla(0, 0%, 0%, .44);
+  --borderColor: hsla(0, 0%, 0%, .1);
+  --linkColor: hsl(0, 0%, 0%);
+  --logoColor: hsl(16, 92%, 41%);
+  --shadeColor: hsl(16, 92%, 33%);
+  --hoverColor: hsl(34, 82%, 54%);
+  --heartColor: hsl(0, 100%, 36%);
   --bodyFontStack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --codeFontStack: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bgColor: color-mod(#121212 tint(5%));
-    --bodyColor: rgba(255, 255, 255, .8);
-    --infoColor: rgba(255, 255, 255, .44);
-    --borderColor: rgba(255, 255, 255, .1);
-    --linkColor: #fff;
+    --bgColor: hsl(0, 0%, 12%);
+    --bodyColor:hsla(0, 0%, 100%, .8);
+    --infoColor:hsla(0, 0%, 100%, .44);
+    --borderColor:hsla(0, 0%, 100%, .1);
+    --linkColor: hsl(0, 0%, 100%);
   }
 
-  img:not([src*=".svg"]) {filter: grayscale(50%)}
+  img:not([src$=".svg"]) {filter: grayscale(50%)}
 }
 
 * {box-sizing: border-box}
@@ -31,10 +31,6 @@ body {margin: 0}
 sub, sup {font-size: 75%; line-height: 0}
 input, textarea {border: 0; border-bottom: 1px solid var(--linkColor); font-size: 1em}
 fieldset {border: 0; margin: 0; padding: 0}
-pre, code {font-family: var(--codeFontStack); hyphens: none; overflow-wrap: break-word; text-align: initial; width: 100%}
-pre {margin-left: -1em; margin-right: -1em; width: auto; white-space: pre-wrap}
-code {background: var(--borderColor); padding: .1em .2em}
-code.hljs {padding: 1em}
 iframe {border: 0}
 img {max-width: 100%}
 a {color: var(--linkColor); font-weight: 500; text-decoration: none; transition: color 0.2s}
@@ -61,7 +57,7 @@ blockquote cite:before {content: " — "}
 .pullquote p {font-size: 1.2em; text-align: center}
 .pullquote footer {text-align: right}
 
-figure {margin: 1em -10%; text-align: center}
+figure {margin: 1em -3em; text-align: center}
 .video-container {box-shadow: 0 1em 4em rgba(0, 0, 0, 0.4); text-align: inherit}
 
 #content {font-size: 1.6em; margin: 0 auto; max-width: 40em; padding: 1em}
@@ -76,22 +72,30 @@ header h1 a {font-weight: inherit}
 .meta a:hover {text-decoration: underline}
 .meta, .date, .footnotes, figcaption, nav, footer[role="contentinfo"] {color: var(--infoColor); font-size: 0.8em; margin: 0; text-align: center}
 .meta, .date, .footnotes {text-align: inherit}
+.footnotes {border-top: 2px solid var(--borderColor)}
 .disclaimer {background: var(--borderColor); font-style: italic; margin: 1em -1em; padding: 1em}
-
-.archive-cta {font-size: 1em; margin-top: 2em; text-transform: uppercase}
-.archive-item {display: table; margin-bottom: 0.4em; table-layout: fixed}
-.archive-item time {display: table-cell; padding-right: 0.8em; text-align: right; width: 5em}
-.archive-item a {display: table-cell; text-decoration: none}
-
 .unstyled-list {list-style: none}
+.sr-only {border: 0; clip: rect(0, 0, 0, 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; white-space: nowrap; width: 1px}
+.turbolinks-progress-bar {background: var(--logoColor)}
 
-.logo {width: 3.2em}
-.logo path {fill: var(--logoColor); transition: fill 0.2s}
-.logo .shade {fill: var(--shadeColor)}
-.logo:hover path {fill: var(--hoverColor)}
-.❤ {color: var(--heartColor)}
-
-.turbolinks-progress-bar {background: var(--linkColor)}
+/* https://github.com/PrismJS/prism/blob/master/themes/prism-tomorrow.css */
+pre, code {font-family: var(--codeFontStack); hyphens: none; overflow-wrap: break-word; text-align: initial; width: 100%}
+pre {background: #2d2d2d; color: #ccc; margin-left: -1em; margin-right: -1em; width: auto; white-space: pre-wrap}
+pre > code {display: block; padding: 1em}
+:not(pre) > code {background: var(--borderColor); padding: .1em .2em}
+.token.block-comment, .token.cdata, .token.comment, .token.doctype, .token.prolog {color: #999}
+.token.punctuation {color: #ccc}
+.token.attr-name, .token.deleted, .token.namespace, .token.tag {color: #e2777a}
+.token.function-name {color: #6196cc}
+.token.boolean, .token.function, .token.number {color: #f08d49}
+.token.class-name, .token.constant, .token.property, .token.symbol {color: #f8c555}
+.token.atrule, .token.builtin, .token.important, .token.keyword, .token.selector {color: #cc99cd}
+.token.attr-value, .token.char, .token.regex, .token.string, .token.variable, .token.inserted {color: #7ec699}
+.token.entity, .token.operator, .token.url {color: #67cdcc}
+.token.bold, .token.important {font-weight: bold}
+.token.italic {font-style: italic}
+.token.entity {cursor: help}
+.token.prefix {user-select: none}
 
 @media screen and (max-width: 70em) {
   #content {font-size: 1.4em}

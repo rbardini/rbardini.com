@@ -1,6 +1,6 @@
 ---
 title: Sacanagem hein Gizmodo?!
-date: "2008-09-01 01:06:19-03"
+date: '2008-09-01T01:06:19-03:00'
 lang: pt-BR
 ---
 

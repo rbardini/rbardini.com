@@ -1,6 +1,6 @@
 ---
 title: Aqui o crime compensa
-date: "2007-12-15 20:36:03-02"
+date: '2007-12-15T20:36:03-02:00'
 lang: pt-BR
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Como abrir envelopes corretamente
-date: "2008-01-07 22:15:19-02"
+date: '2008-01-07T22:15:19-02:00'
 lang: pt-BR
 ---
 

@@ -1,0 +1,18 @@
+---
+import Page from '../components/Page.astro'
+import Base from './Base.astro'
+
+export interface Props {
+  content: {
+    title: string
+  }
+}
+
+const { content: { title } } = Astro.props as Props
+---
+
+<Base {title}>
+  <Page {title}>
+    <slot />
+  </Page>
+</Base>

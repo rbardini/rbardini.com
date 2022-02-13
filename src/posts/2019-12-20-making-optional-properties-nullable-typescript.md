@@ -1,7 +1,7 @@
 ---
 title: Making optional properties nullable in TypeScript
 excerpt: How to handle null values when your types are defined with only non-nullable optional properties.
-date: "2019-12-20 22:10:39+01"
+date: '2019-12-20T22:10:39+01:00'
 lang: en-US
 ---
 
@@ -18,27 +18,27 @@ function stripNullableProperties(obj) {
 How can you strongly type such helper without duplicating your input and output types? You could try:
 
 ```ts
-function stripNullableProperties<T extends {}>(obj: T): T;
+function stripNullableProperties<T extends {}>(obj: T): T
 ```
 
 But it won't work in [strict null checking mode](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-0.html#--strictnullchecks), since `obj` might have `null` values that are not assignable to the non-nullable optional properties in `T`:
 
 ```ts
 type A = {
-  x: number;
-  y?: number;
-};
+  x: number
+  y?: number
+}
 
 stripNullableProperties<A>({
   x: 1,
-  y: null // Error: Type 'null' is not assignable to type 'number | undefined'.
-});
+  y: null, // Error: Type 'null' is not assignable to type 'number | undefined'.
+})
 ```
 
 What you really need is something like:
 
 ```ts
-function stripNullableProperties<T extends {}>(obj: NullableOptional<T>): T;
+function stripNullableProperties<T extends {}>(obj: NullableOptional<T>): T
 ```
 
 ## The `NullableOptional<T>` type
@@ -47,31 +47,35 @@ The `NullableOptional<T>` type constructs a type with all optional properties of
 
 ```ts
 type A = {
-  x: number;
-  y?: number;
-};
+  x: number
+  y?: number
+}
 
-type B = NullableOptional<A>;
+type B = NullableOptional<A>
 // {
-//   x: number;
-//   y?: number | null;
+//   x: number
+//   y?: number | null
 // }
 ```
 
 You won't find `NullableOptional` in the [TypeScript documentation](https://www.typescriptlang.org/docs/handbook/utility-types.html), and that's because it's a custom type. It actually looks like this:
 
 ```ts
-type RequiredKeys<T> = { [K in keyof T]-?: {} extends { [P in K]: T[K] } ? never : K }[keyof T];
+type RequiredKeys<T> = {
+  [K in keyof T]-?: {} extends { [P in K]: T[K] } ? never : K
+}[keyof T]
 
-type OptionalKeys<T> = { [K in keyof T]-?: {} extends { [P in K]: T[K] } ? K : never }[keyof T];
+type OptionalKeys<T> = {
+  [K in keyof T]-?: {} extends { [P in K]: T[K] } ? K : never
+}[keyof T]
 
-type PickRequired<T> = Pick<T, RequiredKeys<T>>;
+type PickRequired<T> = Pick<T, RequiredKeys<T>>
 
-type PickOptional<T> = Pick<T, OptionalKeys<T>>;
+type PickOptional<T> = Pick<T, OptionalKeys<T>>
 
-type Nullable<T> = { [P in keyof T]: T[P] | null };
+type Nullable<T> = { [P in keyof T]: T[P] | null }
 
-type NullableOptional<T> = PickRequired<T> & Nullable<PickOptional<T>>;
+type NullableOptional<T> = PickRequired<T> & Nullable<PickOptional<T>>
 ```
 
 In short:
@@ -84,16 +88,16 @@ With this, you can remove all nullable properties from an object whose interface
 
 ```ts
 type A = {
-  x: number;
-  y?: number;
-};
+  x: number
+  y?: number
+}
 
 stripNullableProperties<A>({
   x: 1,
-  y: null
-});
+  y: null,
+})
 // {
-//   x: 1
+//   x: 1,
 // }: A
 ```
 

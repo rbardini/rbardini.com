@@ -1,6 +1,6 @@
 ---
 title: Isso é o que acontece quando se programa demais
-date: "2008-09-20 22:32:03-03"
+date: '2008-09-20T22:32:03-03:00'
 lang: pt-BR
 ---
 

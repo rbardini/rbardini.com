@@ -1,6 +1,6 @@
 ---
 title: Outro recomeço
-date: "2014-04-13 23:52:04-03"
+date: '2014-04-13T23:52:04-03:00'
 lang: pt-BR
 ---
 

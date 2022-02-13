@@ -1,0 +1,12 @@
+---
+import ArchiveList from '../components/ArchiveList.astro'
+import Page from '../layouts/Page.astro'
+import { fetchPosts } from '../posts'
+
+const title = 'Archive'
+const posts = await fetchPosts()
+---
+
+<Page content={{title}}>
+  <ArchiveList {posts} />
+</Page>

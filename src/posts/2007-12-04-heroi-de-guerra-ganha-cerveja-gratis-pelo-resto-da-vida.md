@@ -1,6 +1,6 @@
 ---
 title: Herói de guerra ganha cerveja grátis pelo resto da vida
-date: "2007-12-04 20:20:42-02"
+date: '2007-12-04T20:20:42-02:00'
 lang: pt-BR
 ---
 

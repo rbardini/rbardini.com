@@ -1,6 +1,6 @@
 ---
 title: Atores que recusaram papéis importantes no cinema
-date: "2008-03-21 02:02:12-03"
+date: '2008-03-21T02:02:12-03:00'
 lang: pt-BR
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Acompanhe ao vivo pela Internet os experimentos no Grande Colisor de Hádrons (LHC)
-date: "2008-09-11 19:33:46-03"
+date: '2008-09-11T19:33:46-03:00'
 lang: pt-BR
 ---
 

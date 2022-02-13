@@ -1,6 +1,6 @@
 ---
 title: Richard Feynman on the beauty of a flower
-date: "2011-10-02 19:52:39-03"
+date: '2011-10-02T19:52:39-03:00'
 lang: en-US
 ---
 

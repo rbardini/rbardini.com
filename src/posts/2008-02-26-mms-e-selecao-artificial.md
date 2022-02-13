@@ -1,6 +1,6 @@
 ---
 title: M&Ms e seleção artificial
-date: "2008-02-25 22:33:42-03"
+date: '2008-02-25T22:33:42-03:00'
 lang: pt-BR
 ---
 

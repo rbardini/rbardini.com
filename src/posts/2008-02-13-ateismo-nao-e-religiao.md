@@ -1,6 +1,6 @@
 ---
 title: Ateísmo não é religião
-date: "2008-02-13 01:24:25-02"
+date: '2008-02-13T01:24:25-02:00'
 lang: pt-BR
 ---
 
@@ -25,7 +25,7 @@ Organizando os argumentos:
 Muitos contra-argumentam o _Problema do Mal_ sendo o preço a pagar pelo livre-arbítrio. Contudo, o livre-arbítrio não justifica, por exemplo, o mal natural: catástrofes como terremotos e enchentes, onde ambos não sofrem interferência do homem (aquecimento global não vem ao caso aqui, já que desastres assim sempre ocorreram). A não ser que isso seja a vingança d’Ele, o que, novamente, iria contra o terceiro argumento. Livre-arbítrio esse que nem é suportado pela Bíblia, mesmo ela sendo controversa do princípio ao fim, não tendo nenhum valor racional:
 
 > “Mas graças a Deus que, embora tendo sido escravos do pecado, obedecestes de coração à forma de doutrina a que fostes entregues. E libertos do pecado, fostes feitos escravos da justiça.”
-Romanos 6:17-18
+> Romanos 6:17-18
 
 Concordo que me baseei quase que exclusivamente na fé cristã ao escrever este texto, mas lembre-se que o Cristianismo é a maior religião mundial, logo este artigo atinge a maior parcela da população. Fora que as religiões em geral não são tão diferentes umas das outras, todas tendo a mesma “raiz”, como se pode ver no documentário [Zeitgeist](http://video.google.com/videoplay?docid=-1437724226641382024).
 

@@ -1,0 +1,10 @@
+---
+export interface Props {
+  trackingId: string
+}
+
+const { trackingId } = Astro.props as Props
+---
+
+<script define:vars={{trackingId}}>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create',trackingId,'auto');ga('send','pageview');</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>

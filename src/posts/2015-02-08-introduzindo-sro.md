@@ -1,6 +1,6 @@
 ---
-title: "Introduzindo: SRO"
-date: "2015-02-08 18:13:20-02"
+title: 'Introduzindo: SRO'
+date: '2015-02-08T18:13:20-02:00'
 lang: pt-BR
 ---
 

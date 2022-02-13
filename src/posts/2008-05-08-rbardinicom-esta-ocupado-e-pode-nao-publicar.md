@@ -1,6 +1,6 @@
 ---
 title: rbardini.com está Ocupado e pode não publicar
-date: "2008-05-08 20:07:36-03"
+date: '2008-05-08T20:07:36-03:00'
 lang: pt-BR
 ---
 

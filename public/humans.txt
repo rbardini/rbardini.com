@@ -6,9 +6,9 @@
 
 /* SITE */
   Language:   English / Português
-  Standards:  HTML5, CSS3
-  Components: Google Fonts, Turbolinks
-  Software:   Metalsmith, Atom, Sketch
+  Standards:  HTML, CSS
+  Components: Lite YouTube Embed, Turbolinks
+  Software:   Astro, VS Code
        __
       /\ \
     __\ \ \___

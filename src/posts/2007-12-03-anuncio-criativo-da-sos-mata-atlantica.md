@@ -1,6 +1,6 @@
 ---
 title: Anúncio criativo da SOS Mata Atlântica
-date: "2007-12-03 13:23:12-02"
+date: '2007-12-03T13:23:12-02:00'
 lang: pt-BR
 ---
 

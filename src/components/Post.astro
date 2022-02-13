@@ -1,0 +1,28 @@
+---
+import type { Post } from '../posts'
+
+export interface Props {
+  post: Post
+}
+
+const { post } = Astro.props as Props
+---
+
+<article class:list={["post", {link: post.link}]} lang={post.lang}>
+  <header>
+    <div class="meta">
+      <a href={post.slug} rel="bookmark" title="Permalink">
+        <time datetime={post.date}>{post.dateTime.toFormat('LLL d, yyyy')}</time>
+      </a>
+    </div>
+    <h1><a href={post.link || post.slug} rel={post.link && 'external'}>{post.title}</a></h1>
+  </header>
+  <div class="entry">
+    {post.isOld && (
+      <div class="disclaimer">
+        <strong>Note:</strong> This is an old post. The opinions and views expressed here may not reflect the author's current thinking.
+      </div>
+    )}
+    <post.Content />
+  </div>
+</article>

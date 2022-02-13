@@ -1,6 +1,6 @@
 ---
 title: Febre amarela revela ainda mais a ignorância da população
-date: "2008-01-24 00:47:40-02"
+date: '2008-01-24T00:47:40-02:00'
 lang: pt-BR
 ---
 

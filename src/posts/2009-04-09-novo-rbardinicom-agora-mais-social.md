@@ -1,6 +1,6 @@
 ---
 title: Novo rbardini.com, agora mais social
-date: "2009-04-09 15:51:26-03"
+date: '2009-04-09T15:51:26-03:00'
 lang: pt-BR
 ---
 
@@ -10,7 +10,7 @@ Agora o [rbardini.com](http://rbardini.com/) não é mais um simples blog, mas u
 
 O [portfolio](/p/portfolio/) também é novidade, e espero que cresça com o tempo. Ah, resolvi deixar o site em inglês por dois motivos: a maior parte dos itens importados pra cá estarão no idioma de Shakespeare, além da inevitável maior audiência proporcionada pelos tubos da interweb.
 
-Ainda estou ajustando todos os detalhes, já que uma migração entre servidores E CMSs (do [WordPress](http://wordpress.org/) para o [Sweetcron](http://www.sweetcron.com/)) ao mesmo tempo não é fácil. E provavelmente levarei um *roundhouse kick* do [Google](http://www.google.com/), com todos os links do antigo blog agora quebrados...
+Ainda estou ajustando todos os detalhes, já que uma migração entre servidores E CMSs (do [WordPress](http://wordpress.org/) para o [Sweetcron](http://www.sweetcron.com/)) ao mesmo tempo não é fácil. E provavelmente levarei um _roundhouse kick_ do [Google](http://www.google.com/), com todos os links do antigo blog agora quebrados...
 
 Sugestões? Problemas? [Contact me](/about) :)
 

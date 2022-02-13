@@ -1,6 +1,6 @@
 ---
 title: New Layout, New CMS, New Everything
-date: "2011-07-28 01:23:29-03"
+date: '2011-07-28T01:23:29-03:00'
 lang: en-US
 ---
 

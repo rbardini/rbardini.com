@@ -1,77 +1,38 @@
 {
   "name": "rbardini.com",
-  "version": "1.0.0",
+  "version": "2.0.0",
+  "private": true,
   "description": "Rafael Bardini's blog",
-  "homepage": "https://rbardini.com",
-  "main": "index.js",
-  "scripts": {
-    "lint": "npm run lint:md && npm run lint:js",
-    "lint:md": "markdownlint src",
-    "lint:js": "eslint . --ignore-path .gitignore",
-    "minify:css": "postcss build/vendor/*.css -d build/vendor -u cssnano --no-map",
-    "minify:js": "find build/vendor/*.js | xargs -I {} npx terser {} -o {} --compress --mangle",
-    "build": "node index.js",
-    "postbuild": "npm run minify:css && npm run minify:js",
-    "prepare": "husky install",
-    "start": "npm run build -- --development"
-  },
   "keywords": [
     "rbardini",
     "blog",
-    "metalsmith"
+    "astro"
   ],
-  "author": "Rafael Bardini",
+  "homepage": "https://rbardini.com",
+  "bugs": {
+    "url": "https://github.com/rbardini/rbardini.com/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rbardini/rbardini.com.git"
   },
-  "bugs": {
-    "url": "https://github.com/rbardini/rbardini.com/issues"
-  },
   "license": "MIT",
-  "private": true,
-  "dependencies": {
-    "cssnano": "5.0.16",
-    "jstransformer-pug": "0.4.0",
-    "lite-youtube-embed": "0.2.0",
-    "markdown-it-footnote": "3.0.3",
-    "metalsmith": "2.3.0",
-    "metalsmith-archive": "0.1.1",
-    "metalsmith-assets-improved": "1.0.1",
-    "metalsmith-collection-metadata": "1.0.0",
-    "metalsmith-collections": "0.9.0",
-    "metalsmith-html-minifier": "4.0.1",
-    "metalsmith-ignore": "1.0.0",
-    "metalsmith-layouts": "2.3.1",
-    "metalsmith-markdownit": "0.5.0",
-    "metalsmith-metallic": "2.0.3",
-    "metalsmith-moment": "2.1.0",
-    "metalsmith-move-up": "3.0.0",
-    "metalsmith-permalinks": "2.2.0",
-    "metalsmith-postcss": "4.2.0",
-    "metalsmith-renamer": "0.5.163",
-    "metalsmith-serve": "0.0.7",
-    "metalsmith-sitemap": "1.2.2",
-    "metalsmith-watch": "1.0.3",
-    "postcss": "8.4.5",
-    "postcss-cli": "9.1.0",
-    "postcss-color-mod-function": "3.0.3",
-    "postcss-preset-env": "7.2.3",
-    "pug": "3.0.2",
-    "rss": "1.2.2",
-    "terser": "5.10.0",
-    "turbolinks": "5.2.0",
-    "yargs": "17.3.1"
+  "author": "Rafael Bardini",
+  "scripts": {
+    "build": "astro build",
+    "dev": "astro dev",
+    "lint": "markdownlint . --ignore-path .gitignore",
+    "prepare": "husky install",
+    "preview": "astro preview",
+    "start": "astro dev"
   },
   "devDependencies": {
-    "eslint": "8.7.0",
-    "eslint-config-standard": "16.0.3",
-    "eslint-plugin-import": "2.25.4",
-    "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-promise": "6.0.0",
+    "@types/luxon": "2.0.9",
+    "astro": "0.22.20",
     "husky": "7.0.4",
-    "lint-staged": "12.3.1",
-    "markdownlint-cli": "0.30.0",
+    "lint-staged": "12.3.3",
+    "luxon": "2.3.0",
+    "markdownlint-cli": "0.31.1",
     "matter-now": "2.0.1"
   }
 }

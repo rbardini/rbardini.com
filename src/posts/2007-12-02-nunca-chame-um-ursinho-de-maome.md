@@ -1,6 +1,6 @@
 ---
 title: Nunca chame um ursinho de Maomé
-date: "2007-12-01 22:01:44-02"
+date: '2007-12-01T22:01:44-02:00'
 lang: pt-BR
 ---
 

@@ -1,0 +1,22 @@
+---
+import type { Post } from '../posts'
+import ArchiveItem from './ArchiveItem.astro'
+
+export interface Props {
+  posts: Post[]
+}
+
+const { posts } = Astro.props as Props
+const postsByYear = posts
+  .reduce<Record<number, any[]>>((acc, post) => ((acc[new Date(post.date).getFullYear()] ??= []).push(post), acc), {})
+---
+
+{Object.entries(postsByYear)
+  .map(([year, posts]) => [+year, posts] as const)
+  .sort(([yearA], [yearB]) => yearB - yearA)
+  .map(([year, posts]) => (
+    <h2>{year}</h2>
+    <ul class="unstyled-list">
+      {posts.map((p) => <ArchiveItem post={p} />)}
+    </ul>
+))}

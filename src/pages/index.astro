@@ -1,0 +1,13 @@
+---
+import ArchiveCTA from '../components/ArchiveCTA.astro'
+import Post from '../components/Post.astro'
+import Base from '../layouts/Base.astro'
+import { fetchPosts } from '../posts'
+
+const posts = await fetchPosts()
+---
+
+<Base>
+  {posts.slice(0, 5).map((p) => <Post post={p} />)}
+  <ArchiveCTA />
+</Base>

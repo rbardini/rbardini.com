@@ -1,6 +1,6 @@
 ---
 title: Meu teste de personalidade
-date: "2007-11-21 01:22:10-02"
+date: '2007-11-21T01:22:10-02:00'
 lang: pt-BR
 ---
 

@@ -4,14 +4,16 @@
 [![Dependencies status](https://img.shields.io/librariesio/github/rbardini/rbardini.com)](https://libraries.io/github/rbardini/rbardini.com)
 [![JavaScript Standard Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
-Rafael Bardini's blog, powered by [Metalsmith](https://github.com/metalsmith/metalsmith).
+Rafael Bardini's blog, powered by [Astro](https://astro.build/).
 
 ## Usage
 
-- `npm run lint` to lint the code
-- `npm run build` to build the site
-- `npm start` to build, serve and watch for changes
-- `npm run deploy` to build and deploy to [GitHub Pages](https://pages.github.com/)
+| Command           | Action                                       |
+| ----------------- | -------------------------------------------- |
+| `npm install`     | Installs dependencies                        |
+| `npm run dev`     | Starts local dev server at `localhost:3000`  |
+| `npm run build`   | Build your production site to `./dist/`      |
+| `npm run preview` | Preview your build locally, before deploying |
 
 ## License
 

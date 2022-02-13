@@ -1,6 +1,6 @@
 ---
 title: Como se livrar de ligações indesejadas
-date: "2008-01-19 03:43:17-02"
+date: '2008-01-19T03:43:17-02:00'
 lang: pt-BR
 ---
 

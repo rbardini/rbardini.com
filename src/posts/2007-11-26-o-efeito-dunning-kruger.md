@@ -1,6 +1,6 @@
 ---
 title: O Efeito Dunning-Kruger
-date: "2007-11-26 18:04:39-02"
+date: '2007-11-26T18:04:39-02:00'
 lang: pt-BR
 ---
 

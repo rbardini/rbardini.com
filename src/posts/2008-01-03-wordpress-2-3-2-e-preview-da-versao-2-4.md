@@ -1,6 +1,6 @@
 ---
 title: WordPress 2.3.2 e preview da versão 2.4
-date: "2008-01-03 18:41:46-02"
+date: '2008-01-03T18:41:46-02:00'
 lang: pt-BR
 ---
 

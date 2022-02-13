@@ -1,6 +1,6 @@
 ---
 title: Como colocar e estilizar Gravatars nos comentários do WordPress sem plugins
-date: "2008-08-22 18:08:12-03"
+date: '2008-08-22T18:08:12-03:00'
 lang: pt-BR
 ---
 

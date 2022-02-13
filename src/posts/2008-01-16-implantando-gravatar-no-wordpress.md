@@ -1,6 +1,6 @@
 ---
 title: Implantando Gravatar no WordPress
-date: "2008-01-16 03:14:30-02"
+date: '2008-01-16T03:14:30-02:00'
 lang: pt-BR
 ---
 

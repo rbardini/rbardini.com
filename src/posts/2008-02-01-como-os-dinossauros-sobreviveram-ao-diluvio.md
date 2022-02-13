@@ -1,6 +1,6 @@
 ---
 title: Como os dinossauros sobreviveram ao dilúvio
-date: "2008-02-01 02:11:32-02"
+date: '2008-02-01T02:11:32-02:00'
 lang: pt-BR
 ---
 

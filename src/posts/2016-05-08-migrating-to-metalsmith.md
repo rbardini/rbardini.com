@@ -1,6 +1,6 @@
 ---
 title: Migrating from Second Crack to Metalsmith
-date: "2016-05-08 22:14:08-03"
+date: '2016-05-08T22:14:08-03:00'
 lang: en-US
 ---
 

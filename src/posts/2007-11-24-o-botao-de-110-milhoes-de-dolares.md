@@ -1,6 +1,6 @@
 ---
 title: O botão de 110 milhões de dólares
-date: "2007-11-24 18:41:29-02"
+date: '2007-11-24T18:41:29-02:00'
 lang: pt-BR
 ---
 

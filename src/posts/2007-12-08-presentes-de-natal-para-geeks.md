@@ -1,6 +1,6 @@
 ---
 title: Presentes de Natal para geeks
-date: "2007-12-07 23:27:10-02"
+date: '2007-12-07T23:27:10-02:00'
 lang: pt-BR
 ---
 

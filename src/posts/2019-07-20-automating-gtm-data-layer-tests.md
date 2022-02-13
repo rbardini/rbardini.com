@@ -1,6 +1,6 @@
 ---
 title: Automating tests for the GTM data layer
-date: "2019-07-20 20:50:06+02"
+date: '2019-07-20T20:50:06+02:00'
 lang: en-US
 ---
 
@@ -37,8 +37,8 @@ One thing I noticed after printing the data layer a couple of times was that def
 All default GTM events start with `gtm`, so we can just ignore them with a `filter` on the event name:
 
 ```js
-const getDataLayer = ClientFunction(() => window.dataLayer
-  .filter(({ event }) => !event.startsWith('gtm'))
+const getDataLayer = ClientFunction(() =>
+  window.dataLayer.filter(({ event }) => !event.startsWith('gtm')),
 )
 ```
 
@@ -50,16 +50,15 @@ Now that we have the data layer in hand, we can make assertions on it. Write you
 import { t } from 'testcafe'
 
 const dataLayerSnapshot = [
-  { event: "productClick" },
-  { event: "addToCart" },
-  { event: "removeFromCart" },
-  { event: "promotionClick" },
-  { event: "checkout" },
-  { event: "checkoutOption" }
+  { event: 'productClick' },
+  { event: 'addToCart' },
+  { event: 'removeFromCart' },
+  { event: 'promotionClick' },
+  { event: 'checkout' },
+  { event: 'checkoutOption' },
 ]
 
-await t
-  .expect(getDataLayer()).eql(dataLayerSnapshot)
+await t.expect(getDataLayer()).eql(dataLayerSnapshot)
 ```
 
 If the data layer does not match the snapshot, the test will fail:
@@ -77,20 +76,21 @@ You probably noticed that the error message is not very helpful—it does not te
 We can work around this by doing a string comparison instead, stringifying both the data layer and the snapshot before the assertion:
 
 ```js
-const getDataLayer = ClientFunction(() => JSON.stringify(
-  window.dataLayer
-    .filter(({ event }) => !event.startsWith('gtm'))
-))
+const getDataLayer = ClientFunction(() =>
+  JSON.stringify(
+    window.dataLayer.filter(({ event }) => !event.startsWith('gtm')),
+  ),
+)
 ```
 
 ```js
 const dataLayerSnapshot = JSON.stringify([
-  { event: "productClick" },
-  { event: "addToCart" },
-  { event: "removeFromCart" },
-  { event: "promotionClick" },
-  { event: "checkout" },
-  { event: "checkoutOption" }
+  { event: 'productClick' },
+  { event: 'addToCart' },
+  { event: 'removeFromCart' },
+  { event: 'promotionClick' },
+  { event: 'checkout' },
+  { event: 'checkoutOption' },
 ])
 ```
 

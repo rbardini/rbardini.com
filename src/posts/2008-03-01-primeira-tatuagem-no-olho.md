@@ -1,6 +1,6 @@
 ---
 title: Primeira tatuagem no olho!
-date: "2008-03-01 00:15:18-03"
+date: '2008-03-01T00:15:18-03:00'
 lang: pt-BR
 ---
 

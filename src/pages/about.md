@@ -1,4 +1,5 @@
 ---
+setup: import Layout from '../layouts/Page.astro'
 title: About
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Exercendo a não-opinião como exercício de empatia
-date: "2015-02-19 22:34:03-02"
+date: '2015-02-19T22:34:03-02:00'
 lang: pt-BR
 link: http://www.papodehomem.com.br/exercer-a-nao-opiniao-or-exercicio-de-empatia-6
 ---

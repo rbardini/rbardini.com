@@ -1,6 +1,6 @@
 ---
 title: Trave o Windows pressionando duas teclas
-date: "2007-12-28 00:09:09-02"
+date: '2007-12-28T00:09:09-02:00'
 lang: pt-BR
 ---
 
