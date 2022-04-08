@@ -4,7 +4,7 @@ import Post from '../components/Post.astro'
 import Base from '../layouts/Base.astro'
 import { fetchPosts } from '../posts'
 
-const posts = await fetchPosts()
+const posts = await fetchPosts(Astro.glob('../posts/*.md'))
 ---
 
 <Base>

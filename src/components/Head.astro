@@ -1,6 +1,7 @@
 ---
 import { name, author } from '../../package.json'
 import Analytics from './Analytics.astro'
+import '../styles/main.css'
 
 export interface Props {
   title?: string
@@ -18,7 +19,6 @@ const trackingId = import.meta.env.PUBLIC_TRACKING_ID
 <meta name="turbolinks-cache-control" content="no-preview" />
 <link rel="alternate" href="/rss.xml"  type="application/rss+xml" title="RSS" />
 <link rel="sitemap" href="/sitemap.xml" type="application/xml" title="Sitemap" />
-<link rel="stylesheet" href={Astro.resolve('../styles/main.css')} />
 <link rel="stylesheet" href="https://unpkg.com/lite-youtube-embed@0.2.0/src/lite-yt-embed.css" />
 <script src="https://unpkg.com/lite-youtube-embed@0.2.0/src/lite-yt-embed.js" async></script>
 <script src="https://unpkg.com/turbolinks@5.2.0/dist/turbolinks.js" defer></script>

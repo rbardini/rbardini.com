@@ -1,6 +1,7 @@
 ---
 import Post from '../components/Post.astro'
 import Base from '../layouts/Base.astro'
+import pkg from '../../package.json'
 import type { Post as PostType } from '../posts'
 import { fetchPosts } from '../posts'
 
@@ -9,14 +10,14 @@ export interface Props {
 }
 
 export async function getStaticPaths({ rss }) {
-  const posts = await fetchPosts()
+  const posts = await fetchPosts(Astro.glob('../posts/*.md'))
 
   rss({
-    title: 'rbardini.com',
-    description: `Rafael Bardini's blog`,
+    title: pkg.name,
+    description: pkg.description,
     items: posts.slice(0, 20).map(post => ({
       title: [post.title, post.link && '→'].filter(Boolean).join(' '),
-      description: [post.astro.html, post.link && `<p><a href="${new URL(post.slug, Astro.site)}" rel="bookmark">∞ Permalink</a></p>`].filter(Boolean).join('\n'),
+      description: [post.html, post.link && `<p><a href="${new URL(post.slug, Astro.site)}" rel="bookmark">∞ Permalink</a></p>`].filter(Boolean).join('\n'),
       link: post.link ?? post.slug,
       pubDate: post.date,
     }))

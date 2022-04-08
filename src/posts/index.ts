@@ -1,3 +1,4 @@
+import type { MarkdownInstance, MarkdownParserResponse } from 'astro'
 import type { AstroComponentFactory } from 'astro/dist/types/runtime/server'
 import { DateTime } from 'luxon'
 
@@ -6,28 +7,32 @@ export interface Frontmatter {
   date: string
   lang: string
   link?: string
+  draft?: boolean
 }
 
 export interface Post extends Frontmatter {
   Content: AstroComponentFactory
   dateTime: DateTime
+  html: string
   isOld: boolean
   slug: string
 }
 
-export async function fetchPosts(): Promise<Post[]> {
-  const files: Record<string, Function> = await import.meta.glob('./**/*.md')
+export interface MarkdownPost extends MarkdownInstance<Frontmatter> {
+  default: () => Promise<MarkdownParserResponse>
+}
 
-  return (
-    await Promise.all(
-      Object.entries(files).map(async ([filename, importFile]) => {
-        const { default: Content, frontmatter } = await importFile()
-        const dateTime = DateTime.fromISO(frontmatter.date, { setZone: true })
-        const isOld = DateTime.now().diff(dateTime, 'years').toObject().years >= 10
-        const slug = filename.split('/').pop().split('.').shift().slice('YYYY-MM-DD-'.length)
+export async function fetchPosts(posts: Promise<MarkdownPost[]>): Promise<Post[]> {
+  return (await Promise.all((await posts)
+    .map<Promise<Post>>(async (post) => {
+      const { Content, default: load, file, frontmatter } = post
+      const { html } = (await load()).metadata
+      const dateTime = DateTime.fromISO(frontmatter.date, { setZone: true })
+      const isOld = DateTime.now().diff(dateTime, 'years').toObject().years >= 10
+      const slug = file.split('/').pop().split('.').shift().slice('YYYY-MM-DD-'.length)
 
-        return { ...frontmatter, Content, dateTime, isOld, slug }
-      }),
-    )
-  ).sort((a, b) => b.dateTime - a.dateTime)
+      return { ...frontmatter, Content, dateTime, html, isOld, slug }
+    })))
+    .filter(({ draft }) => !draft)
+    .sort((a, b) => b.dateTime.valueOf() - a.dateTime.valueOf())
 }
