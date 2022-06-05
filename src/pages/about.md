@@ -7,4 +7,4 @@ I'm Rafael Bardini, a Frontend Tech Lead in the Amsterdam area, Netherlands, wit
 
 I'm the creator and maintainer of [Carteiro](https://carteiro.app/), a popular and highly-rated Android package tracking app in Brazil, as well as several [open-source projects](https://github.com/rbardini).
 
-You can find more about my work and how to contact me on [my résumé](https://resume.rbardini.com/).
+You can find more about my work and how to contact me on [my résumé](https://rbardini.com/resume).
