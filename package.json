@@ -36,7 +36,7 @@
     "json": "11.0.0",
     "jsonresume-theme-even": "0.17.0",
     "lint-staged": "13.0.3",
-    "luxon": "3.0.1",
+    "luxon": "3.2.1",
     "markdownlint-cli": "0.31.1",
     "matter-now": "3.0.0"
   }
