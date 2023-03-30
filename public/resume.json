@@ -1,7 +1,7 @@
 {
   "meta": {
     "canonical": "https://rbardini.com/resume.json",
-    "lastModified": "2022-05-26T23:10:22.241Z"
+    "lastModified": "2023-03-30T23:19:20.005Z"
   },
   "basics": {
     "name": "Rafael Bardini",
@@ -194,7 +194,7 @@
       "name": "Carteiro",
       "description": "A beautifully designed, free Android package tracking app for the Brazilian postal service.",
       "highlights": [
-        "[Available on Google Play](https://play.google.com/store/apps/details?id=com.rbardini.carteiro) with 600,000+ installs and 4.5 ★ rating.",
+        "[Available on Google Play](https://play.google.com/store/apps/details?id=com.rbardini.carteiro) with 675K+ installs and 4.5 ★ rating.",
         "[Embedded into LG smartphones](https://www.jusbrasil.com.br/diarios/79871944/dou-secao-1-11-11-2014-pg-51) following a government incentive program for national mobile applications."
       ],
       "keywords": [
@@ -206,6 +206,7 @@
         "Shipping"
       ],
       "startDate": "2012-04-14",
+      "endDate": "2022-11-04",
       "url": "https://carteiro.app",
       "roles": [
         "Creator",
