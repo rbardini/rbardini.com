@@ -1,7 +1,7 @@
 {
   "meta": {
     "canonical": "https://rbardini.com/resume.json",
-    "lastModified": "2023-03-30T23:19:20.005Z"
+    "lastModified": "2023-03-30T23:24:48.372Z"
   },
   "basics": {
     "name": "Rafael Bardini",
@@ -216,6 +216,11 @@
     }
   ],
   "awards": [
+    {
+      "title": "Snoosweek Spring 2023 Flux Capacitor Award",
+      "date": "2023-03-09",
+      "awarder": "Reddit"
+    },
     {
       "title": "Daitan Recognition Award",
       "date": "2015-11-29",
