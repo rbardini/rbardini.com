@@ -1,7 +1,7 @@
 {
   "meta": {
     "canonical": "https://rbardini.com/resume.json",
-    "lastModified": "2023-03-30T23:24:48.372Z"
+    "lastModified": "2023-03-30T23:27:57.642Z"
   },
   "basics": {
     "name": "Rafael Bardini",
@@ -25,11 +25,6 @@
         "network": "LinkedIn",
         "username": "rbardini",
         "url": "https://www.linkedin.com/in/rbardini"
-      },
-      {
-        "network": "HackerRank",
-        "username": "rbardini",
-        "url": "https://www.hackerrank.com/rbardini"
       }
     ]
   },
