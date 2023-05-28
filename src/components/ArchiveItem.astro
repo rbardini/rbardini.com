@@ -2,19 +2,20 @@
 import type { Post } from '../posts'
 
 export interface Props {
+  dateFormat?: string
   post: Post
 }
 
-const { post } = Astro.props as Props
+const { dateFormat = 'LLL d', post } = Astro.props as Props
 ---
 
 <li class="archive-item">
-  <time class="date" datetime={post.date}>{post.dateTime.toFormat('LLL d')}</time>
+  <time class="date" datetime={post.date}>{post.dateTime.toFormat(dateFormat)}</time>
   <a href={post.slug}>{post.title}</a>
 </li>
 
 <style>
   .archive-item {display: table; margin-bottom: 0.4em; table-layout: fixed}
-  .archive-item time {display: table-cell; padding-right: 0.8em; text-align: right; width: 5em}
+  .archive-item time {display: table-cell; padding-right: 0.8em; text-align: right; width: 6em}
   .archive-item a {display: table-cell; text-decoration: none}
 </style>
