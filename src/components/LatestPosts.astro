@@ -1,0 +1,22 @@
+---
+import type { Post } from '../posts'
+import ArchiveCTA from './ArchiveCTA.astro'
+import ArchiveItem from './ArchiveItem.astro'
+
+export interface Props {
+  offset?: number
+  posts: Post[]
+  size?: number
+}
+
+const { offset = 1, posts, size = 5 } = Astro.props as Props
+const latestPosts = posts.slice(offset, offset + size)
+---
+
+<aside>
+  <h1>Recent posts</h1>
+  <ul class="unstyled-list">
+    {latestPosts.map(p => <ArchiveItem dateFormat="LLL yyyy" post={p} />)}
+  </ul>
+  <ArchiveCTA />
+</aside>

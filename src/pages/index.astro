@@ -1,5 +1,5 @@
 ---
-import ArchiveCTA from '../components/ArchiveCTA.astro'
+import LatestPosts from '../components/LatestPosts.astro'
 import Post from '../components/Post.astro'
 import Base from '../layouts/Base.astro'
 import { fetchPosts } from '../posts'
@@ -8,6 +8,6 @@ const posts = await fetchPosts(Astro.glob('../posts/*.md'))
 ---
 
 <Base>
-  {posts.slice(0, 5).map((p) => <Post post={p} />)}
-  <ArchiveCTA />
+  <Post post={posts[0]} />
+  <LatestPosts {posts} />
 </Base>
