@@ -64,10 +64,9 @@ blockquote cite:before {content: " — "}
 figure {margin: 1em -3em; text-align: center}
 .video-container {box-shadow: 0 1em 4em rgba(0, 0, 0, 0.4); text-align: inherit}
 
-#content {font-size: 1.6em; margin: 0 auto; max-width: 40em; padding: 1em}
-main {border-bottom: 2px solid var(--borderColor); padding-bottom: 2em}
-article:not(:last-of-type):after {content: "* * *"; color: var(--borderColor); display: block; margin: 4em 0; text-align: center}
-header[role="banner"] {text-align: center; margin-bottom: 1em}
+#content {font-size: 1.6em; margin: 0 auto; max-width: 40em; padding: 2em 1em}
+main {border-bottom: 2px solid var(--borderColor); padding-bottom: 4em}
+header[role="banner"] {text-align: center; margin-bottom: 2em}
 header h1 {margin: 0}
 header h1 a {font-weight: inherit}
 .link header h1 {font-size: 1.953em}
@@ -78,7 +77,7 @@ header h1 a {font-weight: inherit}
 .meta, .date, .footnotes {text-align: inherit}
 .footnotes {border-top: 2px solid var(--borderColor)}
 .disclaimer {background: var(--borderColor); font-style: italic; margin: 1em -1em; padding: 1em}
-.unstyled-list {list-style: none}
+.unstyled-list {list-style: none; padding: 0}
 .sr-only {border: 0; clip: rect(0, 0, 0, 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; white-space: nowrap; width: 1px}
 .turbolinks-progress-bar {background: var(--logoColor)}
 

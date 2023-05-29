@@ -9,14 +9,20 @@ export interface Props {
   size?: number
 }
 
-const { offset = 1, posts, size = 5 } = Astro.props as Props
+const { offset = 0, posts, size = 5 } = Astro.props as Props
 const latestPosts = posts.slice(offset, offset + size)
 ---
 
 <aside>
-  <h1>Recent posts</h1>
+  <header>
+    <h1>Latest posts</h1>
+  </header>
   <ul class="unstyled-list">
     {latestPosts.map(p => <ArchiveItem dateFormat="LLL yyyy" post={p} />)}
   </ul>
   <ArchiveCTA />
 </aside>
+
+<style>
+  aside:before {content: "* * *"; color: var(--borderColor); display: block; margin: 2em 0; text-align: center}
+</style>
