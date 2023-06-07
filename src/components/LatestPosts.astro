@@ -1,5 +1,5 @@
 ---
-import type { Post } from '../posts'
+import type { Post } from '../content/config'
 import ArchiveCTA from './ArchiveCTA.astro'
 import ArchiveItem from './ArchiveItem.astro'
 
@@ -9,7 +9,7 @@ export interface Props {
   size?: number
 }
 
-const { offset = 0, posts, size = 5 } = Astro.props as Props
+const { offset = 0, posts, size = 5 } = Astro.props
 const latestPosts = posts.slice(offset, offset + size)
 ---
 

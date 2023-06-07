@@ -2,9 +2,9 @@
 import LatestPosts from '../components/LatestPosts.astro'
 import Page from '../components/Page.astro'
 import Base from '../layouts/Base.astro'
-import { fetchPosts } from '../posts'
+import { getPosts } from '../content/config'
 
-const posts = await fetchPosts(Astro.glob('../posts/*.md'))
+const posts = await getPosts()
 ---
 
 <Base>

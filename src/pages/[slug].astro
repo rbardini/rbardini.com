@@ -1,27 +1,11 @@
 ---
+import type { InferGetStaticPropsType } from 'astro'
 import Post from '../components/Post.astro'
 import Base from '../layouts/Base.astro'
-import pkg from '../../package.json'
-import type { Post as PostType } from '../posts'
-import { fetchPosts } from '../posts'
+import { getPosts } from '../content/config'
 
-export interface Props {
-  post: PostType
-}
-
-export async function getStaticPaths({ rss }) {
-  const posts = await fetchPosts(Astro.glob('../posts/*.md'))
-
-  rss({
-    title: pkg.name,
-    description: pkg.description,
-    items: posts.slice(0, 20).map(post => ({
-      title: [post.title, post.link && '→'].filter(Boolean).join(' '),
-      description: [post.html, post.link && `<p><a href="${new URL(post.slug, Astro.site)}" rel="bookmark">∞ Permalink</a></p>`].filter(Boolean).join('\n'),
-      link: post.link ?? post.slug,
-      pubDate: post.date,
-    }))
-  })
+export async function getStaticPaths() {
+  const posts = await getPosts()
 
   return posts.map(post => ({
     params: { slug: post.slug },
@@ -29,8 +13,10 @@ export async function getStaticPaths({ rss }) {
   }))
 }
 
-const { post } = Astro.props as Props
-const { title } = post
+export type Props = InferGetStaticPropsType<typeof getStaticPaths>
+
+const { post } = Astro.props
+const { title } = post.data
 ---
 
 <Base {title}>

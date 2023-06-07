@@ -1,14 +1,14 @@
 ---
-import type { Post } from '../posts'
+import type { Post } from '../content/config'
 import ArchiveItem from './ArchiveItem.astro'
 
 export interface Props {
   posts: Post[]
 }
 
-const { posts } = Astro.props as Props
+const { posts } = Astro.props
 const postsByYear = posts
-  .reduce<Record<number, any[]>>((acc, post) => ((acc[new Date(post.date).getFullYear()] ??= []).push(post), acc), {})
+  .reduce<Record<number, any[]>>((acc, post) => ((acc[new Date(post.data.date).getFullYear()] ??= []).push(post), acc), {})
 ---
 
 {Object.entries(postsByYear)

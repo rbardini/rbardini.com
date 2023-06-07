@@ -1,21 +1,22 @@
 ---
-import type { Post } from '../posts'
+import type { Post } from '../content/config'
 
 export interface Props {
   post: Post
 }
 
-const { post } = Astro.props as Props
+const { post } = Astro.props
+const { Content } = await post.render()
 ---
 
-<article class:list={["post", {link: post.link}]} lang={post.lang}>
+<article class:list={["post", {link: post.data.link}]} lang={post.data.lang}>
   <header>
     <div class="meta">
       <a href={post.slug} rel="bookmark" title="Permalink">
-        <time datetime={post.date}>{post.dateTime.toFormat('LLL d, yyyy')}</time>
+        <time datetime={post.data.date}>{post.dateTime.toFormat('LLL d, yyyy')}</time>
       </a>
     </div>
-    <h1><a href={post.link || post.slug} rel={post.link && 'external'}>{post.title}</a></h1>
+    <h1><a href={post.data.link || post.slug} rel={post.data.link && 'external'}>{post.data.title}</a></h1>
   </header>
   <div class="entry">
     {post.isOld && (
@@ -23,6 +24,6 @@ const { post } = Astro.props as Props
         <strong>Note:</strong> This is an old post. The opinions and views expressed here may not reflect the author's current thinking.
       </div>
     )}
-    <post.Content />
+    <Content />
   </div>
 </article>

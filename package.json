@@ -8,7 +8,7 @@
     "blog",
     "astro"
   ],
-  "homepage": "https://rbardini.com",
+  "homepage": "https://rbardini.com/",
   "bugs": {
     "url": "https://github.com/rbardini/rbardini.com/issues"
   },
@@ -20,7 +20,7 @@
   "author": "Rafael Bardini",
   "scripts": {
     "build": "astro build",
-    "check": "astro check",
+    "check": "astro check && tsc --noEmit",
     "dev": "astro dev",
     "lint": "markdownlint . --ignore-path .gitignore",
     "prepare": "husky install",
@@ -28,16 +28,16 @@
     "start": "astro dev"
   },
   "devDependencies": {
-    "@astrojs/preact": "0.5.1",
-    "@astrojs/sitemap": "0.2.6",
-    "@types/luxon": "2.3.2",
-    "astro": "0.26.1",
-    "husky": "8.0.1",
+    "@astrojs/rss": "2.4.3",
+    "@astrojs/sitemap": "1.3.3",
+    "@types/luxon": "3.3.0",
+    "astro": "2.6.1",
+    "husky": "8.0.3",
     "json": "11.0.0",
-    "jsonresume-theme-even": "0.17.0",
-    "lint-staged": "13.0.3",
-    "luxon": "3.0.1",
-    "markdownlint-cli": "0.31.1",
+    "jsonresume-theme-even": "0.18.1",
+    "lint-staged": "13.2.2",
+    "luxon": "3.3.0",
+    "markdownlint-cli": "0.34.0",
     "matter-now": "3.0.0"
   }
 }
