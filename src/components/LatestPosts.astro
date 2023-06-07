@@ -15,7 +15,7 @@ const latestPosts = posts.slice(offset, offset + size)
 
 <aside>
   <header>
-    <h1>Latest posts</h1>
+    <h2>Latest posts</h2>
   </header>
   <ul class="unstyled-list">
     {latestPosts.map(p => <ArchiveItem dateFormat="LLL yyyy" post={p} />)}
