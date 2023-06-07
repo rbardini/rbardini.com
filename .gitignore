@@ -1,6 +1,9 @@
 # astro
 .astro
 
+# netlify
+.netlify
+
 # build output
 dist
 
