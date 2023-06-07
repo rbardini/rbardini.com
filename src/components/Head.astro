@@ -1,6 +1,5 @@
 ---
 import { name, author } from '../../package.json'
-import Analytics from './Analytics.astro'
 import '../styles/main.css'
 
 export interface Props {
@@ -8,7 +7,6 @@ export interface Props {
 }
 
 const { title } = Astro.props
-const trackingId = import.meta.env.PUBLIC_TRACKING_ID
 ---
 
 <meta charset="utf-8" />
@@ -22,4 +20,3 @@ const trackingId = import.meta.env.PUBLIC_TRACKING_ID
 <link rel="stylesheet" href="https://unpkg.com/lite-youtube-embed@0.2.0/src/lite-yt-embed.css" />
 <script src="https://unpkg.com/lite-youtube-embed@0.2.0/src/lite-yt-embed.js" async></script>
 <script src="https://unpkg.com/turbolinks@5.2.0/dist/turbolinks.js" defer></script>
-{trackingId && <Analytics {trackingId} />}
