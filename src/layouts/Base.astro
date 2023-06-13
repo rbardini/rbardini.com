@@ -1,7 +1,6 @@
 ---
 import Footer from '../components/Footer.astro'
 import Head from '../components/Head.astro'
-import Header from '../components/Header.astro'
 
 export interface Props {
   title?: string
@@ -10,17 +9,16 @@ export interface Props {
 const { title } = Astro.props
 ---
 
-<html lang='en'>
+<html lang="en">
   <head>
     <Head {title} />
   </head>
   <body>
-  <div id="content">
-    <Header />
-    <main>
-      <slot />
-    </main>
-    <Footer />
-  </div>
+    <div id="content">
+      <main>
+        <slot />
+      </main>
+      <Footer />
+    </div>
   </body>
 </html>

@@ -1,11 +1,20 @@
+---
+import Logo from './Logo.astro'
+---
+
 <footer role="contentinfo">
-  <p>
-    Made with <span class="❤">❤</span> by Rafael Bardini
-    <br />
-    <a href="https://github.com/rbardini/rbardini.com">Source</a> · <a href="/archive">Archive</a> · <a href="/rss.xml">RSS</a>
-  </p>
+  <a href="/" rel="home">
+    <Logo />
+  </a>
+  <ul class="unstyled-list">
+    <li><a href="https://github.com/rbardini/rbardini.com">Source</a></li>
+    <li><a href="/archive">Archive</a></li>
+    <li><a href="/rss.xml">RSS</a></li>
+  </ul>
 </footer>
 
 <style>
+  footer {display: flex; justify-content: space-between}
+  ul {display: flex; gap: 1em}
   .❤ {color: var(--heartColor)}
 </style>
