@@ -2,11 +2,13 @@
 import type { Post } from '../content/config'
 
 export interface Props {
+  headerOnly?: boolean
   post: Post
 }
 
-const { post } = Astro.props
+const { headerOnly, post } = Astro.props
 const { Content } = await post.render()
+const TitleTag = headerOnly ? 'h3' : 'h1'
 ---
 
 <article class:list={["post", {link: post.data.link}]} lang={post.data.lang}>
@@ -16,14 +18,16 @@ const { Content } = await post.render()
         <time datetime={post.data.date}>{post.dateTime.toFormat('LLL d, yyyy')}</time>
       </a>
     </div>
-    <h1><a href={post.data.link || `/${post.slug}`} rel={post.data.link && 'external'}>{post.data.title}</a></h1>
+    <TitleTag><a href={post.data.link || `/${post.slug}`} rel={post.data.link && 'external'}>{post.data.title}</a></TitleTag>
   </header>
-  <div class="entry">
-    {post.isOld && (
-      <div class="disclaimer">
-        <strong>Note:</strong> This is an old post. The opinions and views expressed here may not reflect the author's current thinking.
-      </div>
-    )}
-    <Content />
-  </div>
+  {!headerOnly && (
+    <div class="entry">
+      {post.isOld && (
+        <div class="disclaimer">
+          <strong>Note:</strong> This is an old post. The opinions and views expressed here may not reflect the author's current thinking.
+        </div>
+      )}
+      <Content />
+    </div>
+  )}
 </article>

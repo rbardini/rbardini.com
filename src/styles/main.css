@@ -30,10 +30,10 @@ html, input, textarea {background: var(--bgColor); color: var(--bodyColor); font
 body {font-size: clamp(100%, 2.5vw, 150%); margin: 0 auto; max-width: 40em; padding-inline: 1em}
 ul, ol {padding: 0}
 sub, sup {font-size: 75%; line-height: 0}
-input, textarea {border: 0; border-bottom: 1px solid var(--linkColor); font-size: 1em}
+input, textarea {border: 0; border-block-end: 1px solid var(--linkColor); font-size: 1em}
 fieldset {border: 0; margin: 0; padding: 0}
 pre, code {font-family: var(--codeFontStack); hyphens: none; overflow-wrap: break-word; text-align: initial; width: 100%}
-pre {margin-left: -1em; margin-right: -1em; width: auto; white-space: pre-wrap}
+pre {margin-inline: -1em; width: auto; white-space: pre-wrap}
 pre > code {display: block; padding: 1em}
 :not(pre) > code {background: var(--borderColor); padding: .1em .2em}
 iframe {border: 0}
@@ -43,7 +43,7 @@ a:hover, a:active {color: var(--hoverColor); outline: 0}
 p {margin: 1em 0}
 p img {display: block; margin: 0 auto}
 
-hr {border: 0; border-top: 2px solid var(--borderColor); height: 0}
+hr {border: 0; border-block-start: 2px solid var(--borderColor); height: 0}
 
 h1, h2, h3, h4, h5, h6 {line-height: 1.2; margin: 1.6em 0 0.4em}
 h1 {font-size: 2.441em}
@@ -53,33 +53,32 @@ h4 {font-size: 1.25em}
 h5 {font-size: 1em}
 h6 {font-size: 0.8em}
 
-blockquote {border-left: 4px solid var(--borderColor); margin: 1em 0 1em -1em; padding-left: calc(1em - 4px)}
+blockquote {border-inline-start: 4px solid var(--borderColor); margin: 1em 0 1em -1em; padding-inline-start: calc(1em - 4px)}
 blockquote p {font-style: italic}
 blockquote cite {color: var(--infoColor)}
 blockquote cite:before {content: " — "}
 .pullquote {border: 0; margin: 1.2em 2.4em}
 .pullquote:before {content: "“"; float: left; font-size: 3.6em; line-height: 1; margin: -0.2em 0 0 -0.4em}
 .pullquote p {font-size: 1.2em; text-align: center}
-.pullquote footer {text-align: right}
+.pullquote footer {text-align: end}
 
 figure {margin: 1em -3em; text-align: center}
 .video-container {box-shadow: 0 1em 4em rgba(0, 0, 0, 0.4); text-align: inherit}
 
-main {border-bottom: 2px solid var(--borderColor); padding-block: 4em}
-header h1 {margin: 0}
-header h1 a {font-weight: inherit}
-.link header h1 {font-size: 1.953em}
+main {border-block-end: 2px solid var(--borderColor); padding-block: 4em}
+header :is(h1, h2, h3, h4, h5, h6) {margin-block-start: 0}
+header :is(h1, h2, h3, h4, h5, h6) a {font-weight: inherit}
 .link header h1:after {color: var(--infoColor); content:"\00A0→"}
 .meta a {color: var(--infoColor); font-weight: inherit}
 .meta a:hover {text-decoration: underline}
 .meta, .date, .footnotes, figcaption, nav, footer[role="contentinfo"] {color: var(--infoColor); font-size: 0.8em; margin: 0; text-align: center}
 .meta, .date, .footnotes {text-align: inherit}
-.footnotes {border-top: 2px solid var(--borderColor)}
+.footnotes {border-block-start: 2px solid var(--borderColor)}
 .disclaimer {background: var(--borderColor); font-style: italic; margin: 1em -1em; padding: 1em}
 .unstyled-list {list-style: none}
 .sr-only {border: 0; clip: rect(0, 0, 0, 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; white-space: nowrap; width: 1px}
 
 @media screen and (max-width: 70em) {
-  figure {margin-left: -1em; margin-right: -1em}
+  figure {margin-inline: -1em}
   .video-container {box-shadow: 0 0.5em 2em rgba(0, 0, 0, 0.2)}
 }
