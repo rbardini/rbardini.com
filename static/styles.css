@@ -1,0 +1,105 @@
+:root {
+  color-scheme: light dark;
+  --base00: #f7f7f7;
+  --base01: #e3e3e3;
+  --base02: #b9b9b9;
+  --base03: #ababab;
+  --base04: #525252;
+  --base05: #464646;
+  --base06: #252525;
+  --base07: #101010;
+  --base08: #7c7c7c;
+  --base09: #999999;
+  --base0A: #a0a0a0;
+  --base0B: #8e8e8e;
+  --base0C: #868686;
+  --base0D: #686868;
+  --base0E: #747474;
+  --base0F: #5e5e5e;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --base00: #101010;
+    --base01: #252525;
+    --base02: #464646;
+    --base03: #525252;
+    --base04: #ababab;
+    --base05: #b9b9b9;
+    --base06: #e3e3e3;
+    --base07: #f7f7f7;
+    --base08: #7c7c7c;
+    --base09: #999999;
+    --base0A: #a0a0a0;
+    --base0B: #8e8e8e;
+    --base0C: #868686;
+    --base0D: #686868;
+    --base0E: #747474;
+    --base0F: #5e5e5e;
+  }
+}
+
+html { background: var(--base01); color: var(--base07); font: 120% / 1.8 ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; text-underline-position: under }
+body { margin: 1ch }
+body > * { margin-inline: auto; max-width: 60ch }
+iframe { border: 0 }
+img { max-width: 100% }
+a { color: inherit; text-decoration-color: var(--base05); transition: text-decoration-color 0.2s }
+a:hover, a:focus { text-decoration-color: inherit }
+:is(header, nav) a:not(:hover, :focus) { text-decoration: none }
+figcaption, time { font-size: smaller }
+article { margin-block: 4rem }
+ul, ol { padding: 0 }
+ul { list-style-type: "- " }
+blockquote { font-style: italic }
+pre, code { font-family: inherit }
+
+h1, h2, h3, h4, h5, h6 { line-height: 1.5; position: relative }
+h1 { margin-block-start: 0 }
+h1::before { content: "#"; position: absolute; left: -2ch }
+h2::before { content: "##"; position: absolute; left: -3ch }
+h3::before { content: "###"; position: absolute; left: -4ch }
+h4::before { content: "####"; position: absolute; left: -5ch }
+h5::before { content: "#####"; position: absolute; left: -6ch }
+h6::before { content: "######"; position: absolute; left: -7ch }
+
+time, nav, pre, code, em, strong, blockquote, figcaption, ::marker, [rel=bookmark], [rel="external"]::after, .disclaimer, .pullquote, .footnotes { color: var(--base05) }
+nav { text-transform: lowercase }
+nav ul { display: flex; flex-wrap: wrap; column-gap: 2ch }
+nav li { display: inline }
+nav li a::before { content: "#" }
+pre::before, pre::after { content: "```"; display: block }
+:not(pre) > code::before, :not(pre) > code::after { content: "`" }
+em::before, em::after { content: "_" }
+strong::before, strong::after { content: "*" }
+blockquote { margin-inline: 0 }
+blockquote p { position: relative }
+blockquote p:not(:has(cite))::before { content: "> "; position: absolute; left: -2ch }
+blockquote cite::before {content: " — "}
+figure { margin-inline: -1ch; text-align: center }
+[rel="external"]::after { content:"\00A0→" }
+[data-footnote-ref]::before { content: "[" }
+[data-footnote-ref]::after { content: "]" }
+.disclaimer { font-size: smaller; font-style: italic }
+.pullquote { font-size: larger; position: relative }
+.pullquote::before { content: "“"; font-size: xx-large; line-height: 1; position: absolute; left: -1.5ch }
+.footnotes { font-size: smaller; border-block-start: 2px dashed; margin-block-start: 3rem }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0 }
+
+/* Adapted from https://github.com/chawyehsu/base16-prism */
+pre { background: var(--base00); line-height: 1.5; margin-inline: -1ch; padding: 1em; overflow-wrap: break-word; white-space: pre-wrap }
+.token.comment, .token.prolog, .token.cdata { color: var(--base03) }
+.token.entity, .language-css .token.string, .style .token.string { background: var(--base01); color: var(--base04) }
+.token.punctuation { color: var(--base05) }
+.token.variable, .token.tag, .token.operator, .token.deleted { color: var(--base08) }
+.token.property, .token.number, .token.boolean, .token.constant, .token.url { color: var(--base09) }
+.token.class-name, .token.bold { color: var(--base0A) }
+.token.string, .token.symbol, .token.attr-value, .token.inserted, .token.atrule { color:var(--base0B) }
+.token.regex, .token.important { color: var(--base0C) }
+.token.function, .token.attr-name { color: var(--base0D) }
+.token.keyword, .token.selector, .token.italic, .token.char, .token.builtin { color: var(--base0E) }
+.token.doctype { color: var(--base0F) }
+.token.important, .token.bold { font-weight: bold }
+.token.italic { font-style: italic }
+.token.entity { cursor: help }
+.namespace { opacity: .7 }

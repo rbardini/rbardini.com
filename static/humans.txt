@@ -1,0 +1,18 @@
+/* OWNER */
+  Name:    Rafael Bardini
+  Contact: rafael [at] rbardini.com
+  Twitter: @rbardini
+  From:    Amsterdam, Netherlands
+
+/* SITE */
+  Language:   English / Português
+  Standards:  HTML, CSS
+  Components: Lite YouTube Embed
+  Software:   Deno, Fresh, VS Code
+       __
+      /\ \
+    __\ \ \___
+   / __\ \  __`\
+  /\ \/ \ \ \_\ \
+  \ \_\  \ \____/
+   \/_/   \/___/

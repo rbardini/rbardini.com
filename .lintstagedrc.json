@@ -1,5 +1,0 @@
-{
-  "*.md": "markdownlint",
-  "resume.json": "json --in-place -e 'this.meta.lastModified=new Date().toISOString()' -f",
-  "src/posts/*.md": "matter-now"
-}

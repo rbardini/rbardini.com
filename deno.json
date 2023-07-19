@@ -1,0 +1,37 @@
+{
+  "tasks": {
+    "start": "deno run -A --watch=static/,routes/ dev.ts",
+    "build": "deno run -A dev.ts build",
+    "preview": "deno run -A main.ts"
+  },
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact"
+  },
+  "exclude": ["**/_fresh/*"],
+  "fmt": {
+    "semiColons": false,
+    "proseWrap": "preserve"
+  },
+  "imports": {
+    "/": "./",
+    "./": "./",
+    "$feed": "https://esm.sh/feed@4.2.2",
+    "$fresh/": "https://deno.land/x/fresh@1.6.8/",
+    "$html/": "https://deno.land/x/html@v1.2.0/",
+    "$jsonresume-theme-even": "https://esm.sh/jsonresume-theme-even@0.18.1",
+    "$micromark": "https://esm.sh/micromark@3.1.0",
+    "$micromark-extension-gfm": "https://esm.sh/micromark-extension-gfm@2.0.1",
+    "$std/": "https://deno.land/std@0.185.0/",
+    "preact": "https://esm.sh/preact@10.19.6",
+    "preact/": "https://esm.sh/preact@10.19.6/",
+    "preact-render-to-string": "https://esm.sh/*preact-render-to-string@6.2.0",
+    "@preact/signals": "https://esm.sh/*@preact/signals@1.2.2",
+    "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.5.1"
+  },
+  "lint": {
+    "rules": {
+      "tags": ["fresh", "recommended"]
+    }
+  }
+}

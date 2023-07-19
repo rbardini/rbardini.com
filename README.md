@@ -4,16 +4,21 @@
 [![Dependencies status](https://img.shields.io/librariesio/github/rbardini/rbardini.com)](https://libraries.io/github/rbardini/rbardini.com)
 [![JavaScript Standard Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
-Rafael Bardini's blog, powered by [Astro](https://astro.build/).
+Rafael Bardini's website, powered by [Fresh](https://fresh.deno.dev/).
 
 ## Usage
 
-| Command           | Action                                       |
-| ----------------- | -------------------------------------------- |
-| `npm install`     | Installs dependencies                        |
-| `npm run dev`     | Starts local dev server at `localhost:3000`  |
-| `npm run build`   | Build your production site to `./dist/`      |
-| `npm run preview` | Preview your build locally, before deploying |
+```console
+deno task start
+```
+
+## To-Do
+
+- [ ] Fix _Recent posts_ heading levels
+- [ ] Define heading sizes
+- [ ] Create `Layout` component
+- [ ] Add inline footnotes
+      https://github.com/goblindegook/littlefoot
 
 ## License
 
