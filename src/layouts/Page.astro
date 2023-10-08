@@ -1,5 +1,5 @@
 ---
-import Page from '../components/Page.astro'
+import PageComponent from '../components/Page.astro'
 import Base from './Base.astro'
 
 export interface Props {
@@ -12,7 +12,7 @@ const { content: { title } } = Astro.props
 ---
 
 <Base {title}>
-  <Page {title}>
+  <PageComponent {title}>
     <slot />
-  </Page>
+  </PageComponent>
 </Base>
