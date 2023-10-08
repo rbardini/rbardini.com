@@ -8,6 +8,7 @@ const { title } = Astro.props
 
 <article class="page">
   <header>
+    <slot name="header" />
     <h1>{title}</h1>
   </header>
   <div class="entry">
