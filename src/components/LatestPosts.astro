@@ -1,7 +1,6 @@
 ---
 import type { Post as PostType } from '../content/config'
 import Post from './Post.astro'
-import ArchiveCTA from './ArchiveCTA.astro'
 import ArchiveItem from './ArchiveItem.astro'
 
 export interface Props {
@@ -21,8 +20,11 @@ const [latestPost, ...restPosts] = posts.slice(offset, offset + size)
   <Post post={latestPost!} headerOnly />
   <ul class="unstyled-list">
     {restPosts.map(p => <ArchiveItem dateFormat="LLL yyyy" post={p} />)}
+    <li class="archive-item">
+      <span class="meta spacer"></span>
+      <a href="/archive">All posts →</a>
+    </li>
   </ul>
-  <ArchiveCTA />
 </aside>
 
 <style>

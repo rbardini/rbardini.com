@@ -78,6 +78,10 @@ header :is(h1, h2, h3, h4, h5, h6) a {font-weight: inherit}
 .unstyled-list {list-style: none}
 .sr-only {border: 0; clip: rect(0, 0, 0, 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; white-space: nowrap; width: 1px}
 
+.archive-item {display: table; margin-block-end: 0.4em; table-layout: fixed}
+.archive-item :first-child {display: table-cell; padding-inline-end: 0.8em; text-align: end; width: 6em}
+.archive-item :last-child {display: table-cell; text-decoration: none}
+
 @media screen and (max-width: 70em) {
   figure {margin-inline: -1em}
   .video-container {box-shadow: 0 0.5em 2em rgba(0, 0, 0, 0.2)}

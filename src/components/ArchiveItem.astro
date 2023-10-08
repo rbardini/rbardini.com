@@ -13,9 +13,3 @@ const { dateFormat = 'LLL d', post } = Astro.props
   <time class="date" datetime={post.data.date}>{post.dateTime.toFormat(dateFormat)}</time>
   <a href={`/${post.slug}`}>{post.data.title}</a>
 </li>
-
-<style>
-  .archive-item {display: table; margin-block-end: 0.4em; table-layout: fixed}
-  .archive-item time {display: table-cell; padding-inline-end: 0.8em; text-align: end; width: 6em}
-  .archive-item a {display: table-cell; text-decoration: none}
-</style>
