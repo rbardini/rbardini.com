@@ -78,7 +78,7 @@ const avatarSvg = await fs.readFile(url, 'utf-8')
 <Fragment set:html={avatarSvg} />
 
 <style is:global>
-  .avatar {clip-path:circle(50%); float:right; margin-top:-2em; shape-outside:circle(44% at 50% 53%); width:14em}
+  .avatar {float:right; margin-top:-2em; shape-outside:circle(44% at 50% 53%); width:14em}
   .avatar .body {transform-origin:50% 50%; transition:transform 0.2s}
   .avatar:hover .body {transform:scale(1.05)}
 </style>
