@@ -1,0 +1,84 @@
+---
+import fs from 'node:fs/promises'
+
+const path = import.meta.env.DEV ? '../../public/avatar.svg' : '../../avatar.svg'
+const url = new URL(path, import.meta.url)
+const avatarSvg = await fs.readFile(url, 'utf-8')
+---
+
+<script>
+  import { gsap } from 'gsap'
+
+  (() => {
+    if (window.matchMedia('(prefers-reduced-motion:reduce)').matches) return
+
+    const $avatar = document.querySelector('svg[aria-label="Avatar"]')!
+    const $neck = $avatar.querySelector('.neck')
+    const $head = $avatar.querySelector('.head')
+    const $innerFace = $avatar.querySelector('.inner-face')
+    const $sclera = $avatar.querySelectorAll('.sclera')
+    const $iris = $avatar.querySelectorAll('.iris')
+    const $hair = $avatar.querySelector('.hair')
+    const $ears = $avatar.querySelector('.ears')
+    const $eyebrows = $avatar.querySelector('.eyebrows')
+
+    let x: number, y: number
+    let prevX: number, prevY: number
+    let origX: number, origY: number
+    let mapX: ReturnType<typeof gsap.utils.mapRange>
+    let mapY: ReturnType<typeof gsap.utils.mapRange>
+
+    const onResize = () => {
+      const avatarRect = $avatar.getBoundingClientRect()
+      origX = avatarRect.x + avatarRect.width / 2
+      origY = avatarRect.y + avatarRect.height / 2
+
+      const axisX = Math.max(origX, window.innerWidth - origX)
+      const axisY = Math.max(origY, window.innerHeight - origY)
+
+      mapX = gsap.utils.pipe(
+        gsap.utils.clamp(-axisX, axisX),
+        gsap.utils.mapRange(-axisX, axisX, -1, 1),
+      )
+      mapY = gsap.utils.pipe(
+        gsap.utils.clamp(-axisY, axisY),
+        gsap.utils.mapRange(-axisY, axisY, -1, 1),
+      )
+    }
+    window.addEventListener('resize', onResize)
+    onResize()
+
+    const onPointerMove = (e: PointerEvent) => {
+      x = mapX(e.clientX - origX)
+      y = mapY(e.clientY - origY)
+    }
+    window.addEventListener('pointermove', onPointerMove)
+
+    gsap.timeline({ repeat: -1, repeatDelay: 5 })
+      .to($sclera, { duration: 0.01, opacity: 0 }, 0)
+      .to($sclera, { duration: 0.01, opacity: 1 }, 0.1)
+
+    gsap.ticker.add(() => {
+      if (x === prevX && y === prevY) return
+
+      gsap.to($neck, { xPercent: x * -1.5, yPercent: y * -5 })
+      gsap.to($head, { xPercent: x * 1.5, yPercent: y * 1.1, rotation: x * -2.5, transformOrigin: '50% 100%' })
+      gsap.to($innerFace, { xPercent: x * 2.5, yPercent: y * 2.5 })
+      gsap.to($iris, { xPercent: x * 25, yPercent: y * 25 })
+      gsap.to($hair, { xPercent: x * 0.5, yPercent: y * 0.5 })
+      gsap.to($ears, { yPercent: y * -15, xPercent: x * -0.8 })
+      gsap.to($eyebrows, { yPercent: y * 25 })
+
+      prevX = x
+      prevY = y
+    })
+  })()
+</script>
+
+<Fragment set:html={avatarSvg} />
+
+<style is:global>
+  .avatar {clip-path:circle(50%); float:right; margin-top:-2em; shape-outside:circle(44% at 50% 53%); width:14em}
+  .avatar .body {transform-origin:50% 50%; transition:transform 0.2s}
+  .avatar:hover .body {transform:scale(1.05)}
+</style>

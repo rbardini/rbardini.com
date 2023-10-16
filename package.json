@@ -33,6 +33,7 @@
     "@astrojs/sitemap": "3.0.1",
     "@types/luxon": "3.3.2",
     "astro": "3.2.3",
+    "gsap": "3.12.2",
     "husky": "8.0.3",
     "json": "11.0.0",
     "jsonresume-theme-even": "0.22.0",
