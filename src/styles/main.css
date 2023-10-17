@@ -21,8 +21,6 @@
     --borderColor:hsla(0, 0%, 100%, .1);
     --linkColor: hsl(0, 0%, 100%);
   }
-
-  img:not([src$=".svg"]) {filter: grayscale(50%)}
 }
 
 * {box-sizing: border-box}

@@ -2,6 +2,7 @@
 import Avatar from '../components/Avatar.astro'
 import LatestPosts from '../components/LatestPosts.astro'
 import Page from '../components/Page.astro'
+import Snoo from '../components/Snoo.astro'
 import Base from '../layouts/Base.astro'
 import { getPosts } from '../content/config'
 
@@ -13,8 +14,8 @@ const posts = await getPosts()
     <Avatar slot="header" />
     <p>I'm a web developer currently living in the Amsterdam area.</p>
     <p>
-      I work at <a href="https://www.redditinc.com/">Reddit</a> as a
-      Senior Frontend Engineer, helping empower redditors and build the
+      I work at <a href="https://www.redditinc.com/"><Snoo />Reddit</a> as
+      a Senior Frontend Engineer, helping empower redditors and build the
       future of online communities.
     </p>
     <p>
