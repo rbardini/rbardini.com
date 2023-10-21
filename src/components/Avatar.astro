@@ -62,7 +62,7 @@ const avatarSvg = await fs.readFile(url, 'utf-8')
       if (x === prevX && y === prevY) return
 
       gsap.to($neck, { xPercent: x * -1.5, yPercent: y * -5 })
-      gsap.to($head, { xPercent: x * 1.5, yPercent: y * 1.1, rotation: x * -2.5, transformOrigin: '50% 100%' })
+      gsap.to($head, { xPercent: x * 1.5, yPercent: y * 1.1, rotation: x * -4, transformOrigin: '50% 100%' })
       gsap.to($innerFace, { xPercent: x * 2.5, yPercent: y * 2.5 })
       gsap.to($iris, { xPercent: x * 25, yPercent: y * 25 })
       gsap.to($hair, { xPercent: x * 0.5, yPercent: y * 0.5 })
@@ -78,7 +78,8 @@ const avatarSvg = await fs.readFile(url, 'utf-8')
 <Fragment set:html={avatarSvg} />
 
 <style is:global>
-  .avatar {float:right; margin-top:-2em; shape-outside:circle(44% at 50% 53%); width:14em}
-  .avatar .body {transform-origin:50% 50%; transition:transform 0.2s}
-  .avatar:hover .body {transform:scale(1.05)}
+  .avatar {float:right; margin:-2em -1.2em 0 0; shape-outside:circle(41% at 50% 59%) border-box; width:14em}
+  .avatar :is(#porthole, .body) {transform-origin:50% 100%; transition:scale 0.4s ease-out}
+  .avatar:hover #porthole {scale:0.95}
+  .avatar:hover .body {scale:1.05}
 </style>
