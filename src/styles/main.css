@@ -25,14 +25,14 @@
 
 * {box-sizing: border-box}
 html, input, textarea {background: var(--bgColor); color: var(--bodyColor); font: 100%/1.5 var(--bodyFontStack)}
-body {font-size: clamp(100%, 2.5vw, 150%); margin: 0 auto; max-width: 40em; padding-inline: 1em}
+body {font-size: clamp(100%, 2.5vw, 150%); margin: 0 auto; max-width: 40em; padding-inline: 2em}
 ul, ol {padding: 0}
 sub, sup {font-size: 75%; line-height: 0}
 input, textarea {border: 0; border-block-end: 1px solid var(--linkColor); font-size: 1em}
 fieldset {border: 0; margin: 0; padding: 0}
 pre, code {font-family: var(--codeFontStack); hyphens: none; overflow-wrap: break-word; text-align: initial; width: 100%}
-pre {margin-inline: -1em; width: auto; white-space: pre-wrap}
-pre > code {display: block; padding: 1em}
+pre {margin-inline: -2em; width: auto; white-space: pre-wrap}
+pre > code {display: block; padding: 1em 2em}
 :not(pre) > code {background: var(--borderColor); padding: .1em .2em}
 iframe {border: 0}
 img {max-width: 100%}
@@ -72,7 +72,7 @@ header :is(h1, h2, h3, h4, h5, h6) a {font-weight: inherit}
 .meta, .date, .footnotes, figcaption, nav, footer[role="contentinfo"] {color: var(--infoColor); font-size: 0.8em; margin: 0; text-align: center}
 .meta, .date, .footnotes {text-align: inherit}
 .footnotes {border-block-start: 2px solid var(--borderColor)}
-.disclaimer {background: var(--borderColor); font-style: italic; margin: 1em -1em; padding: 1em}
+.disclaimer {background: var(--borderColor); font-style: italic; margin: 1em -2em; padding: 1em 2em}
 .unstyled-list {list-style: none}
 .sr-only {border: 0; clip: rect(0, 0, 0, 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; white-space: nowrap; width: 1px}
 
@@ -81,6 +81,6 @@ header :is(h1, h2, h3, h4, h5, h6) a {font-weight: inherit}
 .archive-item :last-child {display: table-cell; text-decoration: none}
 
 @media screen and (max-width: 70em) {
-  figure {margin-inline: -1em}
+  figure {margin-inline: -2em}
   .video-container {box-shadow: 0 0.5em 2em rgba(0, 0, 0, 0.2)}
 }
