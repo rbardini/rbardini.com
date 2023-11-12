@@ -1,6 +1,6 @@
 :root {
   color-scheme: light dark;
-  --bgColor: hsl(0, 0%, 100%);
+  --bgColor: hsl(0, 0%, 96%);
   --bodyColor: hsla(0, 0%, 0%, .8);
   --infoColor: hsla(0, 0%, 0%, .44);
   --borderColor: hsla(0, 0%, 0%, .1);
@@ -20,6 +20,11 @@
     --infoColor:hsla(0, 0%, 100%, .44);
     --borderColor:hsla(0, 0%, 100%, .1);
     --linkColor: hsl(0, 0%, 100%);
+  }
+
+  .astro-code, .astro-code span {
+    color: var(--shiki-dark) !important;
+    background-color: var(--shiki-dark-bg) !important;
   }
 }
 
