@@ -13,6 +13,7 @@ const avatarSvg = await fs.readFile(url, 'utf-8')
     if (window.matchMedia('(prefers-reduced-motion:reduce)').matches) return
 
     const $avatar = document.querySelector('svg[aria-label="Avatar"]')!
+    const $chest = $avatar.querySelector('.chest')
     const $neck = $avatar.querySelector('.neck')
     const $head = $avatar.querySelector('.head')
     const $innerFace = $avatar.querySelector('.inner-face')
@@ -61,6 +62,7 @@ const avatarSvg = await fs.readFile(url, 'utf-8')
     gsap.ticker.add(() => {
       if (x === prevX && y === prevY) return
 
+      gsap.to($chest, { rotation: -x, transformOrigin: '50% 100%' })
       gsap.to($neck, { xPercent: x * -1.5, yPercent: y * -5 })
       gsap.to($head, { xPercent: x * 1.5, yPercent: y * 1.1, rotation: x * -4, transformOrigin: '50% 100%' })
       gsap.to($innerFace, { xPercent: x * 2.5, yPercent: y * 2.5 })
