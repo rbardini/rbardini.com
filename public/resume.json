@@ -1,7 +1,7 @@
 {
   "meta": {
     "canonical": "https://rbardini.com/resume.json",
-    "lastModified": "2024-03-29T13:57:44.610Z"
+    "lastModified": "2024-03-29T14:04:18.235Z"
   },
   "basics": {
     "name": "Rafael Bardini",
@@ -9,7 +9,7 @@
     "image": "https://rbardini.com/avatar.png",
     "email": "rafael@rbardini.com",
     "url": "https://rbardini.com",
-    "summary": "I'm a frontend developer in the Amsterdam Area, with a bachelor's degree in Computer Science from the [University of São Paulo](https://usp.br). Creator of [Carteiro](https://carteiro.app), a popular and highly-rated Android package tracking app in Brazil, as well as several [open source projects](https://github.com/rbardini).",
+    "summary": "I'm a web developer currently based in the Amsterdam area. I work at [Reddit](https://www.redditinc.com/) as a Senior Frontend Engineer, helping empower redditors and build the future of online communities. I designed and built [Carteiro](https://carteiro.app/), once a popular and highly-rated package tracking app, as well as many other [open-source projects](https://github.com/rbardini).",
     "location": {
       "city": "Amsterdam Area",
       "countryCode": "NL",
