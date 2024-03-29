@@ -1,7 +1,7 @@
 {
   "meta": {
     "canonical": "https://rbardini.com/resume.json",
-    "lastModified": "2023-03-30T23:27:57.642Z"
+    "lastModified": "2024-03-29T13:54:59.826Z"
   },
   "basics": {
     "name": "Rafael Bardini",
@@ -136,6 +136,14 @@
       "startDate": "2008-03-14",
       "endDate": "2013-08-23",
       "gpa": "7.3/10"
+    },
+    {
+      "institution": "Escola Técnica Estadual de São Paulo",
+      "area": "Mechatronics",
+      "studyType": "Technical course.",
+      "url": "https://www.cps.sp.gov.br/etec/",
+      "startDate": "2006-02-06",
+      "endDate": "2007-07-07"
     }
   ],
   "projects": [
