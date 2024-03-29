@@ -1,7 +1,7 @@
 {
   "meta": {
     "canonical": "https://rbardini.com/resume.json",
-    "lastModified": "2024-03-29T14:04:18.235Z"
+    "lastModified": "2024-03-29T14:09:36.844Z"
   },
   "basics": {
     "name": "Rafael Bardini",
@@ -44,7 +44,7 @@
       "url": "https://www.degiro.com",
       "startDate": "2021-05-15",
       "endDate": "2022-02-28",
-      "description": "Online trading platform",
+      "description": "Electronic trading platform",
       "highlights": [
         "Develop and maintain the trading client platform, with focus on navigation and accessibility improvements.",
         "Create an internal browser devtools extension to ease testing and debugging.",
@@ -197,7 +197,7 @@
       "name": "Carteiro",
       "description": "A beautifully designed, free Android package tracking app for the Brazilian postal service.",
       "highlights": [
-        "[Available on Google Play](https://play.google.com/store/apps/details?id=com.rbardini.carteiro) with 675K+ installs and 4.5 ★ rating.",
+        "[Previously available on Google Play](https://play.google.com/store/apps/details?id=com.rbardini.carteiro) with 685K+ installs and 4.5 ★ rating.",
         "[Embedded into LG smartphones](https://www.jusbrasil.com.br/diarios/79871944/dou-secao-1-11-11-2014-pg-51) following a government incentive program for national mobile applications."
       ],
       "keywords": [
@@ -220,7 +220,7 @@
   ],
   "awards": [
     {
-      "title": "Snoosweek Spring 2023 Flux Capacitor Award",
+      "title": "Snoosweek Q1 2023 Flux Capacitor Award",
       "date": "2023-03-09",
       "awarder": "Reddit"
     },
