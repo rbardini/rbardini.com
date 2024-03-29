@@ -69,6 +69,7 @@ figure {margin: 1em -3em; text-align: center}
 .video-container {box-shadow: 0 1em 4em rgba(0, 0, 0, 0.4); text-align: inherit}
 
 main {border-block-end: 2px solid var(--borderColor); padding-block: 4em}
+h1, h2, h3, h4, h5, h6 {letter-spacing: -0.04em; text-wrap: balance}
 header :is(h1, h2, h3, h4, h5, h6) {margin-block-start: 0}
 header :is(h1, h2, h3, h4, h5, h6) a {font-weight: inherit}
 .link header h1:after {color: var(--infoColor); content:"\00A0→"}
