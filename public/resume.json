@@ -1,7 +1,7 @@
 {
   "meta": {
     "canonical": "https://rbardini.com/resume.json",
-    "lastModified": "2024-03-29T13:54:59.826Z"
+    "lastModified": "2024-03-29T13:57:44.610Z"
   },
   "basics": {
     "name": "Rafael Bardini",
@@ -253,35 +253,29 @@
   ],
   "skills": [
     {
-      "name": "Web development",
+      "name": "Software development",
       "keywords": [
         "HTML",
         "CSS",
         "JavaScript",
         "TypeScript",
+        "Web Components",
+        "Lit",
         "React",
-        "Redux",
-        "styled-components",
+        "Tailwind",
         "Next.js",
         "Astro",
-        "Babel",
-        "Webpack",
-        "ESLint",
+        "Vite",
         "Jest",
         "Storybook",
         "Node.js",
+        "Deno",
         "npm",
+        "Yarn",
+        "REST",
+        "GraphQL",
+        "SQL",
         "Git"
-      ]
-    },
-    {
-      "name": "Mobile development",
-      "keywords": [
-        "Android SDK",
-        "Java",
-        "Kotlin",
-        "Firebase",
-        "Supabase"
       ]
     }
   ],
