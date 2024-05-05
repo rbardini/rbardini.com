@@ -1,8 +1,7 @@
 ---
 import fs from 'node:fs/promises'
 
-const path = import.meta.env.DEV ? '../../public/avatar.svg' : '../../avatar.svg'
-const url = new URL(path, import.meta.url)
+const url = new URL('../../public/avatar.svg', import.meta.url)
 const avatarSvg = await fs.readFile(url, 'utf-8')
 ---
 
