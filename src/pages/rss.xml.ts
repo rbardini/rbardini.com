@@ -3,7 +3,7 @@ import type { APIContext } from 'astro'
 import pkg from '../../package.json'
 import { getPostsForRSS } from '../content/config'
 
-export function get(context: APIContext) {
+export function GET(context: APIContext) {
   const posts = getPostsForRSS().slice(0, 20)
 
   return rss({
