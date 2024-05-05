@@ -30,7 +30,7 @@
 
 * {box-sizing: border-box}
 html, input, textarea {background: var(--bgColor); color: var(--bodyColor); font: 100%/1.5 var(--bodyFontStack)}
-body {font-size: clamp(100%, 2.5vw, 150%); margin: 0 auto; max-width: 40em; padding-inline: 2em}
+body {font-size: clamp(100%, 2.5vw, 150%); letter-spacing: -0.02em; margin: 0 auto; max-width: 40em; padding-inline: 2em}
 ul, ol {padding: 0}
 sub, sup {font-size: 75%; line-height: 0}
 input, textarea {border: 0; border-block-end: 1px solid var(--linkColor); font-size: 1em}
@@ -48,7 +48,7 @@ p img {display: block; margin: 0 auto}
 
 hr {border: 0; border-block-start: 2px solid var(--borderColor); height: 0}
 
-h1, h2, h3, h4, h5, h6 {line-height: 1.2; margin: 1.6em 0 0.4em}
+h1, h2, h3, h4, h5, h6 {line-height: 1.2; margin: 1.6em 0 0.4em; text-wrap: balance}
 h1 {font-size: 2.441em}
 h2 {font-size: 1.953em}
 h3 {font-size: 1.563em}
@@ -69,7 +69,6 @@ figure {margin: 1em -3em; text-align: center}
 .video-container {box-shadow: 0 1em 4em rgba(0, 0, 0, 0.4); text-align: inherit}
 
 main {border-block-end: 2px solid var(--borderColor); padding-block: 4em}
-h1, h2, h3, h4, h5, h6 {letter-spacing: -0.04em; text-wrap: balance}
 header :is(h1, h2, h3, h4, h5, h6) {margin-block-start: 0}
 header :is(h1, h2, h3, h4, h5, h6) a {font-weight: inherit}
 .link header h1:after {color: var(--infoColor); content:"\00A0→"}
