@@ -28,18 +28,18 @@
     "start": "astro dev"
   },
   "devDependencies": {
-    "@astrojs/check": "0.5.10",
-    "@astrojs/rss": "4.0.5",
-    "@astrojs/sitemap": "3.1.4",
+    "@astrojs/check": "0.7.0",
+    "@astrojs/rss": "4.0.6",
+    "@astrojs/sitemap": "3.1.5",
     "@types/luxon": "3.4.2",
-    "astro": "4.7.1",
+    "astro": "4.10.2",
     "gsap": "3.12.5",
     "husky": "9.0.11",
     "json": "11.0.0",
     "jsonresume-theme-even": "0.22.0",
-    "lint-staged": "15.2.2",
+    "lint-staged": "15.2.7",
     "luxon": "3.4.4",
-    "markdownlint-cli": "0.40.0",
+    "markdownlint-cli": "0.41.0",
     "matter-now": "4.0.0",
     "typescript": "5.4.5"
   }
