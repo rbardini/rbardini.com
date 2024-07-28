@@ -1,5 +1,5 @@
 import { extractYaml } from '@std/front-matter'
-import { join } from '@std/path'
+import { join, parse } from '@std/path'
 import { Frontmatter, Post } from '../types.ts'
 
 const TEN_YEARS_IN_MILLIS = 86400000 * 365 * 10
@@ -11,7 +11,7 @@ export async function getPosts(limit = Infinity) {
 
   for await (const postEntry of postEntries) {
     const { name } = postEntry
-    const slug = name.split('.').shift()!
+    const slug = parse(name).name.slice('YYYY-MM-DD-'.length)
 
     const text = await Deno.readTextFile(join(POSTS_SRC, name))
     const { attrs, body: markdown } = extractYaml<Frontmatter>(text)
