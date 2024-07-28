@@ -1,0 +1,96 @@
+:root {
+  color-scheme:light dark;
+  --base00:#f7f7f7; --base08:#7c7c7c;
+  --base01:#e3e3e3; --base09:#999999;
+  --base02:#b9b9b9; --base0A:#a0a0a0;
+  --base03:#ababab; --base0B:#8e8e8e;
+  --base04:#525252; --base0C:#868686;
+  --base05:#464646; --base0D:#686868;
+  --base06:#252525; --base0E:#747474;
+  --base07:#101010; --base0F:#5e5e5e;
+}
+
+@media (prefers-color-scheme:dark) {
+  :root {
+    --base00:#101010; --base08:#7c7c7c;
+    --base01:#252525; --base09:#999999;
+    --base02:#464646; --base0A:#a0a0a0;
+    --base03:#525252; --base0B:#8e8e8e;
+    --base04:#ababab; --base0C:#868686;
+    --base05:#b9b9b9; --base0D:#686868;
+    --base06:#e3e3e3; --base0E:#747474;
+    --base07:#f7f7f7; --base0F:#5e5e5e;
+  }
+}
+
+*, ::before, ::after { box-sizing:border-box }
+html { background:var(--base01); color:var(--base06); font:120% / 1.8 ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; overflow-x:hidden; text-underline-position:under }
+body { margin:2lh auto; max-width:62ch; padding-inline:1ch }
+iframe { border:0 }
+img { max-width:100% }
+a { color:inherit; text-decoration-color:var(--base04); transition:text-decoration-color 0.2s }
+a:hover, a:focus { text-decoration-color:inherit }
+figcaption, time { font-size:smaller }
+article, aside, footer { margin-block:2lh }
+ul, ol { padding:0 }
+ul { list-style-type:"- " }
+blockquote { font-style:italic }
+sup { font-size:small }
+pre, code { font-family:inherit }
+
+h1, h2, h3, h4, h5, h6 { color:var(--base07); font-size:inherit; line-height:1.5; position:relative; text-wrap:balance }
+header :is(h1, h2, h3, h4, h5, h6) { margin-block-start:0 }
+h1::before { content:"#"; inset-inline-start:-2ch; position:absolute }
+h2::before { content:"##"; inset-inline-start:-3ch; position:absolute }
+h3::before { content:"###"; inset-inline-start:-4ch; position:absolute }
+h4::before { content:"####"; inset-inline-start:-5ch; position:absolute }
+h5::before { content:"#####"; inset-inline-start:-6ch; position:absolute }
+h6::before { content:"######"; inset-inline-start:-7ch; position:absolute }
+
+time, nav, pre, code, em, strong, blockquote, figcaption, ::marker, [rel=external]::after, .disclaimer, .pullquote, .footnotes { color:var(--base05) }
+nav { text-transform:lowercase }
+nav ul { column-gap:2ch; display:flex; flex-wrap:wrap }
+nav li { display:inline }
+nav li a::before { content:"#" }
+pre::before, pre::after { color:var(--base02); content:"```"; display:block }
+:not(pre) > code::before, :not(pre) > code::after { content:"`" }
+em::before, em::after { content:"_" }
+strong::before, strong::after { content:"*" }
+blockquote { margin-inline:0 }
+blockquote p { position:relative }
+blockquote p:not(:has(cite))::before { content:"> "; inset-inline-start:-2ch; position:absolute }
+blockquote cite::before {content:" — "}
+figure { margin-inline:-1ch; text-align:center }
+.cta::after { content:"\00A0→" }
+[rel=external]::after { content:"\00A0↗" }
+[data-footnote-ref]::before { content:"[" }
+[data-footnote-ref]::after { content:"]" }
+.table > * { display:table-cell }
+.disclaimer { font-size:smaller; font-style:italic }
+.pullquote { font-size:larger; position:relative }
+.pullquote::before { content:"“"; font-size:xx-large; inset-inline-start:-1.5ch; line-height:1; position:absolute }
+.footnotes { font-size:smaller; border-block-start:2px dashed; margin-block-start:2lh }
+.sr-only { border:0; clip:rect(0,0,0,0); height:1px; margin:-1px; overflow:hidden; padding:0; position:absolute; white-space:nowrap; width:1px }
+
+animated-avatar { float:inline-end; margin:-3ch -2ch 0 0; position:relative; shape-outside:circle(46% at 50% 59%) border-box; width:24ch; z-index:1 }
+animated-avatar :is(#porthole, .body) { transform-origin:50% 100%; transition:scale 0.4s ease-out }
+animated-avatar:hover #porthole { scale:0.95 }
+animated-avatar:hover .body { scale:1.05 }
+
+/* Adapted from https://github.com/chawyehsu/base16-prism */
+pre { background:var(--base00); line-height:1.5; margin-inline:-1ch; overflow-wrap:break-word; padding:1ch 1ch 0; white-space:pre-wrap }
+.token.comment, .token.prolog, .token.cdata { color:var(--base03) }
+.token.entity, .language-css .token.string, .style .token.string { background:var(--base01); color:var(--base04) }
+.token.punctuation { color:var(--base05) }
+.token.variable, .token.tag, .token.operator, .token.deleted { color:var(--base08) }
+.token.property, .token.number, .token.boolean, .token.constant, .token.url { color:var(--base09) }
+.token.class-name, .token.bold { color:var(--base0A) }
+.token.string, .token.symbol, .token.attr-value, .token.inserted, .token.atrule { color:var(--base0B) }
+.token.regex, .token.important { color:var(--base0C) }
+.token.function, .token.attr-name { color:var(--base0D) }
+.token.keyword, .token.selector, .token.italic, .token.char, .token.builtin { color:var(--base0E) }
+.token.doctype { color:var(--base0F) }
+.token.important, .token.bold { font-weight:bold }
+.token.italic { font-style:italic }
+.token.entity { cursor:help }
+.namespace { opacity:.7 }

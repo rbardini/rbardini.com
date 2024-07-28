@@ -1,0 +1,19 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "$feed": "https://esm.sh/feed@4.2.2",
+    "$jsonresume-theme-even": "https://esm.sh/jsonresume-theme-even@0.22.0",
+    "$micromark": "https://esm.sh/micromark@4.0.0",
+    "$micromark-extension-gfm": "https://esm.sh/micromark-extension-gfm@3.0.0",
+    "@std/front-matter": "jsr:@std/front-matter@^1.0.0",
+    "@std/fs": "jsr:@std/fs@^1.0.0",
+    "@std/path": "jsr:@std/path@^1.0.0"
+  },
+  "fmt": {
+    "lineWidth": 120,
+    "semiColons": false,
+    "singleQuote": true
+  }
+}
