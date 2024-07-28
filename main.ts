@@ -7,6 +7,8 @@ import { getRoutes } from './utils/routes.ts'
 
 try {
   await Deno.remove(Path.Dist, { recursive: true })
+} catch (err) {
+  if (!(err instanceof Deno.errors.NotFound)) throw err
 } finally {
   await copy(Path.Static, Path.Dist)
 }
