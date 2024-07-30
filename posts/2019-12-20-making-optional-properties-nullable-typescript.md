@@ -1,9 +1,10 @@
 ---
-title: Making optional properties nullable in TypeScript
 excerpt: How to handle null values when your types are defined with only non-nullable optional properties.
 date: '2019-12-20T22:10:39+01:00'
 lang: en-US
 ---
+
+# Making optional properties nullable in TypeScript
 
 Let's say you follow the TypeScript project coding guidelines and [only use `undefined`](https://github.com/microsoft/TypeScript/wiki/Coding-guidelines#null-and-undefined). Your types are defined with non-nullable optional properties (e.g., `x?: number`), but the data coming from the API returns `null` instead.
 

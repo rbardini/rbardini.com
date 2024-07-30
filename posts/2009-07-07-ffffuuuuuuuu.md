@@ -1,8 +1,9 @@
 ---
-title: FFFFUUUUUUUU-
 date: '2009-07-07T01:17:23-03:00'
 lang: pt-BR
 ---
+
+# FFFFUUUUUUUU-
 
 <figure>
   <img src="/img/rage.gif" alt="Rage" />

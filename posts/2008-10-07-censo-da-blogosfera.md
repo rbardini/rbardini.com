@@ -1,8 +1,9 @@
 ---
-title: Censo da Blogosfera
 date: '2008-10-07T22:51:02-03:00'
 lang: pt-BR
 ---
+
+# Censo da Blogosfera
 
 Cortesia do [Fatiou Passou!](http://fatioupassou.com/censo-da-blogosfera-and-counting.html):
 

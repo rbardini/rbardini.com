@@ -1,8 +1,9 @@
 ---
-title: Outro recomeço
 date: '2014-04-13T23:52:04-03:00'
 lang: pt-BR
 ---
+
+# Outro recomeço
 
 Mais uma vez esse blog sofre um _reboot_ após um longo período de inatividade.
 

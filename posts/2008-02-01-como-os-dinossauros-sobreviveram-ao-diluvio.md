@@ -1,8 +1,9 @@
 ---
-title: Como os dinossauros sobreviveram ao dilúvio
 date: '2008-02-01T02:11:32-02:00'
 lang: pt-BR
 ---
+
+# Como os dinossauros sobreviveram ao dilúvio
 
 Nunca entendeu como os dinos couberam na Arca de Noé? A resposta:
 

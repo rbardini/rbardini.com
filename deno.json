@@ -7,6 +7,7 @@
     "$jsonresume-theme-even": "https://esm.sh/v135/jsonresume-theme-even@0.22.0",
     "$micromark": "https://esm.sh/v135/micromark@4.0.0",
     "$micromark-extension-gfm": "https://esm.sh/v135/micromark-extension-gfm@3.0.0",
+    "@b-fuze/deno-dom": "jsr:@b-fuze/deno-dom@^0.1.47",
     "@std/front-matter": "jsr:@std/front-matter@^1.0.0",
     "@std/fs": "jsr:@std/fs@^1.0.0",
     "@std/path": "jsr:@std/path@^1.0.0"

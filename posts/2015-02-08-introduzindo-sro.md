@@ -1,8 +1,9 @@
 ---
-title: 'Introduzindo: SRO'
 date: '2015-02-08T18:13:20-02:00'
 lang: pt-BR
 ---
+
+# Introduzindo: SRO
 
 Acabo de publicar no registro do npm o [SRO](https://www.npmjs.com/package/sro), um módulo para rastreamento de objetos postais utilizando a API oficial dos Correios[^1].
 

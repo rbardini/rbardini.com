@@ -1,9 +1,9 @@
 ---
-title: Yosemite – Thoughts on blurriness and design ecosystems
 date: '2014-06-14T20:49:17-03:00'
 lang: pt-BR
-link: http://blogs.atlassian.com/2014/06/yosemite-thoughts-blurriness-design-ecosystems/
 ---
+
+# [Yosemite – Thoughts on blurriness and design ecosystems](http://blogs.atlassian.com/2014/06/yosemite-thoughts-blurriness-design-ecosystems/)
 
 Joel Unger:
 

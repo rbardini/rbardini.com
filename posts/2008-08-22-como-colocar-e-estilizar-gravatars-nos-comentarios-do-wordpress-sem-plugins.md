@@ -1,8 +1,9 @@
 ---
-title: Como colocar e estilizar Gravatars nos comentários do WordPress sem plugins
 date: '2008-08-22T18:08:12-03:00'
 lang: pt-BR
 ---
+
+# Como colocar e estilizar Gravatars nos comentários do WordPress sem plugins
 
 Há um tempo atrás [publiquei um artigo](/implantando-gravatar-no-wordpress) que tratava sobre a implementação de Gravatars no WordPress utilizando o plugin [WP-Gravatar](http://wordpress.org/extend/plugins/wp-gravatar/). Como disse na época, essa _feature_ logo se tornaria nativa do sistema, tornando desnecessário o uso de plugins para tal. Portanto, resolvi criar um novo tutorial sobre como colocar Gravatars nos comentários de seu tema nativamente e estilizá-los usando CSS. Ficou um pouco longo mas é porque tentei ser o mais específico possível; o procedimento é bem fácil e rápido.
 

@@ -1,8 +1,9 @@
 ---
-title: Herói de guerra ganha cerveja grátis pelo resto da vida
 date: '2007-12-04T20:20:42-02:00'
 lang: pt-BR
 ---
+
+# Herói de guerra ganha cerveja grátis pelo resto da vida
 
 O único detalhe: ele tem 109 anos. O _pub The Rose & Crown_ agraciou o britânico Harry Patch, último sobrevivente da Primeira Guerra Mundial, com [cerveja grátis até o fim da vida](http://www.thesun.co.uk/sol/homepage/news/article538134.ece).
 

@@ -1,9 +1,9 @@
 ---
-title: Google's war on RSS continues, shuts down YouTube user subscriptions feeds
 date: '2014-05-13T01:01:34-03:00'
 lang: pt-BR
-link: http://www.ghacks.net/2014/05/12/googles-war-rss-continues-shuts-youtube-user-subscriptions-feeds/
 ---
+
+# [Google's war on RSS continues, shuts down YouTube user subscriptions feeds](http://www.ghacks.net/2014/05/12/googles-war-rss-continues-shuts-youtube-user-subscriptions-feeds/)
 
 Martin Brinkmann:
 

@@ -1,8 +1,9 @@
 ---
-title: How to add a Netlify deploy status badge to your project
 date: '2018-11-12T22:44:46+01:00'
 lang: en-US
 ---
+
+# How to add a Netlify deploy status badge to your project
 
 Ever since I moved this blog to [Netlify](https://www.netlify.com/) I wanted to add a badge to the [repository's README](https://github.com/rbardini/rbardini.com#readme) displaying the deploy status. The [Shields.io](https://shields.io/) service doesn't support Netlify badges yet, but luckily I found out that you can build dynamic badges by querying structured data from any public URL.
 

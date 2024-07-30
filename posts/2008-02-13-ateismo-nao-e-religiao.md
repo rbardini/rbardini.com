@@ -1,8 +1,9 @@
 ---
-title: Ateísmo não é religião
 date: '2008-02-13T01:24:25-02:00'
 lang: pt-BR
 ---
+
+# Ateísmo não é religião
 
 O título desse artigo pode parecer meio óbvio a princípio, mas já vi muitas discussões onde pessoas assemelham a fé em Deus e a negação de sua existência, pelo motivo de que ambas pregam uma suposta verdade mesmo sem o suporte de qualquer evidência.
 

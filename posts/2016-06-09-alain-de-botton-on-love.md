@@ -1,9 +1,9 @@
 ---
-title: Alain de Botton on Love
 date: '2016-06-09T22:43:33-03:00'
 lang: en-US
-link: https://www.youtube.com/watch?v=jJ6K_f7oSdg
 ---
+
+# [Alain de Botton on Love](https://www.youtube.com/watch?v=jJ6K_f7oSdg)
 
 Amazing presentation by one of the greatest thinkers of our time on how Romanticism has made our relationships difficult.
 

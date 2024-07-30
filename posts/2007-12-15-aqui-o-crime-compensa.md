@@ -1,8 +1,9 @@
 ---
-title: Aqui o crime compensa
 date: '2007-12-15T20:36:03-02:00'
 lang: pt-BR
 ---
+
+# Aqui o crime compensa
 
 Hoje assistindo o [Brasil Urgente](http://www.band.com.br/brasilurgente/) — um pouco de sensacionalismo não faz mal a ninguém — vi uma reportagem sobre a atual situação de Champinha, o jovem que assassinou a tiros e facadas o casal de estudantes Liana Friedenbach e Filipe Caffe, depois de estuprar e permitir que outros estuprassem Liana. E, ao que parece, ser menor infrator só não é melhor que ser político.
 

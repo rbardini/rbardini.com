@@ -1,8 +1,9 @@
 ---
-title: Como abrir envelopes corretamente
 date: '2008-01-07T22:15:19-02:00'
 lang: pt-BR
 ---
+
+# Como abrir envelopes corretamente
 
 Se você é daqueles que não conseguem abrir um envelope direito e acabam rasgando tudo, até o que estiver dentro, o tutorial abaixo é perfeito. Provavelmente funciona com os [malditos sachês de catchup](http://www.eupodiatamatando.com/2008/01/04/minha-mensagem-de-ano-novo/), apesar de eu preferir maionese. Enfim...
 

@@ -1,9 +1,9 @@
 ---
-title: Improve the payment experience with animations
 date: '2014-04-21T18:32:32-03:00'
 lang: pt-BR
-link: https://medium.com/ui-ux-articles/3d1b0a9b810e
 ---
+
+# [Improve the payment experience with animations](https://medium.com/ui-ux-articles/3d1b0a9b810e)
 
 Michaël Villar:
 

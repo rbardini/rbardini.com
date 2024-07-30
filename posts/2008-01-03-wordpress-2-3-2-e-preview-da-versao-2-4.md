@@ -1,8 +1,9 @@
 ---
-title: WordPress 2.3.2 e preview da versão 2.4
 date: '2008-01-03T18:41:46-02:00'
 lang: pt-BR
 ---
+
+# WordPress 2.3.2 e preview da versão 2.4
 
 Acabei de atualizar o WordPress para a versão 2.3.2 através de um [arquivo compactado só com as modificações](http://tech-buzz.net/2007/12/30/wordpress-232-security-update-released/) em relação à versão anterior, bem mais fácil que baixar e fazer upload para o servidor de toda a instalação. Tá certo que existem plugins como o [InstantUpgrade](http://www.zirona.com/software/wordpress-instant-upgrade) que facilitam muito a tarefa, mas ainda prefiro resolver as coisas "na mão".
 
