@@ -1,8 +1,8 @@
 ---
-date: '2007-12-01T22:01:44-02:00'
 lang: pt-BR
 ---
 
+2007-12-01T22:01:44-02:00
 # Nunca chame um ursinho de Maomé
 
 Gillian Gibbons, professora primária britânica, permitiu que seus alunos chamassem um ursinho de pelúcia de "Muhammad" (Maomé). Um funcionário da escola, vendo o "absurdo" que estava ocorrendo na escola, fez uma denúncia ao Ministério da Educação. A professora foi presa, e milhares de sudaneses saíram às ruas com paus e facas pedindo sua execução, gritando "Tolerância zero: Execução" e "Levem-na ao paredão de fuzilamento", por "ofender intencionalmente o Islã". Gibbons teve que ser transferida para não ser linchada. Segundo um primata do movimento, "Esta é uma mulher arrogante, que veio ao nosso país com vistas em seu salário em dólares, para ensinar a nossas crianças o ódio pelo profeta Maomé"

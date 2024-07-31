@@ -1,8 +1,8 @@
 ---
-date: '2007-11-15T21:28:17-02:00'
 lang: pt-BR
 ---
 
+2007-11-15T21:28:17-02:00
 # Hello world!
 
 Aproveitando este artigo criado automaticamente pelo WordPress, anuncio o lançamento do blog rbardini.com, aproveitando esse feriado tão... importante.

@@ -1,8 +1,8 @@
 ---
-date: '2008-03-06T20:19:09-03:00'
 lang: pt-BR
 ---
 
+2008-03-06T20:19:09-03:00
 # Oh, você queria entusiasmo?
 
 Achei essa tirinha tão boa que resolvi traduzí-la e colocá-la aqui. Reflete bem o pensamento de 93,14% dos homens:

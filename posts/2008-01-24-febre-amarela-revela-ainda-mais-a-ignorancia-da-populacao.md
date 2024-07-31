@@ -1,8 +1,8 @@
 ---
-date: '2008-01-24T00:47:40-02:00'
 lang: pt-BR
 ---
 
+2008-01-24T00:47:40-02:00
 # Febre amarela revela ainda mais a ignorância da população
 
 Nos últimos dias ocorreram novos casos de [febre amarela](http://pt.wikipedia.org/wiki/Febre_amarela) no país, alguns deles fatais, gerando um certo pânico nas pessoas em busca de vacinas, mesmo a maioria não estando e nem pretendendo viajar para áreas de risco, o que já demonstra um medo desnecessário. Como se sabe, a febre amarela é uma doença endêmica de certas regiões do país, ou seja, não é novidade pra ninguém.

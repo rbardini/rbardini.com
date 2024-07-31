@@ -1,8 +1,8 @@
 ---
-date: '2011-10-02T19:52:39-03:00'
 lang: en-US
 ---
 
+2011-10-02T19:52:39-03:00
 # Richard Feynman on the beauty of a flower
 
 Can a scientist really enjoy the beauty of a flower? Here is what Mr. Feynman had to say about science and the appreciation of nature.

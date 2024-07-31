@@ -1,8 +1,8 @@
 ---
-date: '2015-02-19T22:34:03-02:00'
 lang: pt-BR
 ---
 
+2015-02-19T22:34:03-02:00
 # [Exercendo a não-opinião como exercício de empatia](http://www.papodehomem.com.br/exercer-a-nao-opiniao-or-exercicio-de-empatia-6)
 
 Alex Castro:

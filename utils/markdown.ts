@@ -25,9 +25,10 @@ export function extractTitle(markdown: string) {
 export function extractContent(text: string) {
   const { attrs, body } = extractYaml<Frontmatter>(text)
 
-  const [firstLine, _, ...restLines] = body.split('\n')
-  const title = extractTitle(firstLine)
+  const [firstLine, secondLine, ...restLines] = body.split('\n')
+  const date = new Date(firstLine)
+  const title = extractTitle(secondLine)
   const markdown = restLines.join('\n')
 
-  return { ...attrs, ...title, markdown }
+  return { ...attrs, date, ...title, markdown }
 }

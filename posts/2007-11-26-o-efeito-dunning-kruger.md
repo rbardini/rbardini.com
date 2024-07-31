@@ -1,8 +1,8 @@
 ---
-date: '2007-11-26T18:04:39-02:00'
 lang: pt-BR
 ---
 
+2007-11-26T18:04:39-02:00
 # O Efeito Dunning-Kruger
 
 A [Wikipédia](http://pt.wikipedia.org/) é uma maravilha. Além de servir como fonte de trabalhos escolares prontos, possui artigos que mais parecem notícias do [Terra](http://www.terra.com.br/). Um deles é o [Efeito Dunning-Kruger](http://pt.wikipedia.org/wiki/Efeito_Dunning-Kruger), fenômeno pelo qual indivíduos que possuem pouco conhecimento sobre um assunto acreditam saber mais que outros que possuem muito mais conhecimento.

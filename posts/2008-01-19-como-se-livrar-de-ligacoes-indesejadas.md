@@ -1,8 +1,8 @@
 ---
-date: '2008-01-19T03:43:17-02:00'
 lang: pt-BR
 ---
 
+2008-01-19T03:43:17-02:00
 # Como se livrar de ligações indesejadas
 
 Aqui na minha cidade a [People](http://www.people.com.br/) é famosa pelo seu _telemarketing_. Pelo menos duas vezes ao ano recebo uma ligação dizendo que fui sorteado, onde, ao me matricular no curso de _Word_, _Excel_ e _PowerPoint_, recebo o curso de _Outlook_ interamente grátis(!). Eu sei, eu sei, você deve me achar extremamente sortudo por ter ganho durante os últimos 5 anos, e extremamente bobo-chato-feio por ter recusado tal promoção, que nem a Tecnomania é capaz de superar. Mas a questão é: como desligar sem ter que dar explicações, mas ao mesmo tempo sem parecer deseducado?

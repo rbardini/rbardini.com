@@ -1,8 +1,8 @@
 ---
-date: '2009-04-09T15:51:26-03:00'
 lang: pt-BR
 ---
 
+2009-04-09T15:51:26-03:00
 # Novo rbardini.com, agora mais social
 
 Hello World, again!

@@ -1,8 +1,8 @@
 ---
-date: '2007-11-24T18:41:29-02:00'
 lang: pt-BR
 ---
 
+2007-11-24T18:41:29-02:00
 # O botão de 110 milhões de dólares
 
 Parece nome de filme do Jackie Chan mas não é. O tal botão é o "Estou com sorte", ou "I'm Feeling Lucky", para a versão em inglês do Google. Estimativas da própria empresa apontam que 1% das buscas são feitas através dessa ferramenta, que leva o usuário diretamente ao primeiro resultado. Isso faz com que sejam perdidos em torno de 110 milhões de dólares por ano, já que não são exibidos links patrocinados na página.

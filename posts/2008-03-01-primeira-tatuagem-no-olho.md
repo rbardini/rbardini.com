@@ -1,8 +1,8 @@
 ---
-date: '2008-03-01T00:15:18-03:00'
 lang: pt-BR
 ---
 
+2008-03-01T00:15:18-03:00
 # Primeira tatuagem no olho!
 
 Não, a foto não é _Photoshop_. O _homo sapiens_ chamado Brave Pauly fez [a primeira tatuagem no globo ocular](http://www.thesun.co.uk/sol/homepage/features/article853274.ece) de que se tem notícia. Isso mesmo, _na fucking bola branca do zóio_. Com quarenta, QUARENTA injeções de tinta azul.

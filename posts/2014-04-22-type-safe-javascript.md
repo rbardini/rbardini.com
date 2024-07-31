@@ -1,8 +1,8 @@
 ---
-date: '2014-04-22T23:30:26-03:00'
 lang: pt-BR
 ---
 
+2014-04-22T23:30:26-03:00
 # [Creating defensive objects with ES6 proxies](http://www.nczonline.net/blog/2014/04/22/creating-defensive-objects-with-es6-proxies/)
 
 Nicholas Zakas:

@@ -1,8 +1,8 @@
 ---
-date: '2019-07-20T20:50:06+02:00'
 lang: en-US
 ---
 
+2019-07-20T20:50:06+02:00
 # Automating tests for the GTM data layer
 
 At [Travix](https://www.travix.com/) we are constantly analyzing application and user behavior on our websites in order to offer the best experience to our customers. One of the tools employed for this purpose is [Google Tag Manager](https://tagmanager.google.com/) (also called GTM), alongside a _data layer_. A data layer is a JavaScript object that is used to pass information from the website to the Tag Manager container[^1], like product views and purchases.

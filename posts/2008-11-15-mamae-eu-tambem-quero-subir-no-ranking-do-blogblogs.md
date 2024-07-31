@@ -1,8 +1,8 @@
 ---
-date: '2008-11-15T02:09:57-02:00'
 lang: pt-BR
 ---
 
+2008-11-15T02:09:57-02:00
 # Mamãe, eu também quero subir no ranking do BlogBlogs!
 
 Mais uma jogada da blogosfera que me recuso a ficar de fora. Dessa vez a falcatrua, tramada em conjunto pelo [inSUPORTÁveis](http://www.insuportaveis.com/) e [Rafabarbosa.com](http://rafabarbosa.com/), tem como objetivo cortar fila no ranking do [BlogBlogs](http://blogblogs.com.br/), linkando o máximo de blogs possível. E como o meme dos números funcionou, vamos lá...

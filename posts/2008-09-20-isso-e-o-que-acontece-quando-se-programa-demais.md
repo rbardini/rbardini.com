@@ -1,8 +1,8 @@
 ---
-date: '2008-09-20T22:32:03-03:00'
 lang: pt-BR
 ---
 
+2008-09-20T22:32:03-03:00
 # Isso é o que acontece quando se programa demais
 
 Algum tempo fazendo um trabalho em C pra faculdade e o efeito colateral aparece minutos depois:

@@ -1,8 +1,8 @@
 ---
-date: '2008-05-08T20:07:36-03:00'
 lang: pt-BR
 ---
 
+2008-05-08T20:07:36-03:00
 # rbardini.com está Ocupado e pode não publicar
 
 Pois é, ultimamente não criei nenhum artigo aqui no blog, resultando numa grande queda nos acessos (ORLY?) e perda de metade dos meus [leitores VIP](https://www.feedburner.com/). Mas tenho um bom motivo: passei na [USP São Carlos](http://www.sc.usp.br/) no curso de Bacharelado em Ciências de Computação, e nesse meio tempo mudei de cidade, passei a morar sozinho e estudar como nunca, principalmente depois de receber a missão quase impossível de fazer um programa em Pascal que calcula o itinerário de um elevador. Parece moleza mas não é, principalmente por eu ter "pego o bonde andando" ao entrar na terceira chamada da Fuvest. Cálculo então, nem se fala...

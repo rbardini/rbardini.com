@@ -1,8 +1,8 @@
 ---
-date: '2014-06-02T22:23:26-03:00'
 lang: pt-BR
 ---
 
+2014-06-02T22:23:26-03:00
 # [Rise of Nations ganhará versão remasterizada](http://meiobit.com/288531/rise-nations-ganhara-versao-remasterizada/)
 
 Dori Prata:

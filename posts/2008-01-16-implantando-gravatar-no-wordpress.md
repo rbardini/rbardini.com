@@ -1,8 +1,8 @@
 ---
-date: '2008-01-16T03:14:30-02:00'
 lang: pt-BR
 ---
 
+2008-01-16T03:14:30-02:00
 # Implantando Gravatar no WordPress
 
 Sempre gostei da idéia de exibir avatares dentro dos comentários, dando uma "humanizada" na relação entre o blogueiro e seus leitores. O problema é que não existe um padrão quanto a isso, já que nem todo mundo tem uma conta no [Gravatar](http://site.gravatar.com/), [MyBlogLog](http://www.mybloglog.com/) ou [BlogBlogs](http://blogblogs.com.br/). Por esse motivo, alguns recomendam exibir o _favicon_ do site ao invés do avatar, utilizando plugins como o [Favatars](http://wordpress.org/extend/plugins/favatars/). Mas isso traz outro problema: nem todos têm um site pessoal.
