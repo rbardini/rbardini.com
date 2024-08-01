@@ -4,6 +4,7 @@ export type Frontmatter = {
   lang: string
   link?: string
   draft?: boolean
+  excerpt?: string
 }
 
 export type Post = Omit<Frontmatter, 'date'> & {

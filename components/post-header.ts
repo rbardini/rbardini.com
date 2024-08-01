@@ -19,5 +19,6 @@ export function postHeader({ post, dateFormat = defaultDateFormat, headingLevel 
     <h${headingLevel}>
       <a href="${post.link ?? `/${post.slug}`}" rel="${post.link ? 'external' : 'bookmark'}">${post.title}</a>
     </h${headingLevel}>
+    ${post.excerpt && html`<p>${post.excerpt}</p>`}
   </header>`
 }

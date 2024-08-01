@@ -22,6 +22,13 @@ export function extractTitle(markdown: string) {
   return { title, link }
 }
 
+export function extractExcerpt(markdown: string) {
+  const html = renderMarkdown(markdown)
+  const doc = new DOMParser().parseFromString(html, 'text/html')
+
+  return doc.textContent || undefined
+}
+
 export function extractTags(markdown: string) {
   const html = renderMarkdown(markdown)
   const doc = new DOMParser().parseFromString(html, 'text/html')
@@ -32,12 +39,13 @@ export function extractTags(markdown: string) {
 export function extractContent(text: string) {
   const { attrs, body } = extractYaml<Frontmatter>(text)
 
-  const [firstLine, secondLine, ...restLines] = body.split('\n')
+  const [firstLine, secondLine, thirdLine, ...restLines] = body.split('\n')
   const [lastLine] = restLines.splice(-2)
   const date = new Date(firstLine)
   const title = extractTitle(secondLine)
+  const excerpt = extractExcerpt(thirdLine)
   const markdown = restLines.join('\n')
   const tags = extractTags(lastLine)
 
-  return { ...attrs, date, ...title, markdown, tags }
+  return { ...attrs, date, ...title, excerpt, markdown, tags }
 }
