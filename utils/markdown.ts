@@ -1,8 +1,8 @@
 import { micromark } from '$micromark'
 import { gfm, gfmHtml } from '$micromark-extension-gfm'
-import { DOMParser } from '@b-fuze/deno-dom'
 import { extractYaml } from '@std/front-matter'
 import { Frontmatter } from '../types.ts'
+import { parseHTML } from './html.ts'
 
 export function renderMarkdown(markdown: string) {
   return micromark(markdown, {
@@ -14,7 +14,7 @@ export function renderMarkdown(markdown: string) {
 
 export function extractTitle(markdown: string) {
   const html = renderMarkdown(markdown)
-  const doc = new DOMParser().parseFromString(html, 'text/html')
+  const doc = parseHTML(html)
 
   const title = doc.textContent
   const link = doc.querySelector('a')?.getAttribute('href') ?? undefined
@@ -24,14 +24,14 @@ export function extractTitle(markdown: string) {
 
 export function extractExcerpt(markdown: string) {
   const html = renderMarkdown(markdown)
-  const doc = new DOMParser().parseFromString(html, 'text/html')
+  const doc = parseHTML(html)
 
   return doc.textContent || undefined
 }
 
 export function extractTags(markdown: string) {
   const html = renderMarkdown(markdown)
-  const doc = new DOMParser().parseFromString(html, 'text/html')
+  const doc = parseHTML(html)
 
   return Array.from(doc.querySelectorAll('code')).map((el) => el.textContent)
 }
