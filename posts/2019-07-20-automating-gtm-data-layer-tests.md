@@ -1,6 +1,3 @@
----
----
-
 2019-07-20T20:50:06+02:00
 # Automating tests for the GTM data layer
 

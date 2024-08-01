@@ -1,6 +1,3 @@
----
----
-
 2019-12-20T22:10:39+01:00
 # Making optional properties nullable in TypeScript
 _How to handle null values when your types are defined with only non-nullable optional properties._

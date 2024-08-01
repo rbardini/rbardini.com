@@ -1,6 +1,3 @@
----
----
-
 2008-01-07T22:15:19-02:00
 # Como abrir envelopes corretamente
 

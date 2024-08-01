@@ -1,6 +1,3 @@
----
----
-
 2008-09-11T19:33:46-03:00
 # Acompanhe ao vivo pela Internet os experimentos no Grande Colisor de Hádrons (LHC)
 

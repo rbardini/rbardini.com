@@ -1,6 +1,3 @@
----
----
-
 2011-07-28T01:23:29-03:00
 # New Layout, New CMS, New Everything
 

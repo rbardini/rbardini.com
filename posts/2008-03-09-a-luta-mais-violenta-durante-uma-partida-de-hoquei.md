@@ -1,6 +1,3 @@
----
----
-
 2008-03-09T23:54:14-03:00
 # A luta mais violenta durante uma partida de hóquei
 

@@ -1,6 +1,3 @@
----
----
-
 2008-12-25T23:16:44-02:00
 # Da série "Coisas que você só vê em Mococa"...
 

@@ -1,6 +1,3 @@
----
----
-
 2008-02-14T20:05:07-02:00
 # Quem nunca comeu melado quando come se lambuza
 

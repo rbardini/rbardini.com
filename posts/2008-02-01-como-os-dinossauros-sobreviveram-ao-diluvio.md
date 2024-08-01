@@ -1,6 +1,3 @@
----
----
-
 2008-02-01T02:11:32-02:00
 # Como os dinossauros sobreviveram ao dilúvio
 

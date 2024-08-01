@@ -1,6 +1,3 @@
----
----
-
 2008-08-22T18:08:12-03:00
 # Como colocar e estilizar Gravatars nos comentários do WordPress sem plugins
 

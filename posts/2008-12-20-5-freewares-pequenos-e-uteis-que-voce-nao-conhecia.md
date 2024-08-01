@@ -1,6 +1,3 @@
----
----
-
 2008-12-20T16:46:55-02:00
 # 5 freewares pequenos (e úteis) que você não conhecia
 

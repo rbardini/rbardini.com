@@ -1,6 +1,3 @@
----
----
-
 2007-12-03T13:23:12-02:00
 # Anúncio criativo da SOS Mata Atlântica
 

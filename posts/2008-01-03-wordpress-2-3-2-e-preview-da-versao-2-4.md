@@ -1,6 +1,3 @@
----
----
-
 2008-01-03T18:41:46-02:00
 # WordPress 2.3.2 e preview da versão 2.4
 

@@ -1,6 +1,3 @@
----
----
-
 2007-12-04T20:20:42-02:00
 # Herói de guerra ganha cerveja grátis pelo resto da vida
 

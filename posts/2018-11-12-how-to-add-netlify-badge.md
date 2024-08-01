@@ -1,6 +1,3 @@
----
----
-
 2018-11-12T22:44:46+01:00
 # How to add a Netlify deploy status badge to your project
 

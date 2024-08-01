@@ -1,7 +1,6 @@
 import { micromark } from '$micromark'
 import { gfm, gfmHtml } from '$micromark-extension-gfm'
-import { extractYaml } from '@std/front-matter'
-import { Frontmatter } from '../types.ts'
+import { Content } from '../types.ts'
 import { parseHTML } from './html.ts'
 
 export function renderMarkdown(markdown: string) {
@@ -36,16 +35,14 @@ export function extractTags(markdown: string) {
   return Array.from(doc.querySelectorAll('code')).map((el) => el.textContent)
 }
 
-export function extractContent(text: string) {
-  const { attrs, body } = extractYaml<Frontmatter>(text)
+export function extractContent(text: string): Content {
+  const [dateLine, titleLine, excerptLine, ...bodyLines] = text.split('\n')
+  const [tagsLine] = bodyLines.splice(-2)
+  const date = new Date(dateLine)
+  const title = extractTitle(titleLine)
+  const excerpt = extractExcerpt(excerptLine)
+  const markdown = bodyLines.join('\n')
+  const tags = extractTags(tagsLine)
 
-  const [firstLine, secondLine, thirdLine, ...restLines] = body.split('\n')
-  const [lastLine] = restLines.splice(-2)
-  const date = new Date(firstLine)
-  const title = extractTitle(secondLine)
-  const excerpt = extractExcerpt(thirdLine)
-  const markdown = restLines.join('\n')
-  const tags = extractTags(lastLine)
-
-  return { ...attrs, date, ...title, excerpt, markdown, tags }
+  return { date, ...title, excerpt, markdown, tags }
 }

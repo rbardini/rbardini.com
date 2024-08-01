@@ -1,6 +1,3 @@
----
----
-
 2008-03-01T00:15:18-03:00
 # Primeira tatuagem no olho!
 

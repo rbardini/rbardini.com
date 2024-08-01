@@ -1,6 +1,3 @@
----
----
-
 2016-06-09T22:43:33-03:00
 # [Alain de Botton on Love](https://www.youtube.com/watch?v=jJ6K_f7oSdg)
 

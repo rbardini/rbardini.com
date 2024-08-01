@@ -1,6 +1,3 @@
----
----
-
 2008-01-19T03:43:17-02:00
 # Como se livrar de ligações indesejadas
 

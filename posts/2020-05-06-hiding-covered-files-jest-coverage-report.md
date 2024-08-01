@@ -1,6 +1,3 @@
----
----
-
 2020-05-06T16:40:33+02:00
 # Hiding fully-covered files from Jest coverage report
 

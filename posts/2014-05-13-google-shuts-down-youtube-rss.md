@@ -1,6 +1,3 @@
----
----
-
 2014-05-13T01:01:34-03:00
 # [Google's war on RSS continues, shuts down YouTube user subscriptions feeds](http://www.ghacks.net/2014/05/12/googles-war-rss-continues-shuts-youtube-user-subscriptions-feeds/)
 

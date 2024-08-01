@@ -1,6 +1,3 @@
----
----
-
 2007-12-07T23:27:10-02:00
 # Presentes de Natal para geeks
 

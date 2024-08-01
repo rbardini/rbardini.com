@@ -1,6 +1,3 @@
----
----
-
 2008-03-21T02:02:12-03:00
 # Atores que recusaram papéis importantes no cinema
 

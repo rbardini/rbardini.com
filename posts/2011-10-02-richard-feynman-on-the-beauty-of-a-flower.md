@@ -1,6 +1,3 @@
----
----
-
 2011-10-02T19:52:39-03:00
 # Richard Feynman on the beauty of a flower
 

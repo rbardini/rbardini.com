@@ -1,6 +1,3 @@
----
----
-
 2008-01-24T00:47:40-02:00
 # Febre amarela revela ainda mais a ignorância da população
 

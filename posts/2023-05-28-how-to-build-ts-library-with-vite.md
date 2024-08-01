@@ -1,6 +1,3 @@
----
----
-
 2023-05-28T15:50:45+02:00
 # How to build a TypeScript library with Vite
 

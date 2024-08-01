@@ -1,6 +1,3 @@
----
----
-
 2007-12-28T00:09:09-02:00
 # Trave o Windows pressionando duas teclas
 

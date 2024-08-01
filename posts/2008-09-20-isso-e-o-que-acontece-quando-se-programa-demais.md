@@ -1,6 +1,3 @@
----
----
-
 2008-09-20T22:32:03-03:00
 # Isso é o que acontece quando se programa demais
 

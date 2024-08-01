@@ -1,16 +1,14 @@
-export type Frontmatter = {
+export type Content = {
+  date: Date
   title: string
-  date: string
-  lang: string
   link?: string
-  draft?: boolean
   excerpt?: string
+  markdown: string
+  tags: string[]
 }
 
-export type Post = Omit<Frontmatter, 'date'> & {
-  date: Date
+export type Post = Content & {
   isOld: boolean
-  markdown: string
   slug: string
 }
 

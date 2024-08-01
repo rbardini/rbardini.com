@@ -1,6 +1,3 @@
----
----
-
 2008-03-06T20:19:09-03:00
 # Oh, você queria entusiasmo?
 

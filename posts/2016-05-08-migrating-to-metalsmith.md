@@ -1,6 +1,3 @@
----
----
-
 2016-05-08T22:14:08-03:00
 # Migrating from Second Crack to Metalsmith
 

@@ -1,6 +1,3 @@
----
----
-
 2008-01-16T03:14:30-02:00
 # Implantando Gravatar no WordPress
 

@@ -1,6 +1,3 @@
----
----
-
 2007-12-01T22:01:44-02:00
 # Nunca chame um ursinho de Maomé
 

@@ -1,6 +1,3 @@
----
----
-
 2007-11-26T18:04:39-02:00
 # O Efeito Dunning-Kruger
 

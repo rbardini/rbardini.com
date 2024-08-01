@@ -1,6 +1,3 @@
----
----
-
 2008-11-15T02:09:57-02:00
 # Mamãe, eu também quero subir no ranking do BlogBlogs!
 

@@ -1,6 +1,3 @@
----
----
-
 2008-05-08T20:07:36-03:00
 # rbardini.com está Ocupado e pode não publicar
 
