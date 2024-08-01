@@ -1,5 +1,4 @@
 ---
-lang: pt-BR
 ---
 
 2009-04-09T15:51:26-03:00
@@ -16,3 +15,5 @@ Ainda estou ajustando todos os detalhes, já que uma migração entre servidores
 Sugestões? Problemas? [Contact me](/about) :)
 
 E não se esqueça de assinar o feed!
+
+`lang:pt-BR`

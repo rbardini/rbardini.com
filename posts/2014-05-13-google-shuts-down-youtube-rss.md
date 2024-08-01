@@ -1,5 +1,4 @@
 ---
-lang: pt-BR
 ---
 
 2014-05-13T01:01:34-03:00
@@ -16,3 +15,5 @@ A ausência de suporte a RSS no Chrome e o total abandono do [Feedburner](http:/
 Venho tentando diminuir minha dependência dos serviços do Google desde a [morte do Reader](http://googleblog.blogspot.com.au/2013/03/a-second-spring-of-cleaning.html), em 2013. Passei a usar o Firefox tanto no desktop quanto no Android, e tenho experimentado o [DuckDuckGo Next](http://next.duckduckgo.com/) como buscador padrão --- até o momento, com sucesso. Meu próximo alvo, o Gmail, já tem um [candidato a substituto](https://www.fastmail.fm/).
 
 A [era dos _mashups_](http://dashes.com/anil/2012/12/the-web-we-lost.html) acabou, mas não é tarde demais para tirar alguns ovos da mesma cesta e estimular a concorrência.
+
+`lang:pt-BR`

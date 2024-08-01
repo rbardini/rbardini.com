@@ -1,5 +1,4 @@
 ---
-lang: en-US
 ---
 
 2019-07-20T20:50:06+02:00
@@ -114,3 +113,5 @@ Manually testing the data layer after each frontend change is a very time consum
 
 [^1]: See [this GTM help center article](https://support.google.com/tagmanager/answer/6164391) for more information.
 [^2]: For a single-page application (SPA), this could be the very last step of the test.
+
+`lang:en-US`

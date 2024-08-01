@@ -1,5 +1,4 @@
 ---
-lang: pt-BR
 ---
 
 2008-05-08T20:07:36-03:00
@@ -10,3 +9,5 @@ Pois é, ultimamente não criei nenhum artigo aqui no blog, resultando numa gran
 O fato é que fiquei bastante tempo sem Internet aqui na ~~caixa de fósforos~~ kitnet — o modem da Telefônica ficou viajando pelos Correios durante semanas, pois sempre que o carteiro vinha entregá-lo eu não estava aqui. Agora que a situação está normalizada, justamente enquanto fazia o maldito trabalho citado anteriormente, recebi um e-mail me avisando sobre um [pingback do Verdade Absoluta](http://verdadeabsoluta.net/esporte/sangue-no-gelo-ou-nao) em [um de meus artigos](/a-luta-mais-violenta-durante-uma-partida-de-hoquei). Foi quando percebi que, apesar de tudo, ainda tem gente que visita essa joça, e eu deveria dar o mínimo de atenção. Além do mais, a mamata da hospedagem grátis já acabou há algum tempo, ou seja, tenho que fazer valer o dinheiro gasto.
 
 Enfim, vou fazer o possível pra manter o blog atualizado, mas tentando manter a qualidade. Pelo menos assunto não vai faltar, afinal já teve até padre indo parar no Acre voando com balões de festa gigantes...
+
+`lang:pt-BR`

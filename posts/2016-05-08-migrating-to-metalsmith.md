@@ -1,5 +1,4 @@
 ---
-lang: en-US
 ---
 
 2016-05-08T22:14:08-03:00
@@ -10,3 +9,5 @@ I've just migrated this blog from [Second Crack](https://github.com/marcoarment/
 It's now being served by [GitHub Pages](https://pages.github.com/) too, with the [code available here](https://github.com/rbardini/rbardini.com). I'll write some follow-up posts soon detailing the plugins and scripts I've used to build and deploy the site.
 
 Stay tuned.
+
+`lang:en-US`

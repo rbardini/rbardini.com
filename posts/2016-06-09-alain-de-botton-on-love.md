@@ -1,5 +1,4 @@
 ---
-lang: en-US
 ---
 
 2016-06-09T22:43:33-03:00
@@ -16,3 +15,5 @@ Amazing presentation by one of the greatest thinkers of our time on how Romantic
 </figure>
 
 De Botton is one of the minds (and sometimes also the voice) behind [The School of Life channel](https://www.youtube.com/theschooloflifetv), which I highly recommend you to subscribe to.
+
+`lang:en-US`

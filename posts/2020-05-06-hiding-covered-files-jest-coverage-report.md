@@ -1,5 +1,4 @@
 ---
-lang: en-US
 ---
 
 2020-05-06T16:40:33+02:00
@@ -21,3 +20,5 @@ Luckily, additional options can be [passed to Istanbul reporters](https://jestjs
 This [hides all rows with full coverage](https://github.com/istanbuljs/istanbuljs/pull/170), letting you focus on what matters most: partially or fully–uncovered files.
 
 I also recommend [jest-silent-reporter](https://github.com/rickhanlonii/jest-silent-reporter) for an even quieter output (especially in CI builds) and [jest-it-up](https://github.com/rbardini/jest-it-up) to automatically bump up global Jest thresholds.
+
+`lang:en-US`

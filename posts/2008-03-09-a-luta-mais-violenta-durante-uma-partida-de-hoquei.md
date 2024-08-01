@@ -1,5 +1,4 @@
 ---
-lang: pt-BR
 ---
 
 2008-03-09T23:54:14-03:00
@@ -18,3 +17,5 @@ Fiquei impressionado ao ver essa luta ocorrida no meio de uma partida da NHL, li
 Pior é o balé dos árbitros em torno dos brigões, como se quisessem ver o circo pegar fogo, até que resolveram aplicar o "deixa disso".
 
 <small>Via [Digg](http://digg.com/hockey/UNBELIEVABLE_HOCKEY_FIGHT_SHAMEFUL).</small>
+
+`lang:pt-BR`

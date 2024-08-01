@@ -1,5 +1,4 @@
 ---
-lang: en-US
 ---
 
 2023-05-28T15:50:45+02:00
@@ -36,3 +35,5 @@ export default defineConfig({
 You will also need a `tsconfig.json` specifying root files and compiler options. If you don't have one yet, you can generate one with the appropriate [`create-vite`](https://www.npmjs.com/package/create-vite) TypeScript template, e.g. `vanilla-ts`.
 
 [^1]: I got tired of trying to make Jest work, especially after my migrations to ESM. Adopting [Vitest](https://vitest.dev/), with its compatible API and unified configuration with Vite, was a no-brainer.
+
+`lang:en-US`

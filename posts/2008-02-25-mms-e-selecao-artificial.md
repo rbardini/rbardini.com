@@ -1,5 +1,4 @@
 ---
-lang: pt-BR
 ---
 
 2008-02-25T22:33:42-03:00
@@ -14,3 +13,5 @@ Ao final de várias batalhas, descobriu-se que os M&Ms marrons e vermelhos são 
 Pra finalizar, o último M&M espartano é enviado num envelope para a sede da empresa — já que não seria coerente comê-lo após tanto esforço — com a finalidade de melhorar geneticamente as futuras gerações.
 
 Depois dessa, comer M&Ms nunca mais será a mesma coisa...
+
+`lang:pt-BR`

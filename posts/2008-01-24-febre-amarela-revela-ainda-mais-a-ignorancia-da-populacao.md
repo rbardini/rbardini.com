@@ -1,5 +1,4 @@
 ---
-lang: pt-BR
 ---
 
 2008-01-24T00:47:40-02:00
@@ -24,3 +23,5 @@ E ainda tem mais, agora [num artigo do O Globo](http://oglobo.globo.com/pais/mat
 > "Apesar dos alertas referentes ao perigo da revacinação, 31 pessoas tiveram reações adversas após tomar a vacina contra a doença. Nem todos os casos são de mais de uma dose seguida. Há também os que não poderiam ser imunizados, como mulheres grávidas, bebês com menos de seis meses de idade, alérgicos a ovo e pacientes com baixa imunidade por problemas de saúde."
 
 Pois é. Já imaginou se a [gripe aviária](http://pt.wikipedia.org/wiki/Gripe_aviária) chega ao Brasil? Eu não.
+
+`lang:pt-BR`

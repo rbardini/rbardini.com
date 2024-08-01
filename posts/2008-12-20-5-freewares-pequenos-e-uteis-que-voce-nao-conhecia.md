@@ -1,5 +1,4 @@
 ---
-lang: pt-BR
 ---
 
 2008-12-20T16:46:55-02:00
@@ -26,3 +25,5 @@ Sabe, na janela de _Abrir/Salvar como_, aqueles 5 atalhos do lado esquerdo que a
 Permite reorganizar os botões da barra de tarefas e ícones da área de notificação (tray). É, só isso mesmo.
 
 Esses são só alguns deles; vários outros ficaram de fora dessa lista. Fica pra próxima :)
+
+`lang:pt-BR`

@@ -1,5 +1,4 @@
 ---
-lang: pt-BR
 ---
 
 2008-03-21T02:02:12-03:00
@@ -16,3 +15,5 @@ Já em _Eu, Robô_, Denzel Washington era o favorito para o papel que acabou com
 Pra não ter só homem nessa lista (e justificar, pelo menos parcialmente, a foto do artigo), o cruzar de pernas de Julia Roberts poderia ter ficado no lugar do de Sharon Stone em _Instinto Selvagem_.
 
 O [artigo original](http://glamorati.com/celebrity/2008/20-actors-and-actresses-who-turned-down-important-or-popular-roles/) (em inglês) cita mais alguns troca-trocas com Tom Cruise, Madonna, Alec Baldwin, entre outros.
+
+`lang:pt-BR`

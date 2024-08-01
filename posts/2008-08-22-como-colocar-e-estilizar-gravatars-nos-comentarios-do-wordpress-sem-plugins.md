@@ -1,5 +1,4 @@
 ---
-lang: pt-BR
 ---
 
 2008-08-22T18:08:12-03:00
@@ -77,3 +76,5 @@ O código acima coloca a imagem à direita do comentário. No meu caso, o avatar
 ![Gravatars nos comentários](/img/comentarios-gravatar.png)
 
 Qualquer dúvida, ou se quiser ver como ficou o resultado aqui no blog, comente :)
+
+`lang:pt-BR`

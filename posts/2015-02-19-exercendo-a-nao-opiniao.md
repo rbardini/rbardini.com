@@ -1,5 +1,4 @@
 ---
-lang: pt-BR
 ---
 
 2015-02-19T22:34:03-02:00
@@ -22,3 +21,5 @@ Em situações como essa, é ainda mais apropriado seguir o conselho supostament
 </figure>
 
 Pense, sempre.
+
+`lang:pt-BR`

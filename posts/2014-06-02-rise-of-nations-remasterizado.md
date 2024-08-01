@@ -1,5 +1,4 @@
 ---
-lang: pt-BR
 ---
 
 2014-06-02T22:23:26-03:00
@@ -14,3 +13,5 @@ Tenho esperado desde o lançamento da expansão _Thrones and Patriots_ por uma v
 Ainda não veremos cenas como as do [mockup de Rise of Nations II](http://www.terranovaart.com/galleries/ron/riseofnationsiimokcup.html), mas de qualquer forma é uma ótima notícia.
 
 Compra instantânea na [pré-venda do Steam](http://store.steampowered.com/app/287450/).
+
+`lang:pt-BR`

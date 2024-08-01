@@ -1,5 +1,4 @@
 ---
-lang: pt-BR
 ---
 
 2008-09-01T01:06:19-03:00
@@ -19,3 +18,5 @@ Pô, que isso? Uma contagem regressiva pra uma contagem regressiva? Isso sim é 
 > "...five, four, three, two, one, and liftoff in ten, nine, eight, seven..."
 
 Brincadeiras à parte, boa sorte pra toda a equipe do Gizmodo Brasil. Que vosso site encha nossos feeds com todo o vosso conteúdo :P
+
+`lang:pt-BR`

@@ -1,5 +1,4 @@
 ---
-lang: pt-BR
 ---
 
 2007-11-26T18:04:39-02:00
@@ -21,3 +20,5 @@ Ou então, como Charles Darwin disse:
 Ainda segundo o artigo, pessoas com real conhecimento tendem a subestimar sua própria competência, ou seja, o inverso das antas.
 
 Provavelmente você concordará com o estudo, pois tem um chefe, colega de trabalho, amigo ou conhecido que apresenta o mesmo comportamento. Isso nos leva à um raciocínio interessante: se você concorda, você admite que há pessoas que acham que sabem mais que você. Sendo assim, você acredita que é mais inteligente que tais pessoas, superestimando seu próprio nível de inteligência, o que nos leva diretamente ao item 1. Então...
+
+`lang:pt-BR`

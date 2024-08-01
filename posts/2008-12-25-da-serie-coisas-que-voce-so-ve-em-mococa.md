@@ -1,5 +1,4 @@
 ---
-lang: pt-BR
 ---
 
 2008-12-25T23:16:44-02:00
@@ -18,3 +17,5 @@ Uma mesa de raios-X sonâmbula:
 </figure>
 
 CORRÃO PRAS COLINAS!!1!
+
+`lang:pt-BR`

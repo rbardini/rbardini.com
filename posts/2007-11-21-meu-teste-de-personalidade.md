@@ -1,5 +1,4 @@
 ---
-lang: pt-BR
 ---
 
 2007-11-21T01:22:10-02:00
@@ -30,3 +29,5 @@ Deve ser por isso que sempre tenho a sensação de ter esquecido de dizer algo l
 Gostei da palavra. Isolacionista.
 
 É isso. O [teste](http://www.inspiira.org/) tem 60 e poucas questões com duas alternativas cada e necessita cadastro. Fica a dica pra quem quiser saber mais sobre si mesmo ou pra mandar scrap para os miguxos do Orkut.
+
+`lang:pt-BR`

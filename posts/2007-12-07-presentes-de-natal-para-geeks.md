@@ -1,5 +1,4 @@
 ---
-lang: pt-BR
 ---
 
 2007-12-07T23:27:10-02:00
@@ -36,3 +35,5 @@ Essa é uma daquelas borrachas que dá dó de usar. Tem o formato da tecla _Dele
 Almofadinhas de 13,5 cm estampadas em 6 cores diferentes com emoticons ASCII, diferentes daquele smile amarelo que todo mundo já tá cansado de conhecer.
 
 Pra quem quiser ver mais produtos, faça uma visita ao site ao [Art. Lebedev Studio](http://www.artlebedev.com/). Já pra quem quiser me dar um presente, é só falar comigo na página "Sobre". :)
+
+`lang:pt-BR`

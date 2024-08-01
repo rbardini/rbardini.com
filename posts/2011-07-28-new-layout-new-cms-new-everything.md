@@ -1,5 +1,4 @@
 ---
-lang: en-US
 ---
 
 2011-07-28T01:23:29-03:00
@@ -18,3 +17,5 @@ Until the day I got bored--probably like everyone who ever visited this site in 
 By the way, I finally managed to design a dark layout, using every new HTML5 tag and CSS3 technique I could think of. There are fallbacks, but I really don't care that much about older browsers anymore. It is not finished and there are some rough edges, but if I didn't put it online before classes begun, I wouldn't for another six months. A big thanks to [Dave Gamache](http://www.davegamache.com/) and everyone else involved in [Skeleton](http://getskeleton.com/), for bringing a responsive boilerplate so great to the point of making me use a CSS grid system :)
 
 I'm still at college and I still don't have any time, but at least now I'll try to write something. Let's see how it goes.
+
+`lang:en-US`

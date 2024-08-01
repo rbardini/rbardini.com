@@ -1,6 +1,5 @@
 ---
 excerpt: How to handle null values when your types are defined with only non-nullable optional properties.
-lang: en-US
 ---
 
 2019-12-20T22:10:39+01:00
@@ -103,3 +102,5 @@ stripNullableProperties<A>({
 ```
 
 You could always do a type assertion and avoid all this trouble, but ensuring type safety—even in seemingly unharmful cases like this one—pays off in the long run.
+
+`lang:en-US`

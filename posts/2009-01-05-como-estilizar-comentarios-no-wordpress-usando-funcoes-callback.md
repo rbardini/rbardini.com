@@ -1,5 +1,4 @@
 ---
-lang: pt-BR
 ---
 
 2009-01-05T18:42:33-02:00
@@ -86,3 +85,5 @@ E as chamadas no arquivo _comments.php_:
 ```
 
 [Esse tutorial](http://sivel.net/2008/10/wp-27-comment-separation/) (em inglês) explica mais detalhadamente como separar comentários de trackbacks. Vale a visita :P
+
+`lang:pt-BR`

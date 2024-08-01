@@ -1,5 +1,4 @@
 ---
-lang: pt-BR
 ---
 
 2007-12-28T00:09:09-02:00
@@ -18,3 +17,5 @@ _HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\i8042prt\Parameters_
 Crie um _DWORD_ chamado _CrashOnCtrlScroll_, com valor 1, e reinicie o computador. Agora, para travar tudo, segure a tecla _CTRL_ e pressione a tecla _Scroll Lock_ duas vezes, e tcharam! Aproveite sua [BSOD](http://pt.wikipedia.org/wiki/BSOD) novinha em folha. Mais uma da série de coisas úteis de se fazer no computador dos outros. E não, eu não tentei fazer isso aqui.
 
 <small>Fonte: [the How-To Geek](http://www.howtogeek.com/howto/windows-vista/keyboard-ninja-kill-windows-with-the-blue-screen-of-death-in-3-keystrokes/)</small>
+
+`lang:pt-BR`

@@ -1,5 +1,4 @@
 ---
-lang: en-US
 ---
 
 2016-05-14T16:45:16-03:00
@@ -22,3 +21,5 @@ I think these cases also say a lot about how innocent people, like rape victims,
 > In hyperthermia cases, he believes, the parents are demonized for much the same reasons. “We are vulnerable, but we don’t want to be reminded of that. We want to believe that the world is understandable and controllable and unthreatening, that if we follow the rules, we’ll be okay. So, when this kind of thing happens to other people, we need to put them in a different category from us. We don’t want to resemble them, and the fact that we might is too terrifying to deal with. So, they have to be monsters.”
 
 Jeff Atwood wrote a [great piece](http://blog.codinghorror.com/they-have-to-be-monsters/) on this behavior in relation to internet harassment, so please check it out.
+
+`lang:en-US`

@@ -1,5 +1,4 @@
 ---
-lang: pt-BR
 ---
 
 2008-02-14T20:05:07-02:00
@@ -16,3 +15,5 @@ Não me canso de ver essas montagens hilárias utilizando uma cena do filme [A Q
 </figure>
 
 <small>Achado no [Sedentário e Hiperativo](http://www.sedentario.org/videos/lula-e-os-cartoes-corporativos-4181/).</small>
+
+`lang:pt-BR`

@@ -1,5 +1,4 @@
 ---
-lang: en-US
 ---
 
 2011-10-02T19:52:39-03:00
@@ -22,3 +21,5 @@ Can a scientist really enjoy the beauty of a flower? Here is what Mr. Feynman ha
 > <cite>Richard Feynman</cite>
 
 [Reid Gower](http://twitter.com/reidgower), the same man responsible for the awe-inspiring [The Sagan Series](http://www.facebook.com/thesaganseries) project, has just released a new companion mini series called [The Feynman Series](http://www.youtube.com/user/damewse). Do yourself a favor and watch the [first video](http://www.youtube.com/watch?v=cRmbwczTC6E), and the others too.
+
+`lang:en-US`
