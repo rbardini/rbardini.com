@@ -15,7 +15,7 @@ const defaultDateFormat: Intl.DateTimeFormatOptions = {
 
 export function postHeader({ post, dateFormat = defaultDateFormat, headingLevel = 1 }: PostHeaderProps) {
   return html`<header>
-    <time>${new Date(post.date).toLocaleDateString('en-us', dateFormat)}</time>
+    <time datetime="${post.date.toISOString()}">${new Date(post.date).toLocaleDateString('en-us', dateFormat)}</time>
     <h${headingLevel}>
       <a href="${post.link ?? `/${post.slug}`}" rel="${post.link ? 'external' : 'bookmark'}">${post.title}</a>
     </h${headingLevel}>

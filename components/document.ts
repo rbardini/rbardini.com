@@ -8,7 +8,7 @@ export type DocumentProps = {
 
 export function document({ head, body }: DocumentProps) {
   return html`<!DOCTYPE html>
-    <html>
+    <html lang="en">
       ${head}
       <body>
         <main>${body}</main>
