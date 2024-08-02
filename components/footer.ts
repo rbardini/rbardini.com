@@ -19,5 +19,6 @@ export function footer() {
         </li>
       </ul>
     </nav>
+    <p>With <span class="♥">♥</span> since 2007</p>
   </footer>`
 }
