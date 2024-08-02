@@ -1,5 +1,5 @@
+import { html } from '@rbardini/html'
 import { Post } from '../types.ts'
-import { html } from '../utils/html.ts'
 
 export type PostHeaderProps = {
   post: Post

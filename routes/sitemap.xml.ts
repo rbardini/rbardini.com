@@ -1,6 +1,6 @@
+import { html } from '@rbardini/html'
 import { Route, site } from '../constants.ts'
 import { Context } from '../types.ts'
-import { html } from '../utils/html.ts'
 
 export default function ({ posts }: Context) {
   const locs = [

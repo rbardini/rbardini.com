@@ -1,5 +1,5 @@
+import { html } from '@rbardini/html'
 import { Route, site } from '../constants.ts'
-import { html } from '../utils/html.ts'
 
 export function footer() {
   return html`<footer>

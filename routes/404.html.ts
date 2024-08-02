@@ -1,6 +1,6 @@
+import { html } from '@rbardini/html'
 import { document } from '../components/document.ts'
 import { head } from '../components/head.ts'
-import { html } from '../utils/html.ts'
 
 export default function () {
   return document({

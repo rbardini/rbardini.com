@@ -3,6 +3,7 @@
   "packages": {
     "specifiers": {
       "jsr:@b-fuze/deno-dom@^0.1.47": "jsr:@b-fuze/deno-dom@0.1.47",
+      "jsr:@rbardini/html@^1.0.0": "jsr:@rbardini/html@1.0.1",
       "jsr:@std/fs@^1.0.0": "jsr:@std/fs@1.0.0",
       "jsr:@std/path@^1.0.0": "jsr:@std/path@1.0.2",
       "jsr:@std/path@^1.0.2": "jsr:@std/path@1.0.2"
@@ -10,6 +11,9 @@
     "jsr": {
       "@b-fuze/deno-dom@0.1.47": {
         "integrity": "270a888de91329f8ce3849211ece0ad97ce1e8b9a8a774f2bed2f43c8b0ffe8e"
+      },
+      "@rbardini/html@1.0.1": {
+        "integrity": "cb14bd271e7f3c42877cdd2585bda3ff3e94681619ad05ebc468a69bde24362a"
       },
       "@std/fs@1.0.0": {
         "integrity": "d72e4a125af7168d717a2ed1dca77a728b422b0d138fd20579e3fa41a77da943",
@@ -66,6 +70,7 @@
   "workspace": {
     "dependencies": [
       "jsr:@b-fuze/deno-dom@^0.1.47",
+      "jsr:@rbardini/html@^1.0.0",
       "jsr:@std/fs@^1.0.0",
       "jsr:@std/path@^1.0.0"
     ]

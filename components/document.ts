@@ -1,4 +1,4 @@
-import { html } from '../utils/html.ts'
+import { html } from '@rbardini/html'
 import { footer } from './footer.ts'
 
 export type DocumentProps = {
