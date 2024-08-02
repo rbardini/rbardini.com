@@ -1,7 +1,7 @@
 import { copy } from '@std/fs'
 import { extname, join } from '@std/path'
 import { Path } from './constants.ts'
-import { Context } from './types.ts'
+import type { Context } from './types.ts'
 import { getPosts } from './utils/posts.ts'
 import { getRoutes } from './utils/routes.ts'
 

@@ -1,6 +1,6 @@
 import { micromark } from '$micromark'
 import { gfm, gfmHtml } from '$micromark-extension-gfm'
-import { Content } from '../types.ts'
+import type { Content } from '../types.ts'
 import { parseHTML } from './html.ts'
 
 export function renderMarkdown(markdown: string) {

@@ -1,5 +1,5 @@
 import { join, parse } from '@std/path'
-import { Post } from '../types.ts'
+import type { Post } from '../types.ts'
 import { extractContent } from './markdown.ts'
 
 const TEN_YEARS_IN_MILLIS = 86400000 * 365 * 10

@@ -1,6 +1,6 @@
 import { parse, resolve } from '@std/path'
 import { Path } from '../constants.ts'
-import { Context, Route } from '../types.ts'
+import type { Context, Route } from '../types.ts'
 
 export async function getRoutes() {
   const routeEntries = Deno.readDir(Path.Routes)

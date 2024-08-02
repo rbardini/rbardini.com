@@ -1,5 +1,5 @@
 import { html } from '@rbardini/html'
-import { Post } from '../types.ts'
+import type { Post } from '../types.ts'
 import { renderMarkdown } from '../utils/markdown.ts'
 import { postHeader } from './post-header.ts'
 

@@ -1,6 +1,6 @@
 import { Feed } from '$feed'
 import { site } from '../constants.ts'
-import { Context } from '../types.ts'
+import type { Context } from '../types.ts'
 import { renderMarkdown } from '../utils/markdown.ts'
 
 const MAX_ITEMS = 20
