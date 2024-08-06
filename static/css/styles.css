@@ -32,7 +32,7 @@
 html { background:var(--base01); color:var(--base06); font:clamp(90%, 2.2vw, 120%) / 1.8 ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; overflow-x:hidden; text-underline-position:under }
 body { margin:2lh auto; max-width:62ch; padding-inline:1ch }
 iframe { border:0 }
-img, svg { filter:saturate(0.2); max-width:100%; transition:filter 0.4s }
+img, svg { filter:saturate(0.5); max-width:100%; transition:filter 0.4s }
 :is(img, svg):hover { filter:none }
 a { color:inherit; text-decoration-color:var(--base04); transition:text-decoration-color 0.2s }
 a:hover, a:focus { text-decoration-color:inherit }
