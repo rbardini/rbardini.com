@@ -17,7 +17,7 @@ export function postHeader({ post, dateFormat = defaultDateFormat, headingLevel 
   return html`<header>
     <time datetime="${post.date.toISOString()}">${new Date(post.date).toLocaleDateString('en-us', dateFormat)}</time>
     <h${headingLevel}>
-      <a href="${post.link ?? `/${post.slug}`}" rel="${post.link ? 'external' : 'bookmark'}">${post.title}</a>
+      <a href="${post.link ?? `/${post.slug}`}/" rel="${post.link ? 'external' : 'bookmark'}">${post.title}</a>
     </h${headingLevel}>
     ${post.excerpt && html`<p>${post.excerpt}</p>`}
   </header>`

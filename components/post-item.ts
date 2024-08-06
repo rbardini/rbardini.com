@@ -17,7 +17,7 @@ export function postItem({ post, dateFormat = defaultDateFormat }: PostItemProps
   return html`<li>
     <span class="table">
       <time datetime="${post.date.toISOString()}" style="width:${dateString.length + 1}ch">${dateString}</time>
-      <a href="/${post.slug}">${post.title}</a>
+      <a href="/${post.slug}/">${post.title}</a>
     </span>
   </li>`
 }

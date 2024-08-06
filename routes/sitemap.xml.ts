@@ -5,7 +5,7 @@ import type { Context } from '../types.ts'
 export default function ({ posts }: Context) {
   const locs = [
     ...Object.values(Route).filter((route) => !route.endsWith('.xml')),
-    ...posts.map(({ slug }) => slug),
+    ...posts.map((post) => `/${post.slug}/`),
   ]
 
   return html`<?xml version="1.0" encoding="UTF-8"?>

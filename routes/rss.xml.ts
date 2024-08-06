@@ -19,11 +19,11 @@ export default function ({ posts }: Context) {
       title: post.title.concat(post.link ? ' ↗' : ''),
       description: [
         renderMarkdown(post.markdown),
-        post.link && `<p><a href="${new URL(post.slug, site.url)}" rel="bookmark">∞ Permalink</a></p>`,
+        post.link && `<p><a href="${new URL(`/${post.slug}/`, site.url)}" rel="bookmark">∞ Permalink</a></p>`,
       ]
         .filter(Boolean)
         .join('\n'),
-      link: post.link ?? post.slug,
+      link: post.link ?? `/${post.slug}/`,
       date: post.date,
     })
   )
