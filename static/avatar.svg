@@ -15,7 +15,7 @@
     </clipPath>
   </defs>
   <g clip-path="url(#viewport)">
-    <use href="#porthole" fill="#2E88E6" />
+    <use class="porthole" href="#porthole" fill="#2E88E6" />
     <g class="body">
       <g class="chest">
         <path fill="#E8C6BE" d="M660.9,822.7c-15.7,68-69.7,99-148.9,99s-133.2-30.9-148.9-99c11.2-0.5,22.4-0.8,33.7-0.8h230.4 C638.5,822,649.7,822.2,660.9,822.7z" />

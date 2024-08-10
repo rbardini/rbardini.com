@@ -23,7 +23,12 @@
   }
 }
 
-@keyframes slide-in-from-bottom {
+@keyframes scale-up {
+    0% { scale:0 }
+  100% { scale:1 }
+}
+
+@keyframes slide-up {
     0% { translate:0 100% }
   100% { translate:none }
 }
@@ -83,8 +88,9 @@ header p, .disclaimer { font-size:smaller; font-style:italic }
 
 animated-avatar { float:inline-end; margin:-3ch -2ch 0 0; position:relative; shape-outside:circle(46% at 50% 59%) border-box; width:24ch; z-index:1 }
 @media (prefers-reduced-motion:no-preference) {
-  animated-avatar :is(#porthole, .body) { transform-origin:50% 100%; transition:scale 0.4s ease-out }
-  animated-avatar .body { animation:slide-in-from-bottom 0.8s both cubic-bezier(0.34, 1.46, 0.64, 1) }
+  animated-avatar :is(#porthole, .porthole, .body) { transform-origin:50% 100%; transition:scale 0.4s ease-out }
+  animated-avatar .porthole { animation:scale-up 0.4s both ease-out }
+  animated-avatar .body { animation:slide-up 0.8s 0.2s both cubic-bezier(0.34, 1.46, 0.64, 1) }
   animated-avatar:hover #porthole { scale:0.95 }
   animated-avatar:hover .body { scale:1.05 }
 }
