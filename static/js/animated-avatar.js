@@ -1,5 +1,8 @@
 import { gsap } from 'https://esm.sh/gsap@3.12.5'
 
+const BLINK_INTERVAL_MS = 5000
+const MOVE_INTERVAL_MS = 3000
+
 class AnimatedAvatar extends HTMLElement {
   connectedCallback() {
     if (globalThis.matchMedia('(prefers-reduced-motion)').matches) return
@@ -17,11 +20,12 @@ class AnimatedAvatar extends HTMLElement {
 
     globalThis.addEventListener('resize', this.onResize)
     globalThis.addEventListener('pointermove', this.onPointerMove)
+    this.randomMoveIntervalId = globalThis.setInterval(this.onRandomMove, MOVE_INTERVAL_MS)
     this.onResize()
 
     gsap.ticker.add(this.onTick)
     this.blink = gsap
-      .timeline({ repeat: -1, repeatDelay: 5 })
+      .timeline({ repeat: -1, repeatDelay: BLINK_INTERVAL_MS / 1000 })
       .to(this.$sclera, { duration: 0.01, opacity: 0 }, 0)
       .to(this.$sclera, { duration: 0.01, opacity: 1 }, 0.1)
   }
@@ -29,6 +33,7 @@ class AnimatedAvatar extends HTMLElement {
   disconnectedCallback() {
     globalThis.removeEventListener('resize', this.onResize)
     globalThis.removeEventListener('pointermove', this.onPointerMove)
+    globalThis.clearInterval(this.randomMoveIntervalId)
 
     gsap.ticker.remove(this.onTick)
     this.blink.kill()
@@ -49,6 +54,15 @@ class AnimatedAvatar extends HTMLElement {
   onPointerMove = (e) => {
     this.x = this.mapX(e.clientX - this.origX)
     this.y = this.mapY(e.clientY - this.origY)
+    this.lastMoveTimestamp = Date.now()
+  }
+
+  onRandomMove = () => {
+    if (Date.now() - this.lastMoveTimestamp < MOVE_INTERVAL_MS) return
+
+    this.x = this.mapX(Math.floor(globalThis.innerWidth * Math.random()) - this.origX)
+    this.y = this.mapY(Math.floor(globalThis.innerHeight * Math.random()) - this.origY)
+    this.lastMoveTimestamp = Date.now()
   }
 
   onTick = () => {
