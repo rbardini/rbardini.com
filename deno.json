@@ -4,10 +4,10 @@
   },
   "imports": {
     "$feed": "https://esm.sh/v135/feed@4.2.2",
-    "$jsonresume-theme-even": "https://esm.sh/v135/jsonresume-theme-even@0.22.0",
+    "$jsonresume-theme-even": "https://esm.sh/v135/jsonresume-theme-even@0.23.0",
     "$micromark": "https://esm.sh/v135/micromark@4.0.0",
     "$micromark-extension-gfm": "https://esm.sh/v135/micromark-extension-gfm@3.0.0",
-    "@b-fuze/deno-dom": "jsr:@b-fuze/deno-dom@^0.1.47",
+    "@b-fuze/deno-dom": "jsr:@b-fuze/deno-dom@^0.1.0",
     "@rbardini/html": "jsr:@rbardini/html@^1.0.0",
     "@std/fs": "jsr:@std/fs@^1.0.0",
     "@std/path": "jsr:@std/path@^1.0.0"
