@@ -1,4 +1,4 @@
-2007-12-07T23:27:10-02:00
+2007-12-07 23:27:10-02:00
 # Presentes de Natal para geeks
 
 Lendo o feed do [Brogui](http://www.brogui.com/) encontrei [este pendrive](http://www.brogui.com/2007/12/07/pendrive-pra-la-de-criativo/) em formato de pasta, muito bem pensado. Passando pela [loja](http://store.artlebedev.com/) do designer Art Lebedev – que me parece enviar encomendas para o mundo todo – achei vários outros produtos tão ou mais criativos quanto este. Como nerd que sou, selecionei os mais interessantes:

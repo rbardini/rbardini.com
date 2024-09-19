@@ -1,4 +1,4 @@
-2008-03-06T20:19:09-03:00
+2008-03-06 20:19:09-03:00
 # Oh, você queria entusiasmo?
 
 Achei essa tirinha tão boa que resolvi traduzí-la e colocá-la aqui. Reflete bem o pensamento de 93,14% dos homens:

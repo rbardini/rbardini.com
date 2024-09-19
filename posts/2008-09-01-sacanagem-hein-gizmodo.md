@@ -1,4 +1,4 @@
-2008-09-01T01:06:19-03:00
+2008-09-01 01:06:19-03:00
 # Sacanagem hein Gizmodo?!
 
 O [Gizmodo](http://gizmodo.com/), pra quem não sabe, é um dos blogs de tecnologia mais populares do mundo. E não é só na categoria dele não: é o terceiro no [Top 10](http://technorati.com/pop/blogs/) do Technorati. E agora resolveram lançar a [versão brasileira](http://www.gizmodo.com.br/), muito bem-vinda por sinal, com todo um marketing por trás – organizaram até um _flash mob_(?) em São Paulo pra comemorar a estréia.

@@ -1,4 +1,4 @@
-2007-11-21T01:22:10-02:00
+2007-11-21 01:22:10-02:00
 # Meu teste de personalidade
 
 Bom, acho que não falta mais nada pra arrumar aqui, pelo menos por enquanto, ou seja, mãos à obra. Pra começar, seguindo a dica do [1001 Gatos](http://1001gatos.org/tipos-psicologicos-carl-jung-descubra-qual-e-o-seu/) e o incentivo do [novo-MUNDO](http://novo-mundo.org/log/2007/11/20/teste-de-personalidade-como-voce-e/), fiz o tal teste de personalidade no site [inspiira.org](http://www.inspiira.org/) e achei que seria uma boa compartilhar o resultado, para que os leitores desse blog saibam um pouco mais sobre mim.

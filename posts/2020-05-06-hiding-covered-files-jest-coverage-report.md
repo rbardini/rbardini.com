@@ -1,4 +1,4 @@
-2020-05-06T16:40:33+02:00
+2020-05-06 16:40:33+02:00
 # Hiding fully-covered files from Jest coverage report
 
 While working on a large JavaScript codebase, one thing that bothered me was the coverage report output to the console: as most files had 100% coverage, it was difficult to spot the few exceptions in the table.

@@ -1,4 +1,4 @@
-2014-04-21T18:32:32-03:00
+2014-04-21 18:32:32-03:00
 # [Improve the payment experience with animations](https://medium.com/ui-ux-articles/3d1b0a9b810e)
 
 Michaël Villar:

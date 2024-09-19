@@ -1,4 +1,4 @@
-2007-12-28T00:09:09-02:00
+2007-12-28 00:09:09-02:00
 # Trave o Windows pressionando duas teclas
 
 Tá certo que alguns usuários conseguem travar o Windows sem pressionar nenhuma tecla, clicando no _[fotos.exe](http://desciclo.pedia.ws/wiki/Fotos_da_Festa)_ do [Orkut](http://www.orkut.com/), mas a querida Microsoft, querendo disponibilizar a dor de cabeça para todos, incluiu uma [função interessante](http://support.microsoft.com/kb/244139) em seus sistemas operacionais. O erro é um "recurso" que permite que um arquivo de despejo de memória seja gerado utilizando o teclado, ou o que quer que isso signifique, resultando numa tela azul da morte com a mensagem _"O usuário final gerou o despejo de memória manualmente."_

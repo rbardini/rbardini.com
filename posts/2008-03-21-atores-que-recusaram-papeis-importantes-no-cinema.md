@@ -1,4 +1,4 @@
-2008-03-21T02:02:12-03:00
+2008-03-21 02:02:12-03:00
 # Atores que recusaram papéis importantes no cinema
 
 Algumas vezes a atuação de um ator ou atriz é tão convincente que fica difícil imaginar outra pessoa fazendo a mesma personagem. Um exemplo recente é _Rambo_. Gostando ou não do filme, desassociá-lo de Sylvester Stallone é missão impossível. Assim como também é Arnold Schwarzenegger em _O Exterminador do Futuro_. Antes das gravações, porém, muitos recusam tais papéis, para felicidade (ou não) dos cinéfilos:

@@ -1,4 +1,4 @@
-2016-06-09T22:43:33-03:00
+2016-06-09 22:43:33-03:00
 # [Alain de Botton on Love](https://www.youtube.com/watch?v=jJ6K_f7oSdg)
 
 Amazing presentation by one of the greatest thinkers of our time on how Romanticism has made our relationships difficult.

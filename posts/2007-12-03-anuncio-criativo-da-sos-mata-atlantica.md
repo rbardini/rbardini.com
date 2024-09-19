@@ -1,4 +1,4 @@
-2007-12-03T13:23:12-02:00
+2007-12-03 13:23:12-02:00
 # Anúncio criativo da SOS Mata Atlântica
 
 Muito interessante o anúncio abaixo, criado pela agência [F/Nazca](http://www.fnazca.com.br/) para a [SOS Mata Atlântica](http://www.sosmatatlantica.org.br/), e que participou do [Cannes Lions 2007](http://www.canneslions.com/). Faz uma alusão ao Google Maps, onde sugere diminuir o zoom para ter uma melhor visão da floresta.

@@ -1,4 +1,4 @@
-2008-12-25T23:16:44-02:00
+2008-12-25 23:16:44-02:00
 # Da série "Coisas que você só vê em Mococa"...
 
 Uma mesa de raios-X sonâmbula:

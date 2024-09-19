@@ -1,4 +1,4 @@
-2014-09-08T01:30:55-03:00
+2014-09-08 01:30:55-03:00
 # [Introducing Attribute Modules for CSS](http://glenmaddern.com/articles/introducing-am-css)
 
 Glen Maddern:

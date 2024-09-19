@@ -1,4 +1,4 @@
-2008-09-11T19:33:46-03:00
+2008-09-11 19:33:46-03:00
 # Acompanhe ao vivo pela Internet os experimentos no Grande Colisor de Hádrons (LHC)
 
 O CERN disponibilizou à nós, meros mortais internautas, duas webcams que transmitem tudo o que acontece no _Large Hadron Collider_, o maior ~~buraco negro construído pelo homem~~ acelerador de partículas do mundo. Uma das câmeras filma o equipamento, enquanto a outra exibe imagens do estacionamento localizado logo acima. [Corra e veja](http://www.cyriak.co.uk/lhc/lhc-webcams.html) antes que o mundo acabe.

@@ -1,4 +1,4 @@
-2023-05-28T15:50:45+02:00
+2023-05-28 15:50:45+02:00
 # How to build a TypeScript library with Vite
 
 I recently moved a few TypeScript libraries from [Microbundle](https://github.com/developit/microbundle), [TSDX](https://github.com/jaredpalmer/tsdx) and [dts-cli](https://github.com/weiran-zsd/dts-cli) to [Vite](https://vitejs.dev/). I wanted more control over the build setup, and to be able to develop, build and test[^1] them using the same configuration.

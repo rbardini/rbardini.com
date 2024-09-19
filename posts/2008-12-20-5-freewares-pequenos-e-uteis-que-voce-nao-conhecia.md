@@ -1,4 +1,4 @@
-2008-12-20T16:46:55-02:00
+2008-12-20 16:46:55-02:00
 # 5 freewares pequenos (e úteis) que você não conhecia
 
 Há um bom tempo eu venho pensando em escrever um artigo sobre alguns programas para Windows muito úteis que tenho "colecionado" com o tempo. Eles não gastam quase nada de memória — todos têm menos de 1mb — e são uma mão na roda quando você se acostuma a utilizá-los:
