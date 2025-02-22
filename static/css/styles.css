@@ -39,7 +39,7 @@ body { margin:2lh auto; max-width:62ch; padding-inline:1ch }
 iframe { border:0 }
 img, svg { filter:saturate(0.5); max-width:100%; transition:filter 0.4s }
 :is(img, svg):hover { filter:none }
-a { color:inherit; text-decoration-color:var(--base04); transition:text-decoration-color 0.2s }
+a { color:inherit; text-decoration-color:var(--base03); transition:text-decoration-color 0.2s }
 a:hover, a:focus { text-decoration-color:inherit }
 figcaption, time { font-size:smaller }
 article, aside, footer { margin-block:2lh }
