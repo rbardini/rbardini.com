@@ -1,7 +1,7 @@
 {
   "meta": {
     "canonical": "https://rbardini.com/resume.json",
-    "lastModified": "2025-02-22T15:55:25.365Z"
+    "lastModified": "2025-02-22T16:27:43.192Z"
   },
   "basics": {
     "name": "Rafael Bardini",
@@ -153,23 +153,8 @@
       "highlights": [
         "[Showcased in Made with Supabase](https://www.madewithsupabase.com/p/countryquest) project collection."
       ],
-      "keywords": [
-        "Scratch",
-        "Map",
-        "World",
-        "Countries",
-        "Travel",
-        "Tourism",
-        "Visits",
-        "Achievements"
-      ],
       "startDate": "2021-05-04",
-      "url": "https://country.quest",
-      "roles": [
-        "Creator",
-        "Maintainer"
-      ],
-      "type": "application"
+      "url": "https://country.quest"
     },
     {
       "name": "Storybook Playroom Addon",
@@ -177,21 +162,8 @@
       "highlights": [
         "[Featured by LogRocket](https://blog.logrocket.com/top-storybook-addons-to-take-your-code-to-the-next-level/) as \"probably one of the greatest community Storybook addons.\""
       ],
-      "keywords": [
-        "Storybook",
-        "Addon",
-        "Playroom",
-        "React",
-        "Design",
-        "JSX"
-      ],
       "startDate": "2020-02-08",
-      "url": "https://storybook.js.org/addons/storybook-addon-playroom/",
-      "roles": [
-        "Creator",
-        "Maintainer"
-      ],
-      "type": "addon"
+      "url": "https://storybook.js.org/addons/storybook-addon-playroom/"
     },
     {
       "name": "Carteiro",
@@ -200,22 +172,9 @@
         "[Previously available on Google Play](https://play.google.com/store/apps/details?id=com.rbardini.carteiro) with 685K+ installs and 4.5 ★ rating.",
         "[Embedded into LG smartphones](https://www.jusbrasil.com.br/diarios/79871944/dou-secao-1-11-11-2014-pg-51) following a government incentive program for national mobile applications."
       ],
-      "keywords": [
-        "Android",
-        "Correios",
-        "Package",
-        "Tracking",
-        "Postal",
-        "Shipping"
-      ],
       "startDate": "2012-04-14",
       "endDate": "2022-11-04",
-      "url": "https://carteiro.app",
-      "roles": [
-        "Creator",
-        "Maintainer"
-      ],
-      "type": "application"
+      "url": "https://carteiro.app"
     }
   ],
   "awards": [
