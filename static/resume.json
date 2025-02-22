@@ -1,7 +1,7 @@
 {
   "meta": {
     "canonical": "https://rbardini.com/resume.json",
-    "lastModified": "2025-02-22T15:46:27.075Z"
+    "lastModified": "2025-02-22T15:55:25.365Z"
   },
   "basics": {
     "name": "Rafael Bardini",
@@ -265,12 +265,10 @@
   ],
   "languages": [
     {
-      "language": "English",
-      "fluency": "Fluent speaker"
+      "language": "English"
     },
     {
-      "language": "Portuguese",
-      "fluency": "Native speaker"
+      "language": "Portuguese"
     }
   ]
 }
