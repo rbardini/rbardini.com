@@ -1,7 +1,7 @@
 {
   "meta": {
     "canonical": "https://rbardini.com/resume.json",
-    "lastModified": "2024-03-30T01:45:02.485Z"
+    "lastModified": "2025-02-22T15:46:27.075Z"
   },
   "basics": {
     "name": "Rafael Bardini",
@@ -235,22 +235,6 @@
       "awarder": "Daitan"
     }
   ],
-  "publications": [
-    {
-      "name": "Making optional properties nullable in TypeScript",
-      "summary": "How to handle null values when your types are defined with only non-nullable optional properties.",
-      "publisher": "Travix Engineering",
-      "url": "https://travix.io/making-optional-properties-nullable-in-typescript-acb99051f329",
-      "releaseDate": "2019-12-20"
-    },
-    {
-      "name": "Automating tests for the GTM data layer",
-      "summary": "How we automated GTM data layer testing using our end-to-end test framework of choice, TestCafe.",
-      "publisher": "Travix Engineering",
-      "url": "https://travix.io/automating-gtm-data-layer-tests-b17b2cd2427f",
-      "releaseDate": "2019-07-20"
-    }
-  ],
   "skills": [
     {
       "name": "Software development",
@@ -287,20 +271,6 @@
     {
       "language": "Portuguese",
       "fluency": "Native speaker"
-    }
-  ],
-  "interests": [
-    {
-      "name": "User experience",
-      "keywords": [
-        "Usability",
-        "Accessibility",
-        "Inclusion",
-        "Semantics",
-        "Typography",
-        "Performance",
-        "Decentralization"
-      ]
     }
   ]
 }
