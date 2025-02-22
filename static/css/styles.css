@@ -86,7 +86,7 @@ header p, .disclaimer { font-size:smaller; font-style:italic }
 .sr-only { border:0; clip:rect(0,0,0,0); height:1px; margin:-1px; overflow:hidden; padding:0; position:absolute; white-space:nowrap; width:1px }
 .♥ { color:var(--base07) }
 
-animated-avatar { float:inline-end; margin:-3ch -2ch 0 0; position:relative; shape-outside:circle(46% at 50% 59%) border-box; width:24ch; z-index:1 }
+animated-avatar { clip-path:inset(0% 1em round 100%); float:inline-end; margin:-3ch -2ch 0 0; position:relative; shape-outside:circle(46% at 50% 59%) border-box; width:24ch; z-index:1 }
 @media (prefers-reduced-motion:no-preference) {
   animated-avatar :is(#porthole, .porthole, .body) { transform-origin:50% 100%; transition:scale 0.4s ease-out }
   animated-avatar .porthole { animation:scale-up 0.4s both ease-out }
