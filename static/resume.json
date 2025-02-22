@@ -1,7 +1,7 @@
 {
   "meta": {
     "canonical": "https://rbardini.com/resume.json",
-    "lastModified": "2025-02-22T16:27:43.192Z"
+    "lastModified": "2025-02-22T17:06:44.686Z"
   },
   "basics": {
     "name": "Rafael Bardini",
@@ -170,7 +170,7 @@
       "description": "A beautifully designed, free Android package tracking app for the Brazilian postal service.",
       "highlights": [
         "[Previously available on Google Play](https://play.google.com/store/apps/details?id=com.rbardini.carteiro) with 685K+ installs and 4.5 ★ rating.",
-        "[Embedded into LG smartphones](https://www.jusbrasil.com.br/diarios/79871944/dou-secao-1-11-11-2014-pg-51) following a government incentive program for national mobile applications."
+        "[Embedded into LG smartphones](https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=11/11/2014&jornal=1&pagina=51) following a government incentive program for national mobile applications."
       ],
       "startDate": "2012-04-14",
       "endDate": "2022-11-04",
