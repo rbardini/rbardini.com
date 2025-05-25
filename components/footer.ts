@@ -2,7 +2,7 @@ import { html } from '@rbardini/html'
 import { Route, site } from '../constants.ts'
 
 export function footer() {
-  return html`<footer>
+  return html`<footer id="footer">
     <nav>
       <ul>
         <li>

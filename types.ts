@@ -8,6 +8,7 @@ export type Content = {
 }
 
 export type Post = Content & {
+  id: string
   isOld: boolean
   slug: string
 }

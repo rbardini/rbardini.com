@@ -11,13 +11,14 @@ export async function getPosts(limit = Infinity) {
 
   for await (const postEntry of postEntries) {
     const { name } = postEntry
+    const id = `p${posts.length}`
     const slug = parse(name).name.slice('YYYY-MM-DD-'.length)
 
     const text = await Deno.readTextFile(join(POSTS_SRC, name))
     const content = extractContent(text)
     const isOld = Date.now() - content.date.getTime() > TEN_YEARS_IN_MILLIS
 
-    posts.push({ ...content, isOld, slug })
+    posts.push({ ...content, id, isOld, slug })
   }
 
   return posts.sort((a, b) => b.date.valueOf() - a.date.valueOf()).slice(0, limit)
