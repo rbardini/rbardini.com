@@ -23,6 +23,11 @@
   }
 }
 
+@keyframes fade {
+   0% { opacity:1 } 25%  { opacity:1 }
+  75% { opacity:0 } 100% { opacity:0 }
+}
+
 @keyframes scale-up {
     0% { scale:0 }
   100% { scale:1 }
@@ -39,8 +44,7 @@
 html { -webkit-font-smoothing:antialiased; background:var(--base01); color:var(--base06); font:clamp(90%, 2.2vw, 120%) / 1.8 ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; overflow-x:hidden; text-underline-position:under }
 body { margin:2lh auto; max-width:62ch; padding-inline:1ch }
 iframe { border:0 }
-img, svg { filter:saturate(0.5); max-width:100%; transition:filter 0.4s }
-:is(img, svg):hover { filter:none }
+img, svg { max-width:100% }
 a { color:inherit; text-decoration-color:var(--base03); transition:text-decoration-color 0.2s }
 a:hover, a:focus { text-decoration-color:inherit }
 figcaption, time { font-size:smaller }
@@ -97,6 +101,10 @@ animated-avatar { clip-path:inset(0% 1em round 100%); float:inline-end; margin:-
   animated-avatar:hover #porthole { scale:0.95 }
   animated-avatar:hover .body { scale:1.05 }
 }
+
+.image-comparison { display:grid }
+.image-comparison > img { grid-area:1/1 }
+.image-comparison > img:first-of-type { animation:2s ease-in-out infinite alternate fade }
 
 /* Adapted from https://github.com/chawyehsu/base16-prism */
 pre { background:var(--base00); line-height:1.5; margin-inline:-1ch; overflow-wrap:break-word; padding:1ch 1ch 0; white-space:pre-wrap }
