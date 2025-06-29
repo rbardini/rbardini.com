@@ -42,7 +42,7 @@
 
 *, ::before, ::after { box-sizing:border-box }
 html { -webkit-font-smoothing:antialiased; background:var(--base01); color:var(--base06); font:clamp(80%, 2.2vw, 100%) / 1.8 ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; overflow-x:hidden; text-underline-position:under }
-body { margin:2lh auto; max-width:62ch; padding-inline:1ch }
+body { margin:clamp(2lh, 10vw, 4lh) auto; max-width:62ch; padding-inline:1ch }
 iframe { border:0 }
 img, svg { max-width:100% }
 a { color:inherit; text-decoration-color:var(--base03); transition:text-decoration-color 0.2s }
