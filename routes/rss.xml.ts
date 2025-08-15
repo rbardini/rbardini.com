@@ -8,6 +8,7 @@ const MAX_ITEMS = 20
 export default function ({ posts }: Context) {
   const feed = new Feed({
     id: site.url,
+    link: site.url,
     title: site.name,
     description: site.description,
     author: { name: site.author },
