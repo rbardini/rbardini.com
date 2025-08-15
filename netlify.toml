@@ -1,3 +1,8 @@
 [build]
   command = "deno run -A main.ts"
   publish = "dist"
+
+[[headers]]
+  for = "/rss.xml"
+  [headers.values]
+    Content-Type = "application/rss+xml"
