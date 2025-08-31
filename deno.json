@@ -4,14 +4,14 @@
     "githooks": "deno run --allow-read=. --allow-write=.githooks --allow-run=git jsr:@vnphanquang/githooks/bin init"
   },
   "imports": {
-    "$feed": "https://esm.sh/v135/feed@4.2.2",
-    "$jsonresume-theme-even": "https://esm.sh/v135/jsonresume-theme-even@0.23.0",
-    "$micromark": "https://esm.sh/v135/micromark@4.0.0",
-    "$micromark-extension-gfm": "https://esm.sh/v135/micromark-extension-gfm@3.0.0",
-    "@b-fuze/deno-dom": "jsr:@b-fuze/deno-dom@^0.1.0",
-    "@rbardini/html": "jsr:@rbardini/html@^1.0.0",
-    "@std/fs": "jsr:@std/fs@^1.0.0",
-    "@std/path": "jsr:@std/path@^1.0.0"
+    "$feed": "npm:feed@5.1.0",
+    "$jsonresume-theme-even": "npm:jsonresume-theme-even@0.24.0",
+    "$micromark": "npm:micromark@4.0.2",
+    "$micromark-extension-gfm": "npm:micromark-extension-gfm@3.0.0",
+    "@b-fuze/deno-dom": "jsr:@b-fuze/deno-dom@0.1.56",
+    "@rbardini/html": "jsr:@rbardini/html@1.0.1",
+    "@std/fs": "jsr:@std/fs@1.0.19",
+    "@std/path": "jsr:@std/path@1.1.2"
   },
   "fmt": {
     "lineWidth": 120,
