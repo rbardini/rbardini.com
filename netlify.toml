@@ -1,5 +1,5 @@
 [build]
-  command = "deno run -A main.ts"
+  command = "deno upgrade && deno run -A main.ts"
   publish = "dist"
 
 [[redirects]]
