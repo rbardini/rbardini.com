@@ -15,7 +15,7 @@
     "jsr:@std/path@^1.1.1": "1.1.2",
     "npm:@types/node@*": "24.2.0",
     "npm:feed@5.1.0": "5.1.0",
-    "npm:jsonresume-theme-even@0.24.1": "0.24.1",
+    "npm:jsonresume-theme-even@0.25.0": "0.25.0",
     "npm:micromark-extension-gfm@3.0.0": "3.0.0",
     "npm:micromark@4.0.2": "4.0.2"
   },
@@ -149,8 +149,8 @@
     "is-hexadecimal@1.0.4": {
       "integrity": "sha512-gyPJuv83bHMpocVYoqof5VDiZveEoGoFL8m3BXNb2VW8Xs+rz9kqO8LOQ5DH6EsuvilT1ApazU0pyl+ytbPtlw=="
     },
-    "jsonresume-theme-even@0.24.1": {
-      "integrity": "sha512-CyLWLl+Xx+CKmFwYDkH+7pTzgOFpCYJ2XdvodXLnUgYQsKfhCGfLjscvYT/Yjx2sPczsieI3hXXH7MH4cBGINQ==",
+    "jsonresume-theme-even@0.25.0": {
+      "integrity": "sha512-NAFB9twsATqieMvqC4+D7ZX2gBQtMCeHZQc40aAaGKRBXFaXAUvhchh42eE3PkPlEsz49baX2V5gRnfF+2yE4A==",
       "dependencies": [
         "@rbardini/html",
         "feather-icons",
@@ -436,7 +436,7 @@
       "jsr:@std/fs@1.0.19",
       "jsr:@std/path@1.1.2",
       "npm:feed@5.1.0",
-      "npm:jsonresume-theme-even@0.24.1",
+      "npm:jsonresume-theme-even@0.25.0",
       "npm:micromark-extension-gfm@3.0.0",
       "npm:micromark@4.0.2"
     ]
