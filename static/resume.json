@@ -1,7 +1,7 @@
 {
   "meta": {
     "canonical": "https://rbardini.com/resume.json",
-    "lastModified": "2025-08-15T00:29:02.736Z"
+    "lastModified": "2025-09-02T00:23:10.077Z"
   },
   "basics": {
     "name": "Rafael Bardini",
@@ -131,7 +131,7 @@
     {
       "institution": "Universidade de São Paulo",
       "area": "Computer Science",
-      "studyType": "Bachelor's degree with emphasis in Web Development.",
+      "studyType": "Bachelor's degree",
       "url": "https://usp.br",
       "startDate": "2008-03-14",
       "endDate": "2013-08-23",
@@ -140,7 +140,7 @@
     {
       "institution": "Escola Técnica Estadual de São Paulo",
       "area": "Mechatronics",
-      "studyType": "Technical course.",
+      "studyType": "Technical degree",
       "url": "https://www.cps.sp.gov.br/etec/",
       "startDate": "2006-02-06",
       "endDate": "2007-07-07"
