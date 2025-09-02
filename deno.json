@@ -5,7 +5,7 @@
   },
   "imports": {
     "$feed": "npm:feed@5.1.0",
-    "$jsonresume-theme-even": "npm:jsonresume-theme-even@0.25.0",
+    "$jsonresume-theme-even": "npm:jsonresume-theme-even@0.26.0",
     "$micromark": "npm:micromark@4.0.2",
     "$micromark-extension-gfm": "npm:micromark-extension-gfm@3.0.0",
     "@b-fuze/deno-dom": "jsr:@b-fuze/deno-dom@0.1.56",
