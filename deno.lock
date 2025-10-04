@@ -15,7 +15,7 @@
     "jsr:@std/path@^1.1.1": "1.1.2",
     "npm:@types/node@*": "24.2.0",
     "npm:feed@5.1.0": "5.1.0",
-    "npm:jsonresume-theme-even@0.26.0": "0.26.0",
+    "npm:jsonresume-theme-even@0.26.1": "0.26.1",
     "npm:micromark-extension-gfm@3.0.0": "3.0.0",
     "npm:micromark@4.0.2": "4.0.2"
   },
@@ -99,8 +99,8 @@
       "integrity": "sha512-L4NPsJlCfZsPeXukyzHFlg/i7IIVwHSItR0wg0FLNqYClJ4MQYTYLbC7EkjKYRLZF2iof2MUgN0EGy7MdQFChg==",
       "scripts": true
     },
-    "debug@4.4.1": {
-      "integrity": "sha512-KcKCqiftBJcZr++7ykoDIEwSa3XWowTfNPo92BYxjXiyYEVrUQh2aLyhxBCwww+heortUFxEJYcRzosstTEBYQ==",
+    "debug@4.4.3": {
+      "integrity": "sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==",
       "dependencies": [
         "ms"
       ]
@@ -149,8 +149,8 @@
     "is-hexadecimal@1.0.4": {
       "integrity": "sha512-gyPJuv83bHMpocVYoqof5VDiZveEoGoFL8m3BXNb2VW8Xs+rz9kqO8LOQ5DH6EsuvilT1ApazU0pyl+ytbPtlw=="
     },
-    "jsonresume-theme-even@0.26.0": {
-      "integrity": "sha512-VvlPYh0LdjIfYAfUnPs7k6A6FD/V2iJzL8tLlWc03mdf5emJsH7CcJ3ssNJFfBg1Uexzk+kScp1gDMqEEpeNXw==",
+    "jsonresume-theme-even@0.26.1": {
+      "integrity": "sha512-m7KVaPosBP+pZfsM+6UdShhfiB3YgJtVfhFZ2k3fzvA6jayVhrDbXKsRBhYAKCkHoPrq+zwLazz4drYaw06l0w==",
       "dependencies": [
         "@rbardini/html",
         "feather-icons",
@@ -436,7 +436,7 @@
       "jsr:@std/fs@1.0.19",
       "jsr:@std/path@1.1.2",
       "npm:feed@5.1.0",
-      "npm:jsonresume-theme-even@0.26.0",
+      "npm:jsonresume-theme-even@0.26.1",
       "npm:micromark-extension-gfm@3.0.0",
       "npm:micromark@4.0.2"
     ]
