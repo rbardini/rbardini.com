@@ -23,7 +23,7 @@ export default function ({ posts }: Context) {
         <h1>Hi, I'm ${site.author}</h1>
         <div>
           ${renderMarkdown(resume.basics.summary)}
-          <a class="cta" href="${Route.Resume}">Full résumé</a>
+          <a class="cta" href="${Route.Resume}">More about me</a>
         </div>
       </article>
       <aside>
