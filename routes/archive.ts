@@ -2,16 +2,16 @@ import { html } from '@rbardini/html'
 import { document } from '../components/document.ts'
 import { head } from '../components/head.ts'
 import { postItem } from '../components/post-item.ts'
-import type { Context } from '../types.ts'
+import type { RouteContext } from '../types.ts'
 
-export default function ({ posts }: Context) {
+export default function ({ name, posts }: RouteContext) {
   const postsByYear = posts.reduce<Record<number, Array<(typeof posts)[number]>>>(
     (acc, post) => ((acc[post.date.getFullYear()] ??= []).push(post), acc),
     {},
   )
 
   return document({
-    head: head({ title: 'Archive' }),
+    head: head({ name, title: 'Archive' }),
     body: html`<article>
       <h1>Archive</h1>
       ${

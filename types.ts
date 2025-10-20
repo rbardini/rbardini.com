@@ -19,6 +19,10 @@ export type Context = {
   routes: Route[]
 }
 
+export type RouteContext = Context & {
+  name: string
+}
+
 export type StaticRouteHandlerResult = [slug: string, result: string]
 export type DynamicRouteHandlerResult = StaticRouteHandlerResult[]
 export type StaticRouteHandler = (ctx: Context) => StaticRouteHandlerResult

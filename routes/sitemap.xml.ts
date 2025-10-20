@@ -1,8 +1,8 @@
 import { html } from '@rbardini/html'
 import { Route, site } from '../constants.ts'
-import type { Context } from '../types.ts'
+import type { RouteContext } from '../types.ts'
 
-export default function ({ posts }: Context) {
+export default function ({ posts }: RouteContext) {
   const locs = [
     ...Object.values(Route).filter((route) => !route.endsWith('.xml')),
     ...posts.map((post) => `/${post.slug}/`),

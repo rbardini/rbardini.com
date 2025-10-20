@@ -2,16 +2,18 @@ import { html } from '@rbardini/html'
 import { Route, site } from '../constants.ts'
 
 export type HeadProps = {
+  name?: string
   title: string
 }
 
-export function head({ title }: HeadProps) {
+export function head({ name, title }: HeadProps) {
   return html`<head>
     <meta charset="utf-8">
     <title>${title}</title>
     <meta name="author" content="${site.author}">
     <meta name="viewport" content="width=device-width">
     ${site.profiles.map((profile) => html`<link rel="me" href="${profile}">`)}
+    ${name && html`<link rel="canonical" href="${new URL(name.replaceAll('index.html', '.').concat('/'), site.url)}">`}
     <link rel="alternate" href="${Route.RSS}" type="application/rss+xml" title="RSS">
     <link rel="sitemap" href="${Route.Sitemap}" type="application/xml" title="Sitemap">
     <link rel="stylesheet" href="/css/styles.css">

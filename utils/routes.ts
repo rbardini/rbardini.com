@@ -1,6 +1,6 @@
 import { parse, resolve } from '@std/path'
 import { Path } from '../constants.ts'
-import type { Context, Route } from '../types.ts'
+import type { Context, Route, RouteContext } from '../types.ts'
 
 export async function getRoutes() {
   const routeEntries = Deno.readDir(Path.Routes)
@@ -10,9 +10,12 @@ export async function getRoutes() {
     const { base, ext, name } = parse(routeEntry.name)
     if (ext !== '.ts') continue
 
-    const mod = await import(resolve(Path.Routes, base))
+    const { default: mod } = await import(resolve(Path.Routes, base))
     const isDynamic = name.startsWith('[') && name.endsWith(']')
-    const handler = (ctx: Context) => isDynamic ? mod.default(ctx) : [name, mod.default(ctx)]
+    const handler = (ctx: Context) => {
+      const routeCtx: RouteContext = { ...ctx, name }
+      return isDynamic ? mod(routeCtx) : [name, mod(routeCtx)]
+    }
 
     routes.push({ name, handler, isDynamic })
   }
