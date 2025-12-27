@@ -7,8 +7,3 @@
   to = "https://rbardini.com/:splat"
   status = 301
   force = true
-
-[[headers]]
-  for = "/rss.xml"
-  [headers.values]
-    Content-Type = "application/rss+xml"
