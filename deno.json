@@ -10,8 +10,8 @@
     "$micromark-extension-gfm": "npm:micromark-extension-gfm@3.0.0",
     "@b-fuze/deno-dom": "jsr:@b-fuze/deno-dom@0.1.56",
     "@rbardini/html": "jsr:@rbardini/html@1.0.1",
-    "@std/fs": "jsr:@std/fs@1.0.19",
-    "@std/path": "jsr:@std/path@1.1.2"
+    "@std/fs": "jsr:@std/fs@1.0.21",
+    "@std/path": "jsr:@std/path@1.1.4"
   },
   "fmt": {
     "lineWidth": 120,
