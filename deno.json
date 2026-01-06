@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "dev": "deno run --watch main.ts",
+    "dev": "deno run --allow-read=. --allow-write=. --watch=$(deno eval -p 'Deno.args.join()' ./posts/*.md) main.ts",
     "githooks": "deno run --allow-read=. --allow-write=.githooks --allow-run=git jsr:@vnphanquang/githooks/bin init"
   },
   "imports": {
