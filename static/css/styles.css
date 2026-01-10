@@ -64,7 +64,7 @@ h4::before { content:"####"; inset-inline-start:-5ch; position:absolute }
 h5::before { content:"#####"; inset-inline-start:-6ch; position:absolute }
 h6::before { content:"######"; inset-inline-start:-7ch; position:absolute }
 
-time, nav, pre, code, em, strong, blockquote, figcaption, ::marker, [rel=external]::after, :is(header, footer) p, .disclaimer, .pullquote, .footnotes { color:var(--base05) }
+time, nav, pre, code, em, strong, blockquote, figcaption, ::marker, [rel=external]::after, :is(header, footer) p, .disclaimer, .footnotes { color:var(--base05) }
 footer { display:flex; flex-wrap:wrap; gap:2ch; justify-content:space-between }
 footer :is(ul, p) { margin:0 }
 nav { text-transform:lowercase }
@@ -86,8 +86,6 @@ figure { margin-inline:-1ch; text-align:center }
 [data-footnote-ref]::after { content:"]" }
 .table > * { display:table-cell }
 header p, .disclaimer { font-size:smaller; font-style:italic }
-.pullquote { font-size:larger; position:relative }
-.pullquote::before { content:"“"; font-size:xx-large; inset-inline-start:-1.5ch; line-height:1; position:absolute }
 .footnotes { font-size:smaller; border-block-start:2px dashed; margin-block-start:2lh }
 .sr-only { border:0; clip:rect(0,0,0,0); height:1px; margin:-1px; overflow:hidden; padding:0; position:absolute; white-space:nowrap; width:1px }
 .♥ { color:var(--base07) }

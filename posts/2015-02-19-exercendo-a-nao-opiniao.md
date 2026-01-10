@@ -13,9 +13,7 @@ Alex Castro:
 
 Em situações como essa, é ainda mais apropriado seguir o conselho supostamente dado pelo guru indiano [Sathya Sai Baba](http://pt.wikipedia.org/wiki/Sathya_Sai_Baba) (tradução minha):
 
-<figure class="pullquote">
-  <p>Antes de falar, pense: É necessário? É verdadeiro? É gentil? Machucará alguém? Acrescentará algo ao silêncio?</p>
-</figure>
+> Antes de falar, pense: É necessário? É verdadeiro? É gentil? Machucará alguém? Acrescentará algo ao silêncio?
 
 Pense, sempre.
 
