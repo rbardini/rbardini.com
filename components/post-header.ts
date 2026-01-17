@@ -4,7 +4,6 @@ import type { Post } from '../types.ts'
 export type PostHeaderProps = {
   post: Post
   dateFormat?: Intl.DateTimeFormatOptions
-  headingLevel?: 1 | 2 | 3
 }
 
 const defaultDateFormat: Intl.DateTimeFormatOptions = {
@@ -13,12 +12,12 @@ const defaultDateFormat: Intl.DateTimeFormatOptions = {
   day: 'numeric',
 }
 
-export function postHeader({ post, dateFormat = defaultDateFormat, headingLevel = 1 }: PostHeaderProps) {
+export function postHeader({ post, dateFormat = defaultDateFormat }: PostHeaderProps) {
   return html`<header>
     <time datetime="${post.date.toISOString()}" id="${post.id}-date">${new Date(post.date).toLocaleDateString('en-us', dateFormat)}</time>
-    <h${headingLevel}>
+    <h1>
       <a href="${post.link ?? `/${post.slug}`}/" rel="${post.link ? 'external' : 'bookmark'}" id="${post.id}-title">${post.title}</a>
-    </h${headingLevel}>
+    </h1>
     ${post.excerpt && html`<p>${post.excerpt}</p>`}
   </header>`
 }

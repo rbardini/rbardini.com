@@ -15,7 +15,6 @@ const postItemDateFormat: Intl.DateTimeFormatOptions = {
 }
 
 export default function ({ name, posts }: RouteContext) {
-  const [firstPost, ...restPosts] = posts.slice(0, 5)
   return document({
     head: head({ name, title: site.name }),
     body: html`<article>
@@ -28,9 +27,8 @@ export default function ({ name, posts }: RouteContext) {
       </article>
       <aside>
         <h2>Recent posts</h2>
-        ${postHeader({ post: firstPost, headingLevel: 3 })}
         <ul>
-          ${restPosts.map((post) => postItem({ post, dateFormat: postItemDateFormat }))}
+          ${posts.slice(0, 5).map((post) => postItem({ post, dateFormat: postItemDateFormat }))}
         </ul>
         <a class="cta" href="${Route.Archive}">All posts</a>
       </aside>
