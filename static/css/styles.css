@@ -52,7 +52,6 @@ article, aside, footer { margin-block:2lh }
 ul, ol { padding:0 }
 ul { list-style-type:"- " }
 blockquote { font-style:italic }
-sup { font-size:small }
 pre, code { font-family:inherit }
 
 h1, h2, h3, h4, h5, h6 { color:var(--base07); font-size:inherit; line-height:1.5; position:relative; text-wrap:balance }
