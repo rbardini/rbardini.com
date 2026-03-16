@@ -8,7 +8,7 @@ export default function ({ posts }: RouteContext) {
     [
       post.slug,
       document({
-        head: head({ name: post.slug, title: post.title }),
+        head: head({ name: post.slug, title: post.title, md: true }),
         body: postComponent({ post }),
       }),
     ],
