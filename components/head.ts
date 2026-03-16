@@ -18,9 +18,9 @@ export function head({ name, title, md }: HeadProps) {
     ${site.profiles.map((profile) => html`<link rel="me" href="${profile}">`)}
     ${url && html`<link rel="canonical" href="${new URL(url.concat('/'), site.url)}">`}
     ${url && md && html`<link rel="alternate" href="${new URL(url.concat('.md'), site.url)}" type="text/markdown" title="Markdown">`}
-    <link rel="alternate" href="${Route.RSS}" type="application/rss+xml" title="RSS">
-    <link rel="sitemap" href="${Route.Sitemap}" type="application/xml" title="Sitemap">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="alternate" href="${new URL(Route.RSS, site.url)}" type="application/rss+xml" title="RSS">
+    <link rel="sitemap" href="${new URL(Route.Sitemap, site.url)}" type="application/xml" title="Sitemap">
+    <link rel="stylesheet" href="${new URL('/css/styles.css', site.url)}">
     <link rel="stylesheet" href="https://unpkg.com/lite-youtube-embed@0.3.2/src/lite-yt-embed.css">
     <script src="https://unpkg.com/lite-youtube-embed@0.3.2/src/lite-yt-embed.js" async></script>
     <script src="https://unpkg.com/prismjs@1.29.0/components/prism-core.min.js" defer></script>
