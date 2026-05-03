@@ -1,6 +1,6 @@
 # [rbardini.com](https://rbardini.com)
 
-[![Deploy status](https://img.shields.io/netlify/0cb5a9e3-8fc1-45ac-9fdd-e7ed158342bc?label=deploy)](https://app.netlify.com/sites/rbardini/deploys)
+[![Build status](https://img.shields.io/github/actions/workflow/status/rbardini/rbardini.com/main.yml)](https://github.com/rbardini/rbardini.com/actions)
 
 Rafael Bardini's blog, powered by Deno.
 
