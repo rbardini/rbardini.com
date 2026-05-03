@@ -2,8 +2,8 @@ name: Main
 on: push
 
 jobs:
-  build:
-    name: Build
+  build-deploy:
+    name: Build and deploy
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -14,3 +14,17 @@ jobs:
 
       - name: Build
         run: deno run -A main.ts
+
+      - name: Deploy
+        uses: R-J-dev/bunny-deploy@v3.0.0
+        with:
+          access-key: ${{ secrets.BUNNY_ACCESS_KEY }}
+          storage-endpoint: ${{ secrets.BUNNY_STORAGE_ENDPOINT }}
+          storage-zone-name: ${{ secrets.BUNNY_STORAGE_ZONE_NAME }}
+          storage-zone-password: ${{ secrets.BUNNY_STORAGE_ZONE_PASSWORD }}
+          directory-to-upload: dist
+          concurrency: 50
+          enable-delete-action: true
+          enable-purge-pull-zone: true
+          pull-zone-id: ${{ secrets.BUNNY_PULL_ZONE_ID }}
+          replication-timeout: 5000
