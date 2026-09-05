@@ -5,7 +5,7 @@ Não me canso de ver essas montagens hilárias utilizando uma cena do filme [A Q
 
 <figure class="video-container">
   <lite-youtube videoid="kRiRKKO8HvU">
-    <a href="https://www.youtube.com/watch?v=kRiRKKO8HvU" class="lty-playbtn" title="Play video">
+    <a href="https://www.youtube.com/watch?v=kRiRKKO8HvU" class="lyt-playbtn" title="Play video">
       <span class="lyt-visually-hidden">Lula e os Cartoes Corporativos Federais - YouTube</span>
     </a>
   </lite-youtube>

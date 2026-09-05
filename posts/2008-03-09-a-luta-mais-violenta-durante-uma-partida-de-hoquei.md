@@ -5,7 +5,7 @@ Fiquei impressionado ao ver essa luta ocorrida no meio de uma partida da NHL, li
 
 <figure class="video-container">
   <lite-youtube videoid="56ww--j17sE">
-    <a href="https://www.youtube.com/watch?v=56ww--j17sE" class="lty-playbtn" title="Play video">
+    <a href="https://www.youtube.com/watch?v=56ww--j17sE" class="lyt-playbtn" title="Play video">
       <span class="lyt-visually-hidden">UNBELIEVABLE HOCKEY FIGHT - YouTube</span>
     </a>
   </lite-youtube>

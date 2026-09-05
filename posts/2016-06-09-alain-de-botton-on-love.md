@@ -5,7 +5,7 @@ Amazing presentation by one of the greatest thinkers of our time on how Romantic
 
 <figure class="video-container">
   <lite-youtube videoid="jJ6K_f7oSdg">
-    <a href="https://www.youtube.com/watch?v=jJ6K_f7oSdg" class="lty-playbtn" title="Play video">
+    <a href="https://www.youtube.com/watch?v=jJ6K_f7oSdg" class="lyt-playbtn" title="Play video">
       <span class="lyt-visually-hidden">Alain de Botton on Love - YouTube</span>
     </a>
   </lite-youtube>

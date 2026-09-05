@@ -4,14 +4,14 @@
     "githooks": "deno run --allow-read=. --allow-write=.githooks --allow-run=git jsr:@vnphanquang/githooks/bin init"
   },
   "imports": {
-    "$feed": "npm:feed@5.1.0",
+    "$feed": "npm:feed@6.0.0",
     "$jsonresume-theme-even": "npm:jsonresume-theme-even@0.26.1",
     "$micromark": "npm:micromark@4.0.2",
     "$micromark-extension-gfm": "npm:micromark-extension-gfm@3.0.0",
     "@b-fuze/deno-dom": "jsr:@b-fuze/deno-dom@0.1.56",
     "@rbardini/html": "jsr:@rbardini/html@1.0.1",
-    "@std/fs": "jsr:@std/fs@1.0.21",
-    "@std/path": "jsr:@std/path@1.1.4"
+    "@std/fs": "jsr:@std/fs@1.0.24",
+    "@std/path": "jsr:@std/path@1.1.6"
   },
   "fmt": {
     "lineWidth": 120,
