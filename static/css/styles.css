@@ -8,23 +8,6 @@
   --base05:#464646; --base0D:#686868;
   --base06:#252525; --base0E:#747474;
   --base07:#101010; --base0F:#5e5e5e;
-
-  /* Adapted from https://github.com/chawyehsu/base16-prism */
-  --syntax-background:var(--base00);
-  --syntax-foreground:var(--base06);
-  --syntax-comment:var(--base03);
-  --syntax-keyword:var(--base0E);
-  --syntax-operator:var(--base05);
-  --syntax-string:var(--base0B);
-  --syntax-constant:var(--base09);
-  --syntax-function:var(--base0D);
-  --syntax-type:var(--base0A);
-  --syntax-variable:var(--base08);
-  --syntax-property:var(--base09);
-  --syntax-tag:var(--base08);
-  --syntax-selector:var(--base0E);
-  --syntax-inserted:var(--base0B);
-  --syntax-deleted:var(--base08);
 }
 
 @media (prefers-color-scheme:dark) {
@@ -121,18 +104,4 @@ animated-avatar { clip-path:inset(0% 1em round 100%); float:inline-end; margin:-
 .image-comparison > img:first-of-type { animation:2s ease-in-out infinite alternate fade }
 
 pre { line-height:1.5; overflow-wrap:break-word; white-space:pre-wrap }
-/* MicroLighter */
-pre:has(code) { background-color:var(--syntax-background); color:var(--syntax-foreground) }
-::highlight(comment), ::highlight(quote) { color:var(--syntax-comment) }
-::highlight(keyword), ::highlight(storage), ::highlight(at-rule), ::highlight(doctype), ::highlight(important), ::highlight(section) { color:var(--syntax-keyword) }
-::highlight(operator), ::highlight(punctuation) { color:var(--syntax-operator) }
-::highlight(string), ::highlight(regexp), ::highlight(attribute-value), ::highlight(link), ::highlight(raw) { color:var(--syntax-string) }
-::highlight(numeric), ::highlight(boolean), ::highlight(constant), ::highlight(symbol), ::highlight(character-entity), ::highlight(anchor), ::highlight(entity) { color:var(--syntax-constant) }
-::highlight(function), ::highlight(decorator), ::highlight(animation) { color:var(--syntax-function) }
-::highlight(type), ::highlight(support) { color:var(--syntax-type) }
-::highlight(variable), ::highlight(interpolation) { color:var(--syntax-variable) }
-::highlight(property), ::highlight(key), ::highlight(attribute-name) { color:var(--syntax-property) }
-::highlight(tag) { color:var(--syntax-tag) }
-::highlight(selector) { color:var(--syntax-selector) }
-::highlight(inserted) { color:var(--syntax-inserted) }
-::highlight(deleted) { color:var(--syntax-deleted) }
+pre:has(code) { background:inherit!important }

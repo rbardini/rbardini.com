@@ -10,7 +10,7 @@ export function document({ head, body }: DocumentProps) {
   return html`<!DOCTYPE html>
     <html lang="en">
       ${head}
-      <body>
+      <body data-syntax-theme="vesper">
         <main>${body}</main>
         ${footer()}
       </body>
