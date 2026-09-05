@@ -21,9 +21,9 @@ export function head({ name, title, md }: HeadProps) {
     <link rel="alternate" href="${new URL(Route.RSS, site.url)}" type="application/rss+xml" title="RSS">
     <link rel="sitemap" href="${new URL(Route.Sitemap, site.url)}" type="application/xml" title="Sitemap">
     <link rel="stylesheet" href="${new URL('/css/styles.css', site.url)}">
-    <link rel="stylesheet" href="https://unpkg.com/lite-youtube-embed@0.3.2/src/lite-yt-embed.css">
+    <link rel="stylesheet" href="https://unpkg.com/lite-youtube-embed@0.3.4/src/lite-yt-embed.css">
     <link rel="stylesheet" href="https://unpkg.com/microlighter@2.1.0/dist/themes/vesper.css">
-    <script src="https://unpkg.com/lite-youtube-embed@0.3.2/src/lite-yt-embed.js" async></script>
+    <script type="module" src="https://unpkg.com/lite-youtube-embed@0.3.4/src/lite-yt-embed.js"></script>
     <script type="module" src="https://unpkg.com/microlighter@2.1.0/dist/microlighter.min.js"></script>
   </head>`
 }
