@@ -1,26 +1,13 @@
 :root {
   color-scheme:light dark;
-  --base00:#f7f7f7; --base08:#7c7c7c;
-  --base01:#e3e3e3; --base09:#999999;
-  --base02:#b9b9b9; --base0A:#a0a0a0;
-  --base03:#ababab; --base0B:#8e8e8e;
-  --base04:#525252; --base0C:#868686;
-  --base05:#464646; --base0D:#686868;
-  --base06:#252525; --base0E:#747474;
-  --base07:#101010; --base0F:#5e5e5e;
-}
-
-@media (prefers-color-scheme:dark) {
-  :root {
-    --base00:#101010; --base08:#7c7c7c;
-    --base01:#252525; --base09:#999999;
-    --base02:#464646; --base0A:#a0a0a0;
-    --base03:#525252; --base0B:#8e8e8e;
-    --base04:#ababab; --base0C:#868686;
-    --base05:#b9b9b9; --base0D:#686868;
-    --base06:#e3e3e3; --base0E:#747474;
-    --base07:#f7f7f7; --base0F:#5e5e5e;
-  }
+  --base00:light-dark(#f7f7f7,#101010); --base08:#7c7c7c;
+  --base01:light-dark(#e3e3e3,#252525); --base09:#999999;
+  --base02:light-dark(#b9b9b9,#464646); --base0A:#a0a0a0;
+  --base03:light-dark(#ababab,#525252); --base0B:#8e8e8e;
+  --base04:light-dark(#525252,#ababab); --base0C:#868686;
+  --base05:light-dark(#464646,#b9b9b9); --base0D:#686868;
+  --base06:light-dark(#252525,#e3e3e3); --base0E:#747474;
+  --base07:light-dark(#101010,#f7f7f7); --base0F:#5e5e5e;
 }
 
 @keyframes fade {
