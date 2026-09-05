@@ -23,7 +23,6 @@ export function head({ name, title, md }: HeadProps) {
     <link rel="stylesheet" href="${new URL('/css/styles.css', site.url)}">
     <link rel="stylesheet" href="https://unpkg.com/lite-youtube-embed@0.3.2/src/lite-yt-embed.css">
     <script src="https://unpkg.com/lite-youtube-embed@0.3.2/src/lite-yt-embed.js" async></script>
-    <script src="https://unpkg.com/prismjs@1.29.0/components/prism-core.min.js" defer></script>
-    <script src="https://unpkg.com/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js" defer></script>
+    <script type="module" src="https://unpkg.com/microlighter@2.1.0/dist/microlighter.min.js"></script>
   </head>`
 }
