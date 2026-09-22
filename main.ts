@@ -1,5 +1,5 @@
 import { copy } from '@std/fs'
-import { extname, join } from '@std/path'
+import { dirname, extname, join } from '@std/path'
 import { Path } from './constants.ts'
 import type { Context } from './types.ts'
 import { getPosts } from './utils/posts.ts'
@@ -19,11 +19,14 @@ const ctx: Context = {
   routes: await getRoutes(),
 }
 
-ctx.routes.forEach(({ handler, isDynamic }) => {
-  const results = isDynamic ? handler(ctx) : [handler(ctx)]
-  results.forEach(async ([slug, result]) => {
-    const isDir = !extname(slug)
-    if (isDir) await Deno.mkdir(join(Path.Dist, slug))
-    Deno.writeFile(join(...[Path.Dist, slug, isDir ? 'index.html' : '']), ctx.encoder.encode(result))
-  })
-})
+await Promise.all(
+  ctx.routes.flatMap(({ handler, isDynamic }) => {
+    const results = isDynamic ? handler(ctx) : [handler(ctx)]
+    return results.map(async ([slug, result]) => {
+      const isDir = !extname(slug)
+      const file = join(Path.Dist, slug, isDir ? 'index.html' : '')
+      await Deno.mkdir(dirname(file), { recursive: true })
+      return Deno.writeFile(file, ctx.encoder.encode(result))
+    })
+  }),
+)
