@@ -1,10 +1,12 @@
 import { html } from '@rbardini/html'
 import { Route, site } from '../constants.ts'
 import type { RouteContext } from '../types.ts'
+import { groupPostsByYear } from '../utils/posts.ts'
 
 export default function ({ posts }: RouteContext) {
   const locs = [
     ...Object.values(Route).filter((route) => !route.endsWith('.xml')),
+    ...[...groupPostsByYear(posts).keys()].map((year) => `${Route.Archive}${year}/`),
     ...posts.map((post) => `/${post.slug}/`),
   ]
 

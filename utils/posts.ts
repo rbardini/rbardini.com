@@ -23,3 +23,7 @@ export async function getPosts(limit = Infinity) {
 
   return posts.sort((a, b) => b.date.valueOf() - a.date.valueOf()).slice(0, limit)
 }
+
+export function groupPostsByYear(posts: Post[]) {
+  return Map.groupBy(posts, (post) => post.date.getFullYear())
+}
