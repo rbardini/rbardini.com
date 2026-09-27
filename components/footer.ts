@@ -12,6 +12,9 @@ export function footer() {
           <a href="${Route.Archive}">Archive</a>
         </li>
         <li>
+          <a href="${Route.Tags}">Tags</a>
+        </li>
+        <li>
           <a href="${Route.RSS}">RSS</a>
         </li>
         <li>

@@ -27,3 +27,12 @@ export async function getPosts(limit = Infinity) {
 export function groupPostsByYear(posts: Post[]) {
   return Map.groupBy(posts, (post) => post.date.getFullYear())
 }
+
+export function groupPostsByTag(posts: Post[]) {
+  return new Map(
+    Map.groupBy(
+      posts.flatMap((post) => post.tags.slice(1).map((tag) => ({ post, tag }))),
+      ({ tag }) => tag,
+    ).entries().map(([tag, taggedPosts]) => [tag, taggedPosts.map(({ post }) => post)] as const),
+  )
+}

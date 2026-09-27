@@ -18,6 +18,7 @@ export enum Path {
 export enum Route {
   Home = '/',
   Archive = '/archive/',
+  Tags = '/tags/',
   Resume = '/resume/',
   RSS = '/rss.xml',
   Sitemap = '/sitemap.xml',
