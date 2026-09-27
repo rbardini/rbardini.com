@@ -56,7 +56,7 @@ footer :is(ul, p) { margin:0 }
 nav { text-transform:lowercase }
 nav ul { column-gap:2ch; display:flex; flex-wrap:wrap }
 nav li { display:inline }
-nav li a::before { content:"#" }
+nav li a::before { content:"/" }
 pre::before, pre::after { color:var(--base02); content:"```"; display:block }
 :not(pre) > code::before, :not(pre) > code::after { content:"`" }
 em::before, em::after { content:"_" }
