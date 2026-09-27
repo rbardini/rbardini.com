@@ -17,9 +17,6 @@ export function footer() {
         <li>
           <a href="${Route.RSS}">RSS</a>
         </li>
-        <li>
-          <a href="${site.repository}">Source</a>
-        </li>
       </ul>
     </nav>
     <p>With <span class="♥">♥</span> since 2007</p>
