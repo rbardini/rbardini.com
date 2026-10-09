@@ -1,14 +1,14 @@
+import { readFile } from 'node:fs/promises'
 import { html } from '@rbardini/html'
 import { document } from '../components/document.ts'
 import { head } from '../components/head.ts'
-import { postHeader } from '../components/post-header.ts'
 import { postItem } from '../components/post-item.ts'
 import { Route, site } from '../constants.ts'
 import resume from '../static/resume.json' with { type: 'json' }
 import type { RouteContext } from '../types.ts'
 import { renderMarkdown } from '../utils/markdown.ts'
 
-const avatarSvg = await Deno.readTextFile('./static/avatar.svg')
+const avatarSvg = await readFile('./static/avatar.svg', 'utf8')
 const postItemDateFormat: Intl.DateTimeFormatOptions = {
   month: 'short',
   year: 'numeric',

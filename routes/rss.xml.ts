@@ -1,4 +1,4 @@
-import { Feed } from '$feed'
+import { Feed } from 'feed'
 import { site } from '../constants.ts'
 import type { RouteContext } from '../types.ts'
 import { renderMarkdown } from '../utils/markdown.ts'

@@ -1,16 +1,16 @@
-import { copy } from '@std/fs'
-import { dirname, extname, join } from '@std/path'
+import { cp, mkdir, rm, writeFile } from 'node:fs/promises'
+import { dirname, extname, join } from 'node:path'
 import { Path } from './constants.ts'
 import type { Context } from './types.ts'
 import { getPosts } from './utils/posts.ts'
 import { getRoutes } from './utils/routes.ts'
 
 try {
-  await Deno.remove(Path.Dist, { recursive: true })
+  await rm(Path.Dist, { recursive: true })
 } catch (err) {
-  if (!(err instanceof Deno.errors.NotFound)) throw err
+  if ((err as NodeJS.ErrnoException).code !== 'ENOENT') throw err
 } finally {
-  await copy(Path.Static, Path.Dist)
+  await cp(Path.Static, Path.Dist, { recursive: true })
 }
 
 const ctx: Context = {
@@ -25,8 +25,8 @@ await Promise.all(
     return results.map(async ([slug, result]) => {
       const isDir = !extname(slug)
       const file = join(Path.Dist, slug, isDir ? 'index.html' : '')
-      await Deno.mkdir(dirname(file), { recursive: true })
-      return Deno.writeFile(file, ctx.encoder.encode(result))
+      await mkdir(dirname(file), { recursive: true })
+      return writeFile(file, ctx.encoder.encode(result))
     })
   }),
 )

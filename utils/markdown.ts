@@ -1,5 +1,5 @@
-import { micromark } from '$micromark'
-import { gfm, gfmHtml } from '$micromark-extension-gfm'
+import { micromark } from 'micromark'
+import { gfm, gfmHtml } from 'micromark-extension-gfm'
 import type { Content } from '../types.ts'
 import { parseHTML } from './html.ts'
 
@@ -15,7 +15,7 @@ export function extractTitle(markdown: string) {
   const html = renderMarkdown(markdown)
   const doc = parseHTML(html)
 
-  const title = doc.textContent
+  const title = doc.documentElement?.textContent ?? ''
   const link = doc.querySelector('a')?.getAttribute('href') ?? undefined
 
   return { title, link }
@@ -25,7 +25,7 @@ export function extractExcerpt(markdown: string) {
   const html = renderMarkdown(markdown)
   const doc = parseHTML(html)
 
-  return doc.textContent || undefined
+  return doc.documentElement?.textContent || undefined
 }
 
 export function extractTags(markdown: string) {

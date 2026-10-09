@@ -1,1 +1,1 @@
-deno run -A npm:lint-staged
+npx lint-staged

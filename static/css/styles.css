@@ -91,4 +91,5 @@ animated-avatar { clip-path:inset(0% 1em round 100%); float:inline-end; margin:-
 .image-comparison > img:first-of-type { animation:2s ease-in-out infinite alternate fade }
 
 pre { line-height:1.5; overflow-wrap:break-word; white-space:pre-wrap }
+/* biome-ignore lint/complexity/noImportantStyles: reset background of code blocks */
 pre:has(code) { background:inherit!important }

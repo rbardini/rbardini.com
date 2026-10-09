@@ -1,5 +1,5 @@
 {
-  "*.md": "deno run -A npm:markdownlint",
-  "resume.json": "deno run -A npm:json --in-place -e 'this.meta.lastModified=new Date().toISOString()' -f",
-  "posts/*.md": "deno run -A npm:matter-now"
+  "*.md": "markdownlint",
+  "resume.json": "json --in-place -e 'this.meta.lastModified=new Date().toISOString()' -f",
+  "posts/*.md": "matter-now"
 }

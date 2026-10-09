@@ -1,9 +1,0 @@
-[build]
-  command = "deno upgrade && deno run -A main.ts"
-  publish = "dist"
-
-[[redirects]]
-  from = "https://rbardini.netlify.app/*"
-  to = "https://rbardini.com/:splat"
-  status = 301
-  force = true

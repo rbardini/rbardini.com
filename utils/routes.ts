@@ -1,15 +1,19 @@
-import { extname, join, parse, relative, resolve } from '@std/path'
+import { readdir } from 'node:fs/promises'
+import { extname, join, parse, relative, resolve } from 'node:path'
+import { pathToFileURL } from 'node:url'
 import { Path } from '../constants.ts'
 import type { Context, Route, RouteContext } from '../types.ts'
 
 type RouteEntry = { name: string; path: string; isDynamic: boolean }
 
 async function* getRouteEntries(root: string = Path.Routes): AsyncGenerator<RouteEntry> {
-  for await (const entry of Deno.readDir(root)) {
+  const entries = await readdir(root, { withFileTypes: true })
+
+  for (const entry of entries) {
     const path = resolve(root, entry.name)
-    if (entry.isDirectory) {
+    if (entry.isDirectory()) {
       yield* getRouteEntries(path)
-    } else if (entry.isFile && extname(entry.name) === '.ts') {
+    } else if (entry.isFile() && extname(entry.name) === '.ts') {
       const { dir, name } = parse(relative(Path.Routes, path))
       yield {
         name: join(dir, name),
@@ -24,7 +28,7 @@ export async function getRoutes() {
   const routes: Route[] = []
 
   for await (const { name, path, isDynamic } of getRouteEntries()) {
-    const { default: mod } = await import(path)
+    const { default: mod } = await import(pathToFileURL(path).href)
     const handler = (ctx: Context) => {
       const routeCtx: RouteContext = { ...ctx, name }
       return isDynamic ? mod(routeCtx) : [name, mod(routeCtx)]

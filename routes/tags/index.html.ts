@@ -11,8 +11,7 @@ export default function ({ name, posts }: RouteContext) {
     head: head({ name, title: 'Tags' }),
     body: html`<article>
       <h1>Tags</h1>
-      ${
-      [...groupPostsByTag(posts)].map(
+      ${[...groupPostsByTag(posts)].map(
         ([tag, posts]) =>
           html`<section>
             <h2><a href="${Route.Tags + tag}/">#${tag}</a></h2>
@@ -20,8 +19,7 @@ export default function ({ name, posts }: RouteContext) {
               ${posts.map((post) => postItem({ post }))}
             </ul>
           </section>`,
-      )
-    }
+      )}
     </article>`,
   })
 }
