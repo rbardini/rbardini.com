@@ -1,24 +1,26 @@
+import pkg from './package.json' with { type: 'json' }
+
 export const site = {
-  name: 'rbardini.com',
-  description: "Rafael Bardini's blog",
-  url: 'https://rbardini.com',
-  author: 'Rafael Bardini',
-  license: 'CC BY-NC-SA 4.0',
-  feed: 'https://rbardini.com/rss.xml',
+  name: pkg.name,
+  description: pkg.description,
+  url: pkg.homepage,
+  author: pkg.author,
+  license: pkg.license,
+  feed: new URL('rss.xml', pkg.homepage).href,
   profiles: ['https://fosstodon.org/@rbardini'],
 }
 
-export enum Path {
-  Routes = './routes',
-  Static = './static',
-  Dist = './dist',
-}
+export const Path = {
+  Routes: './routes',
+  Static: './static',
+  Dist: './dist',
+} as const
 
-export enum Route {
-  Home = '/',
-  Archive = '/archive/',
-  Tags = '/tags/',
-  Resume = '/resume/',
-  RSS = '/rss.xml',
-  Sitemap = '/sitemap.xml',
-}
+export const Route = {
+  Home: '/',
+  Archive: '/archive/',
+  Tags: '/tags/',
+  Resume: '/resume/',
+  RSS: '/rss.xml',
+  Sitemap: '/sitemap.xml',
+} as const

@@ -11,12 +11,12 @@ export function post({ post }: PostProps) {
   return html`<article>
     ${postHeader({ post })}
     ${
-    post.isOld &&
-    html`<div class="disclaimer">
+      post.isOld &&
+      html`<div class="disclaimer">
       <strong>Note:</strong> This is an old post.
       The opinions and views expressed here may not reflect the author's current thinking.
     </div>`
-  }
+    }
     <div>${renderMarkdown(post.markdown)}</div>
   </article>`
 }

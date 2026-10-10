@@ -1,0 +1,50 @@
+{
+  "name": "rbardini.com",
+  "version": "4.0.0",
+  "private": true,
+  "description": "Rafael Bardini's blog",
+  "keywords": [
+    "rbardini",
+    "blog"
+  ],
+  "homepage": "https://rbardini.com/",
+  "bugs": {
+    "url": "https://github.com/rbardini/rbardini.com/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbardini/rbardini.com.git"
+  },
+  "license": "CC BY-NC-SA 4.0",
+  "author": "Rafael Bardini",
+  "type": "module",
+  "scripts": {
+    "build": "node main.ts",
+    "dev": "node --watch-path=./package.json --watch-path=./posts --watch-path=./routes --watch-path=./components --watch-path=./utils --watch-path=./static main.ts",
+    "format": "biome format .",
+    "lint": "biome lint .",
+    "prepare": "git config core.hooksPath .githooks",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@rbardini/html": "1.0.1",
+    "feed": "6.0.0",
+    "jsonresume-theme-even": "0.26.1",
+    "linkedom": "0.18.13",
+    "micromark": "4.0.3",
+    "micromark-extension-gfm": "3.0.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.15",
+    "@tsconfig/node26": "26.0.1",
+    "@types/node": "26.6.5",
+    "json": "11.0.0",
+    "lint-staged": "17.6.0",
+    "markdownlint-cli": "0.49.1",
+    "matter-now": "5.0.0",
+    "typescript": "7.0.2"
+  },
+  "engines": {
+    "node": ">=26"
+  }
+}

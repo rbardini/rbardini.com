@@ -2,12 +2,13 @@
 
 [![Build status](https://img.shields.io/github/actions/workflow/status/rbardini/rbardini.com/main.yml)](https://github.com/rbardini/rbardini.com/actions)
 
-Rafael Bardini's blog, powered by Deno.
+Rafael Bardini's blog, powered by a custom Node.js static site generator.
 
 ## Usage
 
-```console
-$ deno run main.ts
+```sh
+npm install
+npm run build
 ```
 
 ## License

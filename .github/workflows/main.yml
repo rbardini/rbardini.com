@@ -9,11 +9,26 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
 
-      - name: Setup Deno
-        uses: denoland/setup-deno@v2
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Type-check
+        run: npm run typecheck
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Format
+        run: npm run format
 
       - name: Build
-        run: deno run -A main.ts
+        run: npm run build
 
       - name: Deploy
         uses: R-J-dev/bunny-deploy@v3.0.0

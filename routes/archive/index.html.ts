@@ -11,8 +11,7 @@ export default function ({ name, posts }: RouteContext) {
     head: head({ name, title: 'Archive' }),
     body: html`<article>
       <h1>Archive</h1>
-      ${
-      [...groupPostsByYear(posts)].map(
+      ${[...groupPostsByYear(posts)].map(
         ([year, posts]) =>
           html`<section>
             <h2><a href="${Route.Archive + year}/">${year}</a></h2>
@@ -20,8 +19,7 @@ export default function ({ name, posts }: RouteContext) {
               ${posts.map((post) => postItem({ post }))}
             </ul>
           </section>`,
-      )
-    }
+      )}
     </article>`,
   })
 }
