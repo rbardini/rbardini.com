@@ -34,7 +34,7 @@ iframe { border:0 }
 img, svg { max-width:100% }
 a { color:inherit; text-decoration-color:var(--base03); transition:text-decoration-color 0.2s }
 a:hover, a:focus { text-decoration-color:inherit }
-figcaption, time { font-size:smaller }
+figcaption, time, [rel=tag] { font-size:smaller }
 article, aside, footer { margin-block:2lh }
 ul, ol { padding:0 }
 ul { list-style-type:"- " }
@@ -50,7 +50,7 @@ h4::before { content:"####"; inset-inline-start:-5ch; position:absolute }
 h5::before { content:"#####"; inset-inline-start:-6ch; position:absolute }
 h6::before { content:"######"; inset-inline-start:-7ch; position:absolute }
 
-time, nav, pre, code, em, strong, blockquote, figcaption, ::marker, [rel=external]::after, :is(header, footer) p, .disclaimer, .footnotes { color:var(--base05) }
+time, nav, pre, code, em, strong, blockquote, figcaption, ::marker, [rel=tag], [rel=external]::after, :is(header, footer) p, .disclaimer, .footnotes { color:var(--base05) }
 footer { display:flex; flex-wrap:wrap; gap:2ch; justify-content:space-between }
 footer :is(ul, p) { margin:0 }
 nav { text-transform:lowercase }
@@ -71,6 +71,9 @@ figure { margin-inline:-1ch; text-align:center }
 [data-footnote-ref]::before { content:"[" }
 [data-footnote-ref]::after { content:"]" }
 .table > * { display:table-cell }
+header ul { display:flex; list-style:none; margin:0 }
+header li:has(+ li)::after { content:"·"; margin-inline:1ch }
+header li a { text-decoration-color:transparent }
 header p, .disclaimer { font-size:smaller; font-style:italic }
 .footnotes { font-size:smaller; border-block-start:2px dashed; margin-block-start:2lh }
 .sr-only { border:0; clip:rect(0,0,0,0); height:1px; margin:-1px; overflow:hidden; padding:0; position:absolute; white-space:nowrap; width:1px }
