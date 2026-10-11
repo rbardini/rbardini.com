@@ -1,4 +1,9 @@
-2022-04-07 13:34:39+02:00
+---
+date: 2022-04-07 13:34:39+02:00
+lang: pt-BR
+tags: [carteiro]
+---
+
 # Carteiro versão 5.0.0 lançado
 
 O que há de novo:
@@ -19,5 +24,3 @@ O novo esquema de cores claro apresenta tons pastéis, enquanto a maioria dos el
 </figure>
 
 A nova versão do Carteiro está [disponível gratuitamente no Google Play](https://play.google.com/store/apps/details?id=com.rbardini.carteiro).
-
-`lang:pt-BR` `carteiro`

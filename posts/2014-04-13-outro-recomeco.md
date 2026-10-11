@@ -1,4 +1,8 @@
-2014-04-13 23:52:04-03:00
+---
+date: 2014-04-13 23:52:04-03:00
+lang: pt-BR
+---
+
 # Outro recomeço
 
 Mais uma vez esse blog sofre um _reboot_ após um longo período de inatividade.
@@ -8,5 +12,3 @@ Muita coisa mudou desde a última vez que escrevi por aqui. Terminei a faculdade
 Além de voltar a escrever, pretendo também republicar algumas postagens antigas que se perderam durante as diversas migrações desse blog. Digo "algumas" porque, felizmente, não concordo mais com todas as opiniões do meu eu de 8 anos atrás, ou não acho que seu conteúdo encaixe novamente aqui.
 
 Seja bem-vindo novamente, e até a próxima.
-
-`lang:pt-BR`

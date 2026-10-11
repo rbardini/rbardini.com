@@ -1,6 +1,7 @@
+import matter from 'gray-matter'
 import { micromark } from 'micromark'
 import { gfm, gfmHtml } from 'micromark-extension-gfm'
-import type { Content } from '../types.ts'
+import type { Content, Frontmatter } from '../types.ts'
 import { parseHTML } from './html.ts'
 
 export function renderMarkdown(markdown: string) {
@@ -28,21 +29,13 @@ export function extractExcerpt(markdown: string) {
   return doc.documentElement?.textContent || undefined
 }
 
-export function extractTags(markdown: string) {
-  const html = renderMarkdown(markdown)
-  const doc = parseHTML(html)
-
-  return Array.from(doc.querySelectorAll('code')).map((el) => el.textContent)
-}
-
 export function extractContent(text: string): Content {
-  const [dateLine, titleLine, excerptLine, ...bodyLines] = text.split('\n')
-  const [tagsLine] = bodyLines.splice(-2)
-  const date = new Date(dateLine)
+  const { data, content } = matter(text)
+  const { date, lang, tags = [] } = data as Frontmatter
+  const [, titleLine, excerptLine, ...bodyLines] = content.split('\n')
   const title = extractTitle(titleLine)
   const excerpt = extractExcerpt(excerptLine)
   const markdown = bodyLines.join('\n')
-  const tags = extractTags(tagsLine)
 
-  return { date, ...title, excerpt, markdown, tags }
+  return { date, lang, tags, ...title, excerpt, markdown }
 }

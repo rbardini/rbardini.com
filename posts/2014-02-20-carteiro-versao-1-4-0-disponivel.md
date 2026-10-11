@@ -1,4 +1,9 @@
-2014-02-20 00:52:46-03:00
+---
+date: 2014-02-20 00:52:46-03:00
+lang: pt-BR
+tags: [carteiro]
+---
+
 # Carteiro versão 1.4.0 disponível
 
 Outra atualização do Carteiro acaba de ser [publicada no Google Play](https://play.google.com/store/apps/details?id=com.rbardini.carteiro). E o melhor: _o aplicativo agora é grátis!_ Segue a lista completa de mudanças:
@@ -24,5 +29,3 @@ A tela de histórico do objeto também foi redesenhada para acomodar mais inform
 Muito obrigado a todos aqueles que compraram o Carteiro e incentivaram seu desenvolvimento desde o início. Ele não seria o aplicativo que é hoje sem a sua ajuda e feedback.
 
 E se você ainda está sem o Carteiro, [instale agora mesmo no seu Android](https://play.google.com/store/apps/details?id=com.rbardini.carteiro)! Não custa nada, literalmente :)
-
-`lang:pt-BR` `carteiro`

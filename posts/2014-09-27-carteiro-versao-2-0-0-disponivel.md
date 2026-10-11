@@ -1,4 +1,9 @@
-2014-09-27 18:25:36-03:00
+---
+date: 2014-09-27 18:25:36-03:00
+lang: pt-BR
+tags: [carteiro]
+---
+
 # Carteiro versão 2.0.0 disponível
 
 A maior atualização do Carteiro já [está no Google Play](https://play.google.com/store/apps/details?id=com.rbardini.carteiro)! Seguem as novidades:
@@ -23,5 +28,3 @@ Os ícones dos objetos tem agora cores diferentes dependendo do status do objeto
 ![Ações contextuais](/img/carteiro/contextual-action-bar.png)
 
 Não perca tempo, [instale já o novo Carteiro no seu Android](https://play.google.com/store/apps/details?id=com.rbardini.carteiro)! E caso tenha alguma sugestão, não deixe de enviá-la na [página de feedback & suporte](https://carteiroapp.uservoice.com/).
-
-`lang:pt-BR` `carteiro`

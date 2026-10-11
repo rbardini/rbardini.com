@@ -29,6 +29,7 @@
   "dependencies": {
     "@rbardini/html": "1.0.1",
     "feed": "6.0.0",
+    "gray-matter": "4.0.3",
     "jsonresume-theme-even": "0.26.1",
     "linkedom": "0.18.13",
     "micromark": "4.0.3",

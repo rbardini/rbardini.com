@@ -1,4 +1,9 @@
-2015-01-11 14:01:39-02:00
+---
+date: 2015-01-11 14:01:39-02:00
+lang: pt-BR
+tags: [carteiro]
+---
+
 # Carteiro versão 2.1.0 disponível
 
 Mais uma atualização do Carteiro está [disponível no Google Play](https://play.google.com/store/apps/details?id=com.rbardini.carteiro). As novidades são:
@@ -23,5 +28,3 @@ Além disso, o aplicativo agora também possui um novo esquema de cores e inform
 ![Histórico do objeto](/img/carteiro/elapsed-delivery-days.png)
 
 [Instale agora o Carteiro no seu Android](https://play.google.com/store/apps/details?id=com.rbardini.carteiro) e aproveite as novidades. E como sempre, utilize a [página de feedback & suporte](https://carteiroapp.uservoice.com/) caso tenha alguma sugestão ou reclamação.
-
-`lang:pt-BR` `carteiro`

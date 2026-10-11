@@ -1,4 +1,8 @@
-2007-11-26 18:04:39-02:00
+---
+date: 2007-11-26 18:04:39-02:00
+lang: pt-BR
+---
+
 # O Efeito Dunning-Kruger
 
 A [Wikipédia](http://pt.wikipedia.org/) é uma maravilha. Além de servir como fonte de trabalhos escolares prontos, possui artigos que mais parecem notícias do [Terra](http://www.terra.com.br/). Um deles é o [Efeito Dunning-Kruger](http://pt.wikipedia.org/wiki/Efeito_Dunning-Kruger), fenômeno pelo qual indivíduos que possuem pouco conhecimento sobre um assunto acreditam saber mais que outros que possuem muito mais conhecimento.
@@ -17,5 +21,3 @@ Ou então, como Charles Darwin disse:
 Ainda segundo o artigo, pessoas com real conhecimento tendem a subestimar sua própria competência, ou seja, o inverso das antas.
 
 Provavelmente você concordará com o estudo, pois tem um chefe, colega de trabalho, amigo ou conhecido que apresenta o mesmo comportamento. Isso nos leva à um raciocínio interessante: se você concorda, você admite que há pessoas que acham que sabem mais que você. Sendo assim, você acredita que é mais inteligente que tais pessoas, superestimando seu próprio nível de inteligência, o que nos leva diretamente ao item 1. Então...
-
-`lang:pt-BR`

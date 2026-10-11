@@ -1,4 +1,9 @@
-2018-08-02 00:56:17+02:00
+---
+date: 2018-08-02 00:56:17+02:00
+lang: pt-BR
+tags: [carteiro]
+---
+
 # Carteiro versão 3.4.0 disponível
 
 Uma nova versão do Carteiro [acaba de ser lançada no Google Play](https://play.google.com/store/apps/details?id=com.rbardini.carteiro). Entre as várias mudanças estão:
@@ -17,5 +22,3 @@ Uma nova versão do Carteiro [acaba de ser lançada no Google Play](https://play
 O foco dessa versão é aprimorar as sincronizações em segundo plano, reagendando-as sempre que necessário, como nas ocasiões em que o sistema termina o processo para liberar memória ou economizar bateria. Além disso, agora a lista de objetos é atualizada automaticamente ao abrir o aplicativo, e é possível checar o momento da última sincronização no cabeçalho do menu de navegação.
 
 Confira essas e outras as novidades [instalando a nova versão do Carteiro no seu Android](https://play.google.com/store/apps/details?id=com.rbardini.carteiro)!
-
-`lang:pt-BR` `carteiro`

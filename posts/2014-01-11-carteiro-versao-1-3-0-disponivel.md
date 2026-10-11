@@ -1,4 +1,9 @@
-2014-01-11 18:07:28-02:00
+---
+date: 2014-01-11 18:07:28-02:00
+lang: pt-BR
+tags: [carteiro]
+---
+
 # Carteiro versão 1.3.0 disponível
 
 A mais nova versão do Carteiro já está [presente no Google Play](https://play.google.com/store/apps/details?id=com.rbardini.carteiro). Dentre as novidades, estão:
@@ -21,5 +26,3 @@ Caso deseje verificar o status do objeto no site dos Correios, a página do WebS
 ![Página do WebSRO dentro do aplicativo](/img/carteiro/webview-open-sro.png)
 
 Comece 2014 de olho em suas encomendas [instalando o Carteiro no seu Android](https://play.google.com/store/apps/details?id=com.rbardini.carteiro)!
-
-`lang:pt-BR` `carteiro`

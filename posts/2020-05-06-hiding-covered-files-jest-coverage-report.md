@@ -1,4 +1,8 @@
-2020-05-06 16:40:33+02:00
+---
+date: 2020-05-06 16:40:33+02:00
+lang: en-US
+---
+
 # Hiding fully-covered files from Jest coverage report
 
 While working on a large JavaScript codebase, one thing that bothered me was the coverage report output to the console: as most files had 100% coverage, it was difficult to spot the few exceptions in the table.
@@ -17,5 +21,3 @@ Luckily, additional options can be [passed to Istanbul reporters](https://jestjs
 This [hides all rows with full coverage](https://github.com/istanbuljs/istanbuljs/pull/170), letting you focus on what matters most: partially or fully–uncovered files.
 
 I also recommend [jest-silent-reporter](https://github.com/rickhanlonii/jest-silent-reporter) for an even quieter output (especially in CI builds) and [jest-it-up](https://github.com/rbardini/jest-it-up) to automatically bump up global Jest thresholds.
-
-`lang:en-US`

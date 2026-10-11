@@ -1,4 +1,9 @@
-2017-05-15 02:00:13-03:00
+---
+date: 2017-05-15 02:00:13-03:00
+lang: pt-BR
+tags: [carteiro]
+---
+
 # Carteiro versão 3.0.4 disponível
 
 Após um longo tempo e uma semana difícil, com a inesperada [desativação do WebSRO](http://www.correios.com.br/para-voce/avisos/atualizacao-do-sistema-de-rastreamento-de-objetos-sro/) por parte dos Correios, uma nova versão do Carteiro já [se encontra no Google Play](https://play.google.com/store/apps/details?id=com.rbardini.carteiro). E para compensar toda essa espera, as novidades são:
@@ -18,5 +23,3 @@ A maior novidade, sem dúvida alguma, é o novo tema escuro, muito pedido pelos 
 ![Novo fluxo de adição de objetos](/img/carteiro/new-add-flow.gif)
 
 [Instale agora o novo Carteiro no seu Android](https://play.google.com/store/apps/details?id=com.rbardini.carteiro)! Lembrando que o Carteiro passa a suportar apenas Android 5.0 ou superior a partir dessa versão, caso a atualização não seja oferecida ao seu aparelho. E se quiser ficar por dentro das últimas novidades, não deixe de participar do [programa de testes](https://plus.google.com/+RafaelBardini/posts/Bv7LfxRMrLr) :)
-
-`lang:pt-BR` `carteiro`

@@ -28,7 +28,7 @@ export default function ({ posts }: RouteContext) {
         .join('\n'),
       link: post.link ?? url.href,
       date: post.date,
-      category: post.tags.slice(1).map((tag) => ({ name: tag })),
+      category: post.tags.map((tag) => ({ name: tag })),
     })
   })
 

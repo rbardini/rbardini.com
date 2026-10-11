@@ -1,4 +1,8 @@
-2007-11-21 01:22:10-02:00
+---
+date: 2007-11-21 01:22:10-02:00
+lang: pt-BR
+---
+
 # Meu teste de personalidade
 
 Bom, acho que não falta mais nada pra arrumar aqui, pelo menos por enquanto, ou seja, mãos à obra. Pra começar, seguindo a dica do [1001 Gatos](http://1001gatos.org/tipos-psicologicos-carl-jung-descubra-qual-e-o-seu/) e o incentivo do [novo-MUNDO](http://novo-mundo.org/log/2007/11/20/teste-de-personalidade-como-voce-e/), fiz o tal teste de personalidade no site [inspiira.org](http://www.inspiira.org/) e achei que seria uma boa compartilhar o resultado, para que os leitores desse blog saibam um pouco mais sobre mim.
@@ -26,5 +30,3 @@ Deve ser por isso que sempre tenho a sensação de ter esquecido de dizer algo l
 Gostei da palavra. Isolacionista.
 
 É isso. O [teste](http://www.inspiira.org/) tem 60 e poucas questões com duas alternativas cada e necessita cadastro. Fica a dica pra quem quiser saber mais sobre si mesmo ou pra mandar scrap para os miguxos do Orkut.
-
-`lang:pt-BR`

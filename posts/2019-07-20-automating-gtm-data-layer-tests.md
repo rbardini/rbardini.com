@@ -1,4 +1,8 @@
-2019-07-20 20:50:06+02:00
+---
+date: 2019-07-20 20:50:06+02:00
+lang: en-US
+---
+
 # Automating tests for the GTM data layer
 
 At [Travix](https://www.travix.com/) we are constantly analyzing application and user behavior on our websites in order to offer the best experience to our customers. One of the tools employed for this purpose is [Google Tag Manager](https://tagmanager.google.com/) (also called GTM), alongside a _data layer_. A data layer is a JavaScript object that is used to pass information from the website to the Tag Manager container[^1], like product views and purchases.
@@ -110,5 +114,3 @@ Manually testing the data layer after each frontend change is a very time consum
 
 [^1]: See [this GTM help center article](https://support.google.com/tagmanager/answer/6164391) for more information.
 [^2]: For a single-page application (SPA), this could be the very last step of the test.
-
-`lang:en-US`

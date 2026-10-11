@@ -1,4 +1,8 @@
-2023-05-28 15:50:45+02:00
+---
+date: 2023-05-28 15:50:45+02:00
+lang: en-US
+---
+
 # How to build a TypeScript library with Vite
 
 I recently moved a few TypeScript libraries from [Microbundle](https://github.com/developit/microbundle), [TSDX](https://github.com/jaredpalmer/tsdx) and [dts-cli](https://github.com/weiran-zsd/dts-cli) to [Vite](https://vitejs.dev/). I wanted more control over the build setup, and to be able to develop, build and test[^1] them using the same configuration.
@@ -32,5 +36,3 @@ export default defineConfig({
 You will also need a `tsconfig.json` specifying root files and compiler options. If you don't have one yet, you can generate one with the appropriate [`create-vite`](https://www.npmjs.com/package/create-vite) TypeScript template, e.g. `vanilla-ts`.
 
 [^1]: I got tired of trying to make Jest work, especially after my migrations to ESM. Adopting [Vitest](https://vitest.dev/), with its compatible API and unified configuration with Vite, was a no-brainer.
-
-`lang:en-US`

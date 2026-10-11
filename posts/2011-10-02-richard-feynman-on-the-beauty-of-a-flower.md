@@ -1,4 +1,8 @@
-2011-10-02 19:52:39-03:00
+---
+date: 2011-10-02 19:52:39-03:00
+lang: en-US
+---
+
 # Richard Feynman on the beauty of a flower
 
 Can a scientist really enjoy the beauty of a flower? Here is what Mr. Feynman had to say about science and the appreciation of nature.
@@ -18,5 +22,3 @@ Can a scientist really enjoy the beauty of a flower? Here is what Mr. Feynman ha
 > <cite>Richard Feynman</cite>
 
 [Reid Gower](http://twitter.com/reidgower), the same man responsible for the awe-inspiring [The Sagan Series](http://www.facebook.com/thesaganseries) project, has just released a new companion mini series called [The Feynman Series](http://www.youtube.com/user/damewse). Do yourself a favor and watch the [first video](http://www.youtube.com/watch?v=cRmbwczTC6E), and the others too.
-
-`lang:en-US`

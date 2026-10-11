@@ -18,11 +18,8 @@ export function postHeader({ post, dateFormat = defaultDateFormat }: PostHeaderP
     <ul>
       <li><time datetime="${post.date.toISOString()}" id="${post.id}-date">${new Date(post.date).toLocaleDateString('en-us', dateFormat)}</time></li>
       ${
-        post.tags.length > 1 &&
-        html`<li>${post.tags
-          .slice(1)
-          .map((tag) => html`<a href="${Route.Tags + tag}/" rel="tag">#${tag}</a>`)
-          .join(' ')}</li>`
+        post.tags.length > 0 &&
+        html`<li>${post.tags.map((tag) => html`<a href="${Route.Tags + tag}/" rel="tag">#${tag}</a>`).join(' ')}</li>`
       }
     </ul>
     <h1>

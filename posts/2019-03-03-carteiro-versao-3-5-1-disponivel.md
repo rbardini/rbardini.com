@@ -1,4 +1,9 @@
-2019-03-03 17:21:14+01:00
+---
+date: 2019-03-03 17:21:14+01:00
+lang: pt-BR
+tags: [carteiro]
+---
+
 # Carteiro versão 3.5.1 disponível
 
 Uma nova versão do Carteiro [acaba de ser lançada no Google Play](https://play.google.com/store/apps/details?id=com.rbardini.carteiro)! As principais mudanças são:
@@ -17,5 +22,3 @@ A interface está mais harmoniosa, com todos os elementos alinhados à grade, e 
 Além disso, a maioria das janelas de confirmação foram substituídas por opções de desfazer, minimizando interrupções durante o uso.
 
 [Instale já o novo do Carteiro no seu Android](https://play.google.com/store/apps/details?id=com.rbardini.carteiro) e aproveite todas as novidades!
-
-`lang:pt-BR` `carteiro`

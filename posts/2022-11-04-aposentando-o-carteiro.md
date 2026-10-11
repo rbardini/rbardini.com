@@ -1,4 +1,9 @@
-2022-11-04 02:06:25+01:00
+---
+date: 2022-11-04 02:06:25+01:00
+lang: pt-BR
+tags: [carteiro]
+---
+
 # Aposentando o Carteiro
 
 Há 10 anos, eu estava ainda na faculdade. Tinha acabado de comprar meu primeiro smartphone—um Motorola Milestone usado—e queria justificar o investimento aprendendo a desenvolver aplicativos Android. Escolhi criar um rastreador de encomendas, por necessidade pessoal, por não encontrar uma alternativa satisfatória, e pelos dados dos objetos serem publicamente acessíveis[^1].
@@ -27,5 +32,3 @@ Rafael Bardini
 > **Atualização 21/05/2023:** o código-fonte do Carteiro foi [liberado](/codigo-fonte-carteiro-liberado).
 
 [^1]: Lembra do [SRO](https://web.archive.org/web/20120108230723/http://websro.correios.com.br:80/sro_bin/txect01$.QueryList?P_LINGUA=001&P_TIPO=001&P_COD_UNI=SI054542659BR)?
-
-`lang:pt-BR` `carteiro`

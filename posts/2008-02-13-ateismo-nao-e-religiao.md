@@ -1,4 +1,8 @@
-2008-02-13 01:24:25-02:00
+---
+date: 2008-02-13 01:24:25-02:00
+lang: pt-BR
+---
+
 # Ateísmo não é religião
 
 O título desse artigo pode parecer meio óbvio a princípio, mas já vi muitas discussões onde pessoas assemelham a fé em Deus e a negação de sua existência, pelo motivo de que ambas pregam uma suposta verdade mesmo sem o suporte de qualquer evidência.
@@ -29,5 +33,3 @@ Concordo que me baseei quase que exclusivamente na fé cristã ao escrever este 
 Para finalizar, lembre-se de que ateus [só acreditam em um Deus a menos que você](http://friendlyatheist.com/2008/02/11/gods-we-dont-believe-in/), pressupondo que você não seja, obviamente, um ateu — ou politeísta. E sinceramente, se Deus for tão bom quanto pintam por aí, não acho que Ele abriria os portões do céu só porque alguém vai na igreja todo domingo de manhã só para ~~puxar seu saco~~ rezar, do mesmo jeito que ninguém cria um filho para que o mesmo fique lhe idolatrando pelo resto de sua vida. Duas mãos trabalhando fazem mais do que duas mil rezando.
 
 <small>Lembrando que essa é a _minha opinião_. Se você tiver uma diferente e não for um xiita me prometendo o inferno com Caps Lock ativada, sinta-se livre para se expressar nos comentários, desde que com argumentos coerentes.</small>
-
-`lang:pt-BR`

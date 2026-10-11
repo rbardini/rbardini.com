@@ -1,4 +1,8 @@
-2008-02-25 22:33:42-03:00
+---
+date: 2008-02-25 22:33:42-03:00
+lang: pt-BR
+---
+
 # M&Ms e seleção artificial
 
 Alguém sem ter o que fazer postou [uma história](http://www.craigslist.org/about/best/tpa/409930561.html) tão interessante quanto engraçada no site de classificados [craigslist](http://www.craigslist.org/): a lei do mais forte entre os M&Ms.
@@ -10,5 +14,3 @@ Ao final de várias batalhas, descobriu-se que os M&Ms marrons e vermelhos são 
 Pra finalizar, o último M&M espartano é enviado num envelope para a sede da empresa — já que não seria coerente comê-lo após tanto esforço — com a finalidade de melhorar geneticamente as futuras gerações.
 
 Depois dessa, comer M&Ms nunca mais será a mesma coisa...
-
-`lang:pt-BR`

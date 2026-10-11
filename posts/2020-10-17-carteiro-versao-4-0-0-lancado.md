@@ -1,4 +1,9 @@
-2020-10-17 13:02:44+02:00
+---
+date: 2020-10-17 13:02:44+02:00
+lang: pt-BR
+tags: [carteiro]
+---
+
 # Carteiro versão 4.0.0 lançado
 
 O que há de novo:
@@ -20,5 +25,3 @@ O redesenhado tema escuro traz um melhor contraste entre os elementos, facilitan
 </figure>
 
 A nova versão do Carteiro já pode ser [instalada gratuitamente pelo Google Play](https://play.google.com/store/apps/details?id=com.rbardini.carteiro).
-
-`lang:pt-BR` `carteiro`

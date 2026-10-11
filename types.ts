@@ -1,10 +1,14 @@
-export type Content = {
+export type Frontmatter = {
   date: Date
+  lang: string
+  tags?: string[]
+}
+
+export type Content = Required<Frontmatter> & {
   title: string
   link?: string
   excerpt?: string
   markdown: string
-  tags: string[]
 }
 
 export type Post = Content & {

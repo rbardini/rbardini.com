@@ -1,4 +1,8 @@
-2015-02-19 22:34:03-02:00
+---
+date: 2015-02-19 22:34:03-02:00
+lang: pt-BR
+---
+
 # [Exercendo a não-opinião como exercício de empatia](http://www.papodehomem.com.br/exercer-a-nao-opiniao-or-exercicio-de-empatia-6)
 
 Alex Castro:
@@ -16,5 +20,3 @@ Em situações como essa, é ainda mais apropriado seguir o conselho supostament
 > Antes de falar, pense: É necessário? É verdadeiro? É gentil? Machucará alguém? Acrescentará algo ao silêncio?
 
 Pense, sempre.
-
-`lang:pt-BR`

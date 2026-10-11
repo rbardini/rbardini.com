@@ -1,4 +1,9 @@
-2012-05-09 23:21:00-03:00
+---
+date: 2012-05-09 23:21:00-03:00
+lang: pt-BR
+tags: [carteiro]
+---
+
 # Carteiro versão 1.1 disponível
 
 A primeira atualização do Carteiro [já está disponível no Google Play!](https://play.google.com/store/apps/details?id=com.rbardini.carteiro) As principais mudanças na versão 1.1 são:
@@ -14,5 +19,3 @@ A partir de agora, ao tentar abrir a página do histórico de um objeto nos Corr
 Assim, você tem mais uma forma de rastrear uma nova encomenda, além da inserção manual do código de rastreamento e da leitura do código de barras do pacote ;)
 
 Atualize já o Carteiro em seu Android ou [adquira-o no Google Play por apenas US$ 0,99!](https://play.google.com/store/apps/details?id=com.rbardini.carteiro)
-
-`lang:pt-BR` `carteiro`

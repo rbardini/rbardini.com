@@ -1,4 +1,9 @@
-2013-04-26 02:40:58-03:00
+---
+date: 2013-04-26 02:40:58-03:00
+lang: pt-BR
+tags: [carteiro]
+---
+
 # Carteiro versão 1.1.1 disponível
 
 Demorou mas chegou! A mais nova versão do Carteiro [está no ar pelo Google Play!](https://play.google.com/store/apps/details?id=com.rbardini.carteiro) Essa é uma atualização de manutenção, e as principais novidades são:
@@ -10,5 +15,3 @@ Demorou mas chegou! A mais nova versão do Carteiro [está no ar pelo Google Pla
 - Correção de fechamentos forçados ao pesquisar e abrir menu de contexto do objeto
 
 Atualize já o Carteiro em seu Android ou [compre-o pela bagatela de R$ 2,00.](https://play.google.com/store/apps/details?id=com.rbardini.carteiro) E fique ligado nas próximas novidades curtindo a [página do Carteiro no Facebook!](https://www.facebook.com/carteiroapp)
-
-`lang:pt-BR` `carteiro`

@@ -1,5 +1,5 @@
 {
   "*.md": "markdownlint",
   "resume.json": "json --in-place -e 'this.meta.lastModified=new Date().toISOString()' -f",
-  "posts/*.md": "matter-now"
+  "posts/*.md": "matter-now -f 'yyyy-MM-dd HH:mm:ssxxx'"
 }

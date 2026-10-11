@@ -1,4 +1,8 @@
-2026-01-06 20:08:29+00:00
+---
+date: 2026-01-06 20:08:29+00:00
+lang: en-US
+---
+
 # Web components initialization and lifecycle pitfalls
 
 I've been writing some vanilla web components lately, and it has made me greatly appreciate how [Lit](https://lit.dev/) abstracts away a lot of the quirks in the web platform. Here are a few _aha!_ moments I've had:
@@ -98,5 +102,3 @@ connectedCallback() {
 ## Wrapping up
 
 I'm sure there are other edge cases I'm not taking into account, and maybe I [shouldn't be using `connectedCallback()`](https://hawkticehurst.com/2023/11/you-are-probably-using-connectedcallback-wrong/) in the first place. Hopefully [this related WICG discussion](https://github.com/WICG/webcomponents/issues/1081) leads to improvements to the Custom Elements specification.
-
-`lang:en-US`

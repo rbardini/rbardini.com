@@ -1,4 +1,9 @@
-2013-12-08 02:24:31-02:00
+---
+date: 2013-12-08 02:24:31-02:00
+lang: pt-BR
+tags: [carteiro]
+---
+
 # Carteiro versão 1.2.0 disponível
 
 Mais uma atualização do Carteiro foi [publicada esta semana no Google Play](https://play.google.com/store/apps/details?id=com.rbardini.carteiro). As principais novidades incluem:
@@ -19,5 +24,3 @@ Além disso, agora ficou mais fácil localizar, compartilhar ou editar um objeto
 ![Action Bar dividida](/img/carteiro/split-action-bar.png)
 
 Em breve mais novidades. Enquanto isso, [coloque o Carteiro em seu Android](https://play.google.com/store/apps/details?id=com.rbardini.carteiro) e acompanhe suas encomendas de final de ano!
-
-`lang:pt-BR` `carteiro`

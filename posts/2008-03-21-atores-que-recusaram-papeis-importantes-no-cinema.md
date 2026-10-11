@@ -1,4 +1,8 @@
-2008-03-21 02:02:12-03:00
+---
+date: 2008-03-21 02:02:12-03:00
+lang: pt-BR
+---
+
 # Atores que recusaram papéis importantes no cinema
 
 Algumas vezes a atuação de um ator ou atriz é tão convincente que fica difícil imaginar outra pessoa fazendo a mesma personagem. Um exemplo recente é _Rambo_. Gostando ou não do filme, desassociá-lo de Sylvester Stallone é missão impossível. Assim como também é Arnold Schwarzenegger em _O Exterminador do Futuro_. Antes das gravações, porém, muitos recusam tais papéis, para felicidade (ou não) dos cinéfilos:
@@ -12,5 +16,3 @@ Já em _Eu, Robô_, Denzel Washington era o favorito para o papel que acabou com
 Pra não ter só homem nessa lista (e justificar, pelo menos parcialmente, a foto do artigo), o cruzar de pernas de Julia Roberts poderia ter ficado no lugar do de Sharon Stone em _Instinto Selvagem_.
 
 O [artigo original](http://glamorati.com/celebrity/2008/20-actors-and-actresses-who-turned-down-important-or-popular-roles/) (em inglês) cita mais alguns troca-trocas com Tom Cruise, Madonna, Alec Baldwin, entre outros.
-
-`lang:pt-BR`

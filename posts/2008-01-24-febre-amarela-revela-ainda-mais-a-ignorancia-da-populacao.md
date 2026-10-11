@@ -1,4 +1,8 @@
-2008-01-24 00:47:40-02:00
+---
+date: 2008-01-24 00:47:40-02:00
+lang: pt-BR
+---
+
 # Febre amarela revela ainda mais a ignorância da população
 
 Nos últimos dias ocorreram novos casos de [febre amarela](http://pt.wikipedia.org/wiki/Febre_amarela) no país, alguns deles fatais, gerando um certo pânico nas pessoas em busca de vacinas, mesmo a maioria não estando e nem pretendendo viajar para áreas de risco, o que já demonstra um medo desnecessário. Como se sabe, a febre amarela é uma doença endêmica de certas regiões do país, ou seja, não é novidade pra ninguém.
@@ -20,5 +24,3 @@ E ainda tem mais, agora [num artigo do O Globo](http://oglobo.globo.com/pais/mat
 > "Apesar dos alertas referentes ao perigo da revacinação, 31 pessoas tiveram reações adversas após tomar a vacina contra a doença. Nem todos os casos são de mais de uma dose seguida. Há também os que não poderiam ser imunizados, como mulheres grávidas, bebês com menos de seis meses de idade, alérgicos a ovo e pacientes com baixa imunidade por problemas de saúde."
 
 Pois é. Já imaginou se a [gripe aviária](http://pt.wikipedia.org/wiki/Gripe_aviária) chega ao Brasil? Eu não.
-
-`lang:pt-BR`

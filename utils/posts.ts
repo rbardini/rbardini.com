@@ -32,7 +32,7 @@ export function groupPostsByYear(posts: Post[]) {
 export function groupPostsByTag(posts: Post[]) {
   return new Map(
     Map.groupBy(
-      posts.flatMap((post) => post.tags.slice(1).map((tag) => ({ post, tag }))),
+      posts.flatMap((post) => post.tags.map((tag) => ({ post, tag }))),
       ({ tag }) => tag,
     )
       .entries()

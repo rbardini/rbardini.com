@@ -1,4 +1,8 @@
-2007-12-07 23:27:10-02:00
+---
+date: 2007-12-07 23:27:10-02:00
+lang: pt-BR
+---
+
 # Presentes de Natal para geeks
 
 Lendo o feed do [Brogui](http://www.brogui.com/) encontrei [este pendrive](http://www.brogui.com/2007/12/07/pendrive-pra-la-de-criativo/) em formato de pasta, muito bem pensado. Passando pela [loja](http://store.artlebedev.com/) do designer Art Lebedev – que me parece enviar encomendas para o mundo todo – achei vários outros produtos tão ou mais criativos quanto este. Como nerd que sou, selecionei os mais interessantes:
@@ -32,5 +36,3 @@ Essa é uma daquelas borrachas que dá dó de usar. Tem o formato da tecla _Dele
 Almofadinhas de 13,5 cm estampadas em 6 cores diferentes com emoticons ASCII, diferentes daquele smile amarelo que todo mundo já tá cansado de conhecer.
 
 Pra quem quiser ver mais produtos, faça uma visita ao site ao [Art. Lebedev Studio](http://www.artlebedev.com/). Já pra quem quiser me dar um presente, é só falar comigo na página "Sobre". :)
-
-`lang:pt-BR`

@@ -1,4 +1,9 @@
-2015-09-24 00:36:02-03:00
+---
+date: 2015-09-24 00:36:02-03:00
+lang: pt-BR
+tags: [carteiro]
+---
+
 # Carteiro versão 2.2.1 disponível
 
 Uma nova versão do Carteiro acaba de ser [publicada no Google Play](https://play.google.com/store/apps/details?id=com.rbardini.carteiro). Dessa vez as novidades são:
@@ -17,5 +22,3 @@ Com essa atualização, o menu de navegação passa a contar com ícones, facili
 Já a opção de sincronização apenas via Wi-Fi permite limitar o consumo do plano de dados móvel. Essa opção pode ser encontrada na seção _Sincronização_ nas configurações do aplicativo, e requer uma nova permissão para acesso ao estado da rede.
 
 Aproveite todas a novidades [instalando já o Carteiro no seu Android](https://play.google.com/store/apps/details?id=com.rbardini.carteiro)!
-
-`lang:pt-BR` `carteiro`

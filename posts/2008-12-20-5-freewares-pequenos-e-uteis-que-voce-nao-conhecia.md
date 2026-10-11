@@ -1,4 +1,8 @@
-2008-12-20 16:46:55-02:00
+---
+date: 2008-12-20 16:46:55-02:00
+lang: pt-BR
+---
+
 # 5 freewares pequenos (e úteis) que você não conhecia
 
 Há um bom tempo eu venho pensando em escrever um artigo sobre alguns programas para Windows muito úteis que tenho "colecionado" com o tempo. Eles não gastam quase nada de memória — todos têm menos de 1mb — e são uma mão na roda quando você se acostuma a utilizá-los:
@@ -22,5 +26,3 @@ Sabe, na janela de _Abrir/Salvar como_, aqueles 5 atalhos do lado esquerdo que a
 Permite reorganizar os botões da barra de tarefas e ícones da área de notificação (tray). É, só isso mesmo.
 
 Esses são só alguns deles; vários outros ficaram de fora dessa lista. Fica pra próxima :)
-
-`lang:pt-BR`

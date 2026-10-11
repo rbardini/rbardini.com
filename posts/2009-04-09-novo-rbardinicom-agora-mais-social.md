@@ -1,4 +1,8 @@
-2009-04-09 15:51:26-03:00
+---
+date: 2009-04-09 15:51:26-03:00
+lang: pt-BR
+---
+
 # Novo rbardini.com, agora mais social
 
 Hello World, again!
@@ -12,5 +16,3 @@ Ainda estou ajustando todos os detalhes, já que uma migração entre servidores
 Sugestões? Problemas? [Contact me](/about) :)
 
 E não se esqueça de assinar o feed!
-
-`lang:pt-BR`

@@ -1,4 +1,8 @@
-2009-01-05 18:42:33-02:00
+---
+date: 2009-01-05 18:42:33-02:00
+lang: pt-BR
+---
+
 # Como estilizar comentários no WordPress usando funções callback
 
 A mudança mais visível no WordPress 2.7, além da nova área de administração, é a maneira como se manipula os comentários. Hoje temos como responder comentários — que vão se aninhando conforme o nível da discussão — e agrupá-los por página automaticamente, pra não ficar aquela lingüiçona quando se tem 500 comentários. :P
@@ -82,5 +86,3 @@ E as chamadas no arquivo _comments.php_:
 ```
 
 [Esse tutorial](http://sivel.net/2008/10/wp-27-comment-separation/) (em inglês) explica mais detalhadamente como separar comentários de trackbacks. Vale a visita :P
-
-`lang:pt-BR`

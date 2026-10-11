@@ -1,4 +1,8 @@
-2019-12-20 22:10:39+01:00
+---
+date: 2019-12-20 22:10:39+01:00
+lang: en-US
+---
+
 # Making optional properties nullable in TypeScript
 _How to handle null values when your types are defined with only non-nullable optional properties._
 
@@ -99,5 +103,3 @@ stripNullableProperties<A>({
 ```
 
 You could always do a type assertion and avoid all this trouble, but ensuring type safety—even in seemingly unharmful cases like this one—pays off in the long run.
-
-`lang:en-US`
