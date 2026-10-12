@@ -1,15 +1,15 @@
 {
   "meta": {
     "canonical": "https://rbardini.com/resume.json",
-    "lastModified": "2025-10-05T14:17:05.662Z"
+    "lastModified": "2026-10-12T00:28:35.443Z"
   },
   "basics": {
     "name": "Rafael Bardini",
-    "label": "Senior Frontend Engineer",
+    "label": "Senior Software Engineer",
     "image": "https://rbardini.com/avatar.png",
     "email": "rafael@rbardini.com",
     "url": "https://rbardini.com",
-    "summary": "I'm a frontend engineer based in the Amsterdam area.\n\nI work at [Reddit](https://www.redditinc.com/), helping empower communities and make their knowledge accessible to all.\n\nI created [Carteiro](https://carteiro.rbrd.in/), once a popular and highly-rated package tracking app, as well as many other [open-source projects](https://github.com/rbardini).",
+    "summary": "I'm a software engineer based in the Netherlands with a passion for the open web.\n\nI work at [Reddit](https://www.redditinc.com/), helping empower communities and make their knowledge accessible to everyone.\n\nI created [Carteiro](https://carteiro.rbrd.in/), once a popular package tracking app in Brazil, as well as many other [open-source projects](https://github.com/rbardini).",
     "location": {
       "city": "Amsterdam",
       "countryCode": "NL",
@@ -32,7 +32,7 @@
     {
       "name": "Reddit",
       "location": "Amsterdam, Netherlands",
-      "position": "Senior Frontend Engineer",
+      "position": "Senior Software Engineer",
       "url": "https://www.redditinc.com",
       "startDate": "2022-04-12",
       "description": "Social news aggregator"
