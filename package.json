@@ -30,8 +30,8 @@
     "@rbardini/html": "1.0.1",
     "feed": "6.0.0",
     "gray-matter": "4.0.3",
-    "jsonresume-theme-even": "0.26.1",
-    "linkedom": "0.18.13",
+    "jsonresume-theme-even": "0.27.0",
+    "linkedom": "0.18.14",
     "micromark": "4.0.3",
     "micromark-extension-gfm": "3.0.0"
   },
